@@ -1,5 +1,7 @@
 # Awesome-SGX-open-source
 
+Hope you'd be glad to add a star if you think this list is helpful!
+
 ## Runtime Framework
 
 ### Industrial Leading Projects
@@ -63,6 +65,8 @@ Golang binder: [https://github.com/rupc/go-with-intel-sgx](https://github.com/ru
 C#: [https://github.com/Liaojinghui/A_C-Sharp_Project_With_SGX](https://github.com/Liaojinghui/A_C-Sharp_Project_With_SGX)
 
 Lua: [https://github.com/vschiavoni/SecureStreams-DEBS17](https://github.com/vschiavoni/SecureStreams-DEBS17)
+
+A code confidentiality framework for Intel SGX: [https://github.com/utds3lab/sgxelide](https://github.com/utds3lab/sgxelide)
 
 ## Blockchain
 
@@ -133,6 +137,10 @@ Protect in-memory sqlite, not .db file encryption:
 Protect Audit-Log via Sqlite:
 
 [https://github.com/lsds/LibSEAL](https://github.com/lsds/LibSEAL)
+
+From scratch:
+
+[https://github.com/mars-research/sgx-db](https://github.com/mars-research/sgx-db)
 
 ## DRM
 
@@ -207,3 +215,5 @@ Fidelius: Protecting User Secrets from Compromised Browsers:
 [https://github.com/m1ghtym0/sgx-timing](https://github.com/m1ghtym0/sgx-timing)
 
 [https://github.com/sslab-gatech/sgx-bomb](https://github.com/sslab-gatech/sgx-bomb)
+
+[https://github.com/sgxrop/sgxrop](https://github.com/sgxrop/sgxrop)
