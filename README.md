@@ -1,6 +1,6 @@
-# Awesome-SGX-open-source
+# Awesome-SGX-Open-Source
 
-Hope you'd be glad to add a star if you think this list is helpful!
+*Hope you'd be glad to add a star if you think this list is helpful!*
 
 ## Runtime Framework
 
@@ -90,7 +90,7 @@ Proof of Luck + IPFS:
 
 [https://github.com/LedgerHQ/bolos-enclave](https://github.com/LedgerHQ/bolos-enclave)
 
-## Specific Applications
+## Applications
 
 SGX + Tor:
 
