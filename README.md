@@ -118,6 +118,12 @@ Protecting Web Passwords using Trusted Execution Environments:
 
 [https://github.com/SafeKeeper](https://github.com/SafeKeeper)
 
+## Machine Learning Framework
+
+Open Deep Learning Compiler Stack:
+
+[TVM in Intel SGX Example](https://github.com/dmlc/tvm/tree/master/apps/sgx)
+
 ## Database
 
 Opaque: a package for Apache Spark SQL that enables strong security for DataFrames using Intel SGX trusted hardware:
