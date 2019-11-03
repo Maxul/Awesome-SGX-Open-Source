@@ -136,11 +136,11 @@ Protecting Web Passwords using Trusted Execution Environments:
 
 ## Machine Learning Framework
 
-XGBoost: (https://github.com/mesalock-linux/gbdt-rs)[https://github.com/mesalock-linux/gbdt-rs]
+XGBoost: [https://github.com/mesalock-linux/gbdt-rs](https://github.com/mesalock-linux/gbdt-rs)
 
-Bioinformatic Interpreter with Intel SGX: (https://github.com/hello31337/BI-SGX)[https://github.com/hello31337/BI-SGX]
+Bioinformatic Interpreter with Intel SGX: [https://github.com/hello31337/BI-SGX](https://github.com/hello31337/BI-SGX)
 
-Accountable Deep Learning: (https://github.com/arefasvadi/SGX-ADL)[https://github.com/arefasvadi/SGX-ADL]
+Accountable Deep Learning: [https://github.com/arefasvadi/SGX-ADL](https://github.com/arefasvadi/SGX-ADL)
 
 Open Deep Learning Compiler Stack: [TVM in Intel SGX Example](https://github.com/dmlc/tvm/tree/master/apps/sgx)
 
