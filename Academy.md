@@ -291,3 +291,8 @@ MobiSys 2019
 Practical Enclave Malware with Intel SGX
 DIMVA 2019
 
+
+
+## Other Online Resources
+* [A collection of SGX academic researches categorized by Intel](https://software.intel.com/en-us/sgx/documentation/academic-research)
+* [A collection of SGX papers from Valerio Schiavoni](https://github.com/vschiavoni/sgx-papers)
