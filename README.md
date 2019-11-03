@@ -1,4 +1,4 @@
-# Awesome-SGX-Open-Source
+# Awesome SGX Open Source Projects
 
 *Hope you'd be glad to add a star if you think this list is helpful!*
 
@@ -6,19 +6,25 @@
 
 ### Industrial Leading Projects
 
-Microsoft OpenEnclave: [https://github.com/Microsoft/openenclave](https://github.com/Microsoft/openenclave) **to support OP-TEE and Windows**
+Microsoft OpenEnclave: [https://github.com/Microsoft/openenclave](https://github.com/Microsoft/openenclave)
 
-Microsoft EVM:[https://github.com/Microsoft/eEVM](https://github.com/Microsoft/eEVM)
+Baidu Rust SGX SDK: [https://github.com/apache/mesatee-sgx](https://github.com/apache/mesatee-sgx)
 
 Google Asylo: [https://github.com/google/asylo](https://github.com/google/asylo)
+
+Fortanix Enclave Development Platform: [https://github.com/fortanix/rust-sgx](https://github.com/fortanix/rust-sgx)
+
+Ant Financial Occlum: [https://github.com/occlum/occlum](https://github.com/occlum/occlum)
+
+Microsoft Confidential Consortium Framework: [https://github.com/microsoft/CCF](https://github.com/microsoft/CCF)
 
 ### Library OS for quickly deploying (almost) unmodified applications
 
 Panoply: Low-TCB Linux Applications with SGX Enclaves: [https://github.com/shwetasshinde24/Panoply](https://github.com/shwetasshinde24/Panoply)
 
-Graphene / Graphene-SGX Library OS:a library OS for Linux multi-process applications, with Intel SGX support: [https://github.com/oscarlab/graphene](https://github.com/oscarlab/graphene)
+Graphene-SGX: A Practical Library OS for Unmodified. Applications on SGX: [https://github.com/oscarlab/graphene](https://github.com/oscarlab/graphene)
 
-SGX-LKL Library OS for running Linux applications inside of Intel SGX enclaves: [https://github.com/lsds/sgx-lkl](https://github.com/lsds/sgx-lkl)
+SGX-LKL: Library OS for running Linux applications inside of Intel SGX enclaves: [https://github.com/lsds/sgx-lkl](https://github.com/lsds/sgx-lkl)
 
 Docker: [https://github.com/tozd/docker-sgx](https://github.com/tozd/docker-sgx)
 
@@ -26,39 +32,41 @@ Docker: [https://github.com/tozd/docker-sgx](https://github.com/tozd/docker-sgx)
 
 ### Remote Attestation (RA)
 
-Intel End2End RA: [https://github.com/intel/sgx-ra-sample](https://github.com/intel/sgx-ra-sample)
+Intel end-to-end RA: [https://github.com/intel/sgx-ra-sample](https://github.com/intel/sgx-ra-sample)
 
 IBM simplified RA without accessing IAS too frequently: [https://github.com/IBM/sgx-trust-management](https://github.com/IBM/sgx-trust-management)
 
 RA-based TLS: [https://github.com/cloud-security-research/sgx-ra-tls](https://github.com/cloud-security-research/sgx-ra-tls)
 
-Data Center Attestation Primitives (DCAP) since Intel SGX SDK 2.3.1: [https://github.com/intel/SGXDataCenterAttestationPrimitives](https://github.com/intel/SGXDataCenterAttestationPrimitives)
+Data Center Attestation Primitives (DCAP): [https://github.com/intel/SGXDataCenterAttestationPrimitives](https://github.com/intel/SGXDataCenterAttestationPrimitives)
 
-[https://github.com/Microsoft/Azure-DCAP-Client](https://github.com/Microsoft/Azure-DCAP-Client)
+Azure Attestation SGX Certification Cache: [https://github.com/Microsoft/Azure-DCAP-Client](https://github.com/Microsoft/Azure-DCAP-Client)
 
 ### SSL/TLS
 
-Enclave-ised SSL: [https://github.com/lsds/TaLoS](https://github.com/lsds/TaLoS)
+Enclavised LibreSSL: [https://github.com/lsds/TaLoS](https://github.com/lsds/TaLoS)
 
-In-enclave App+SSL:
+Enclavised mbedTLS: [https://github.com/bl4ck5un/mbedtls-SGX](https://github.com/bl4ck5un/mbedtls-SGX)
 
-[https://github.com/bl4ck5un/mbedtls-SGX](https://github.com/bl4ck5un/mbedtls-SGX)
+Enclavised WolfSSL: [https://github.com/wolfSSL/wolfssl-examples](https://github.com/wolfSSL/wolfssl-examples)
 
-[https://github.com/wolfSSL/wolfssl-examples](https://github.com/wolfSSL/wolfssl-examples)
+Enclavised OpenSSL (Intel Official): [https://github.com/intel/intel-sgx-ssl](https://github.com/intel/intel-sgx-ssl)
 
-[https://github.com/intel/intel-sgx-ssl](https://github.com/intel/intel-sgx-ssl)
+SGX-OpenSSL (SGX-Tor Project): [https://github.com/sparkly9399/SGX-OpenSSL](https://github.com/sparkly9399/SGX-OpenSSL)
 
 ## Language Framework
 
 Rust:
 
-[https://github.com/fortanix/rust-sgx](https://github.com/fortanix/rust-sgx)
-
 [https://github.com/baidu/rust-sgx-sdk](https://github.com/baidu/rust-sgx-sdk)
+
+[https://github.com/fortanix/rust-sgx](https://github.com/fortanix/rust-sgx)
 
 Python: [https://github.com/mesalock-linux/mesapy](https://github.com/mesalock-linux/mesapy)
 
 Python binder for SGX SDK :[https://github.com/adombeck/python-sgx](https://github.com/adombeck/python-sgx)
+
+Golang: [https://github.com/intel/GrapheneSGX-Golang-Support-and-Enhancement](https://github.com/intel/GrapheneSGX-Golang-Support-and-Enhancement)
 
 Golang binder: [https://github.com/rupc/go-with-intel-sgx](https://github.com/rupc/go-with-intel-sgx) 
 
@@ -66,7 +74,7 @@ C#: [https://github.com/Liaojinghui/A_C-Sharp_Project_With_SGX](https://github.c
 
 Lua: [https://github.com/vschiavoni/SecureStreams-DEBS17](https://github.com/vschiavoni/SecureStreams-DEBS17)
 
-A code confidentiality framework for Intel SGX: [https://github.com/utds3lab/sgxelide](https://github.com/utds3lab/sgxelide)
+C++: [https://github.com/intel/linux-sgx](https://github.com/intel/linux-sgx)
 
 ## Blockchain
 
@@ -104,6 +112,14 @@ Channel ID Private Key Protection:
 
 [https://github.com/google/channel-id-enclave](https://github.com/google/channel-id-enclave)
 
+SGX-secured Function-as-a-Service:
+
+[https://github.com/SSGAalto/sfaas](https://github.com/SSGAalto/sfaas)
+
+Phoenix SGX microkernel:
+
+[https://github.com/smherwig/phoenix](https://github.com/smherwig/phoenix)
+
 ## Private Key/Passphrase Management
 
 SGX Enabled OpenStack Barbican Key Management System:
@@ -120,73 +136,51 @@ Protecting Web Passwords using Trusted Execution Environments:
 
 ## Machine Learning Framework
 
-Open Deep Learning Compiler Stack:
+XGBoost: (https://github.com/mesalock-linux/gbdt-rs)[https://github.com/mesalock-linux/gbdt-rs]
 
-[TVM in Intel SGX Example](https://github.com/dmlc/tvm/tree/master/apps/sgx)
+Bioinformatic Interpreter with Intel SGX: (https://github.com/hello31337/BI-SGX)[https://github.com/hello31337/BI-SGX]
+
+Accountable Deep Learning: (https://github.com/arefasvadi/SGX-ADL)[https://github.com/arefasvadi/SGX-ADL]
+
+Open Deep Learning Compiler Stack: [TVM in Intel SGX Example](https://github.com/dmlc/tvm/tree/master/apps/sgx)
 
 ## Database
 
-Opaque: a package for Apache Spark SQL that enables strong security for DataFrames using Intel SGX trusted hardware:
+Opaque: a package for Apache Spark SQL that enables strong security for DataFrames using Intel SGX trusted hardware: [https://github.com/ucbrise/opaque](https://github.com/ucbrise/opaque)
 
-Future work: Remote attestation, data key delivery, key storage service
+Database intended for Blockchain: [https://github.com/kaimast/credb](https://github.com/kaimast/credb)
 
-[https://github.com/ucbrise/opaque](https://github.com/ucbrise/opaque)
+Protect in-memory sqlite, not .db file encryption: [https://github.com/yerzhan7/SGX_SQLite](https://github.com/yerzhan7/SGX_SQLite)
 
-Database intended for Blockchain
+Protect Audit-Log via Sqlite: [https://github.com/lsds/LibSEAL](https://github.com/lsds/LibSEAL)
 
-[https://github.com/kaimast/credb](https://github.com/kaimast/credb)
+Trusted in-memory key-value stores: [https://github.com/cocoppang/ShieldStore](https://github.com/cocoppang/ShieldStore)
 
-Protect in-memory sqlite, not .db file encryption:
+## Digital Right Management
 
-[https://github.com/yerzhan7/SGX_SQLite](https://github.com/yerzhan7/SGX_SQLite)
+Enclave Protected Code Loader: [https://github.com/intel/linux-sgx-pcl](https://github.com/intel/linux-sgx-pcl)
 
-Protect Audit-Log via Sqlite:
-
-[https://github.com/lsds/LibSEAL](https://github.com/lsds/LibSEAL)
-
-From scratch:
-
-[https://github.com/mars-research/sgx-db](https://github.com/mars-research/sgx-db)
-
-## DRM
-
-Protect Enclave Code:
-
-[https://github.com/intel/linux-sgx-pcl](https://github.com/intel/linux-sgx-pcl)
-
-A code confidentiality framework for Intel SGX:
-
-[https://github.com/utds3lab/sgxelide](https://github.com/utds3lab/sgxelide)
+A code confidentiality framework for Intel SGX: [https://github.com/utds3lab/sgxelide](https://github.com/utds3lab/sgxelide)
 
 ## Profiling
 
-Report statistics of E/Ocalls, EPC Paging:
+Report statistics of E/Ocalls, EPC Paging: [https://github.com/ibr-ds/sgx-perf](https://github.com/ibr-ds/sgx-perf)
 
-[https://github.com/ibr-ds/sgx-perf](https://github.com/ibr-ds/sgx-perf)
+Actor model for better Enclave IPC: [https://github.com/ibr-ds/EActors](https://github.com/ibr-ds/EActors)
 
-Actor model for better Enclave IPC:
+Stress benchmark: [https://github.com/sebva/stress-sgx](https://github.com/sebva/stress-sgx)
 
-[https://github.com/ibr-ds/EActors](https://github.com/ibr-ds/EActors)
+User-level paging: [https://github.com/acsl-technion/eleos](https://github.com/acsl-technion/eleos)
 
-Stress benchmark:
-
-[https://github.com/sebva/stress-sgx](https://github.com/sebva/stress-sgx)
-
-User-level paging:
-
-[https://github.com/acsl-technion/eleos](https://github.com/acsl-technion/eleos)
-
-SwitchLess:
-
-[https://github.com/oweisse/hot-calls](https://github.com/oweisse/hot-calls)
+SwitchLess: [https://github.com/oweisse/hot-calls](https://github.com/oweisse/hot-calls)
 
 ## Harden Memory
 
-ASLR:[https://github.com/jaebaek/SGX-Shield](https://github.com/jaebaek/SGX-Shield)
+Address space layout randomization (ASLR): [https://github.com/jaebaek/SGX-Shield](https://github.com/jaebaek/SGX-Shield)
 
-TSX:[https://github.com/sslab-gatech/t-sgx](https://github.com/sslab-gatech/t-sgx)
+Hardware transactional memory (TSX): [https://github.com/sslab-gatech/t-sgx](https://github.com/sslab-gatech/t-sgx)
 
-MPX:[https://github.com/tudinfse/sgxbounds](https://github.com/tudinfse/sgxbounds)
+Compiler-based boundary check: [https://github.com/tudinfse/sgxbounds](https://github.com/tudinfse/sgxbounds)
 
 ## Distributed System
 
@@ -217,6 +211,8 @@ Fidelius: Protecting User Secrets from Compromised Browsers:
 [https://github.com/jovanbulck/sgx-step](https://github.com/jovanbulck/sgx-step)
 
 [https://github.com/jovanbulck/sgx-pte](https://github.com/jovanbulck/sgx-pte)
+
+[https://github.com/jovanbulck/nemesis](https://github.com/jovanbulck/nemesis)
 
 [https://github.com/m1ghtym0/sgx-timing](https://github.com/m1ghtym0/sgx-timing)
 
