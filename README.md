@@ -144,6 +144,8 @@ Accountable Deep Learning: [https://github.com/arefasvadi/SGX-ADL](https://githu
 
 Open Deep Learning Compiler Stack: [TVM in Intel SGX Example](https://github.com/dmlc/tvm/tree/master/apps/sgx)
 
+TF-trusted: tensorflow-lite model execution in an asylo powered enclave [https://github.com/dropoutlabs/tf-trusted](https://github.com/dropoutlabs/tf-trusted)
+
 ## Database
 
 Opaque: a package for Apache Spark SQL that enables strong security for DataFrames using Intel SGX trusted hardware: [https://github.com/ucbrise/opaque](https://github.com/ucbrise/opaque)
