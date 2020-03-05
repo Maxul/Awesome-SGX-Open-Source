@@ -8,7 +8,7 @@
 
 Microsoft OpenEnclave: [https://github.com/Microsoft/openenclave](https://github.com/Microsoft/openenclave)
 
-Baidu Rust SGX SDK: [https://github.com/apache/mesatee-sgx](https://github.com/apache/mesatee-sgx)
+Apache Teaclave: [https://github.com/apache/incubator-teaclave](https://github.com/apache/incubator-teaclave)
 
 Google Asylo: [https://github.com/google/asylo](https://github.com/google/asylo)
 
