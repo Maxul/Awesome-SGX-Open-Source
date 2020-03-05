@@ -221,40 +221,53 @@ Fidelius: Protecting User Secrets from Compromised Browsers:
 ## Attacks
 
 COIN Attacks: on Insecurity of Enclave Untrusted Interfaces in SGX (ASPLOS 2020)
+
 [https://github.com/mustakcsecuet/COIN-Attacks](https://github.com/mustakcsecuet/COIN-Attacks)
 
 Plundervolt: Software-based Fault Injection Attacks against Intel SGX (Oakland 2020)
+
 [https://github.com/KitMurdock/plundervolt](https://github.com/KitMurdock/plundervolt)
 
 SgxPectre Attacks: Stealing Intel Secrets from SGX Enclaves via Speculative Execution (EuroS&P 2019)
+
 [https://github.com/OSUSecLab/SgxPectre](https://github.com/OSUSecLab/SgxPectre)
 
 Spectre Attacks: Exploiting Speculative Execution (Oakland 2019)
+
 [https://github.com/lsds/spectre-attack-sgx](https://github.com/lsds/spectre-attack-sgx)
 
 RIDL: Rogue In-Flight Data Load (Oakland 2019)
+
 [https://github.com/vusec/ridl](https://github.com/vusec/ridl)
 
 ZombieLoad: Cross-Privilege-Boundary Data Sampling (CCS 2019)
+
 [https://github.com/IAIK/ZombieLoad](https://github.com/IAIK/ZombieLoad)
 
 SGX-ROP: Practical Enclave Malware with Intel SGX (DIMVA 2019)
+
 [https://github.com/sgxrop/sgxrop](https://github.com/sgxrop/sgxrop)
 
 Nemesis: Studying Microarchitectural Timing Leaks in Rudimentary CPU Interrupt Logic (CCS 2018)
+
 [https://github.com/jovanbulck/nemesis](https://github.com/jovanbulck/nemesis)
 
 Tutorial: Uncovering and mitigating side-channel leakage in Intel SGX enclaves (SPACE 2018)
+
 [https://github.com/jovanbulck/sgx-tutorial-space18](https://github.com/jovanbulck/sgx-tutorial-space18)
 
 SGX-Step: A practical attack framework for precise enclave execution control (SysTEX 2017)
+
 [https://github.com/jovanbulck/sgx-step](https://github.com/jovanbulck/sgx-step)
 
 Telling Your Secrets Without Page Faults: Stealthy Page Table-Based Attacks on Enclaved Execution (USENIX Security 2017)
+
 [https://github.com/jovanbulck/sgx-pte](https://github.com/jovanbulck/sgx-pte)
 
 SGX-Bomb: Locking Down the Processor via Rowhammer Attack (SysTEX 2017)
+
 [https://github.com/sslab-gatech/sgx-bomb](https://github.com/sslab-gatech/sgx-bomb)
 
 SGX-Timing: Cache Attacks on Intel SGX (EuroSec 2017)
+
 [https://github.com/m1ghtym0/sgx-timing](https://github.com/m1ghtym0/sgx-timing)
