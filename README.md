@@ -20,11 +20,13 @@ Microsoft Confidential Consortium Framework: [https://github.com/microsoft/CCF](
 
 ### Library OS for quickly deploying (almost) unmodified applications
 
-Panoply: Low-TCB Linux Applications with SGX Enclaves: [https://github.com/shwetasshinde24/Panoply](https://github.com/shwetasshinde24/Panoply)
-
 Graphene-SGX: A Practical Library OS for Unmodified. Applications on SGX: [https://github.com/oscarlab/graphene](https://github.com/oscarlab/graphene)
 
 SGX-LKL: Library OS for running Linux applications inside of Intel SGX enclaves: [https://github.com/lsds/sgx-lkl](https://github.com/lsds/sgx-lkl)
+
+Ratel: Dynamic Binary Translation with SGX Enclaves: [https://github.com/ratel-enclave/ratel](https://github.com/ratel-enclave/ratel)
+
+Panoply: Low-TCB Linux Applications with SGX Enclaves: [https://github.com/shwetasshinde24/Panoply](https://github.com/shwetasshinde24/Panoply)
 
 Docker: [https://github.com/tozd/docker-sgx](https://github.com/tozd/docker-sgx)
 
@@ -34,11 +36,11 @@ Docker: [https://github.com/tozd/docker-sgx](https://github.com/tozd/docker-sgx)
 
 Intel end-to-end RA: [https://github.com/intel/sgx-ra-sample](https://github.com/intel/sgx-ra-sample)
 
-IBM simplified RA without accessing IAS too frequently: [https://github.com/IBM/sgx-trust-management](https://github.com/IBM/sgx-trust-management)
+Data Center Attestation Primitives (DCAP): [https://github.com/intel/SGXDataCenterAttestationPrimitives](https://github.com/intel/SGXDataCenterAttestationPrimitives)
 
 RA-based TLS: [https://github.com/cloud-security-research/sgx-ra-tls](https://github.com/cloud-security-research/sgx-ra-tls)
 
-Data Center Attestation Primitives (DCAP): [https://github.com/intel/SGXDataCenterAttestationPrimitives](https://github.com/intel/SGXDataCenterAttestationPrimitives)
+IBM simplified RA without accessing IAS too frequently: [https://github.com/IBM/sgx-trust-management](https://github.com/IBM/sgx-trust-management)
 
 Azure Attestation SGX Certification Cache: [https://github.com/Microsoft/Azure-DCAP-Client](https://github.com/Microsoft/Azure-DCAP-Client)
 
@@ -78,6 +80,10 @@ C++: [https://github.com/intel/linux-sgx](https://github.com/intel/linux-sgx)
 
 ## Blockchain
 
+Teechain: A Secure Payment Network with Asynchronous Blockchain Access:
+
+[https://github.com/lsds/Teechain](https://github.com/lsds/Teechain)
+
 Hyperledger:
 
 [https://github.com/hyperledger-labs/private-data-objects](https://github.com/hyperledger-labs/private-data-objects)
@@ -98,27 +104,41 @@ Proof of Luck + IPFS:
 
 [https://github.com/LedgerHQ/bolos-enclave](https://github.com/LedgerHQ/bolos-enclave)
 
+## Machine Learning Framework
+
+XGBoost: [https://github.com/mesalock-linux/gbdt-rs](https://github.com/mesalock-linux/gbdt-rs)
+
+Bioinformatic Interpreter with Intel SGX: [https://github.com/hello31337/BI-SGX](https://github.com/hello31337/BI-SGX)
+
+Accountable Deep Learning: [https://github.com/arefasvadi/SGX-ADL](https://github.com/arefasvadi/SGX-ADL)
+
+Open Deep Learning Compiler Stack: [TVM in Intel SGX Example](https://github.com/dmlc/tvm/tree/master/apps/sgx)
+
 ## Applications
 
-SGX + Tor:
+Hardware secure crypto wallet for Ethereum and SKALE:
+[https://github.com/skalenetwork/sgxwallet](https://github.com/skalenetwork/sgxwallet)
 
+SGX + Tor:
 [https://github.com/kaist-ina/SGX-Tor](https://github.com/kaist-ina/SGX-Tor)
 
 SGX + BitCoin:
-
 [https://github.com/BitObscuro/Obscuro](https://github.com/BitObscuro/Obscuro)
 
 Channel ID Private Key Protection:
-
 [https://github.com/google/channel-id-enclave](https://github.com/google/channel-id-enclave)
 
 SGX-secured Function-as-a-Service:
-
 [https://github.com/SSGAalto/sfaas](https://github.com/SSGAalto/sfaas)
 
 Phoenix SGX microkernel:
-
 [https://github.com/smherwig/phoenix](https://github.com/smherwig/phoenix)
+
+Private Search:
+[https://github.com/thanghoang/POSUP](https://github.com/thanghoang/POSUP)
+
+Securing Storage Encryption:
+[https://github.com/ayeks/TresorSGX](https://github.com/ayeks/TresorSGX)
 
 ## Private Key/Passphrase Management
 
@@ -134,19 +154,11 @@ Protecting Web Passwords using Trusted Execution Environments:
 
 [https://github.com/SafeKeeper](https://github.com/SafeKeeper)
 
-## Machine Learning Framework
-
-XGBoost: [https://github.com/mesalock-linux/gbdt-rs](https://github.com/mesalock-linux/gbdt-rs)
-
-Bioinformatic Interpreter with Intel SGX: [https://github.com/hello31337/BI-SGX](https://github.com/hello31337/BI-SGX)
-
-Accountable Deep Learning: [https://github.com/arefasvadi/SGX-ADL](https://github.com/arefasvadi/SGX-ADL)
-
-Open Deep Learning Compiler Stack: [TVM in Intel SGX Example](https://github.com/dmlc/tvm/tree/master/apps/sgx)
-
 ## Database
 
 Opaque: a package for Apache Spark SQL that enables strong security for DataFrames using Intel SGX trusted hardware: [https://github.com/ucbrise/opaque](https://github.com/ucbrise/opaque)
+
+StealthDB: an encrypted database from intel sgx with small trusted computing base: [https://github.com/cryptograph/stealthdb](https://github.com/cryptograph/stealthdb)
 
 Database intended for Blockchain: [https://github.com/kaimast/credb](https://github.com/kaimast/credb)
 
@@ -163,6 +175,8 @@ Enclave Protected Code Loader: [https://github.com/intel/linux-sgx-pcl](https://
 A code confidentiality framework for Intel SGX: [https://github.com/utds3lab/sgxelide](https://github.com/utds3lab/sgxelide)
 
 ## Profiling
+
+Utilities for monitoring SGX driver statistics: [https://github.com/fortanix/sgxtop](https://github.com/fortanix/sgxtop)
 
 Report statistics of E/Ocalls, EPC Paging: [https://github.com/ibr-ds/sgx-perf](https://github.com/ibr-ds/sgx-perf)
 
@@ -181,6 +195,8 @@ Address space layout randomization (ASLR): [https://github.com/jaebaek/SGX-Shiel
 Hardware transactional memory (TSX): [https://github.com/sslab-gatech/t-sgx](https://github.com/sslab-gatech/t-sgx)
 
 Compiler-based boundary check: [https://github.com/tudinfse/sgxbounds](https://github.com/tudinfse/sgxbounds)
+
+Linear/SQRT/Path ORAM: [https://github.com/maanrachid/SGXORAM](https://github.com/maanrachid/SGXORAM)
 
 ## Distributed System
 
@@ -204,18 +220,41 @@ Fidelius: Protecting User Secrets from Compromised Browsers:
 
 ## Attacks
 
+COIN Attacks: on Insecurity of Enclave Untrusted Interfaces in SGX (ASPLOS 2020)
+[https://github.com/mustakcsecuet/COIN-Attacks](https://github.com/mustakcsecuet/COIN-Attacks)
+
+Plundervolt: Software-based Fault Injection Attacks against Intel SGX (Oakland 2020)
+[https://github.com/KitMurdock/plundervolt](https://github.com/KitMurdock/plundervolt)
+
+SgxPectre Attacks: Stealing Intel Secrets from SGX Enclaves via Speculative Execution (EuroS&P 2019)
+[https://github.com/OSUSecLab/SgxPectre](https://github.com/OSUSecLab/SgxPectre)
+
+Spectre Attacks: Exploiting Speculative Execution (Oakland 2019)
 [https://github.com/lsds/spectre-attack-sgx](https://github.com/lsds/spectre-attack-sgx)
 
-[https://github.com/jovanbulck/sgx-tutorial-space18](https://github.com/jovanbulck/sgx-tutorial-space18)
+RIDL: Rogue In-Flight Data Load (Oakland 2019)
+[https://github.com/vusec/ridl](https://github.com/vusec/ridl)
 
-[https://github.com/jovanbulck/sgx-step](https://github.com/jovanbulck/sgx-step)
+ZombieLoad: Cross-Privilege-Boundary Data Sampling (CCS 2019)
+[https://github.com/IAIK/ZombieLoad](https://github.com/IAIK/ZombieLoad)
 
-[https://github.com/jovanbulck/sgx-pte](https://github.com/jovanbulck/sgx-pte)
+SGX-ROP: Practical Enclave Malware with Intel SGX (DIMVA 2019)
+[https://github.com/sgxrop/sgxrop](https://github.com/sgxrop/sgxrop)
 
+Nemesis: Studying Microarchitectural Timing Leaks in Rudimentary CPU Interrupt Logic (CCS 2018)
 [https://github.com/jovanbulck/nemesis](https://github.com/jovanbulck/nemesis)
 
-[https://github.com/m1ghtym0/sgx-timing](https://github.com/m1ghtym0/sgx-timing)
+Tutorial: Uncovering and mitigating side-channel leakage in Intel SGX enclaves (SPACE 2018)
+[https://github.com/jovanbulck/sgx-tutorial-space18](https://github.com/jovanbulck/sgx-tutorial-space18)
 
+SGX-Step: A practical attack framework for precise enclave execution control (SysTEX 2017)
+[https://github.com/jovanbulck/sgx-step](https://github.com/jovanbulck/sgx-step)
+
+Telling Your Secrets Without Page Faults: Stealthy Page Table-Based Attacks on Enclaved Execution (USENIX Security 2017)
+[https://github.com/jovanbulck/sgx-pte](https://github.com/jovanbulck/sgx-pte)
+
+SGX-Bomb: Locking Down the Processor via Rowhammer Attack (SysTEX 2017)
 [https://github.com/sslab-gatech/sgx-bomb](https://github.com/sslab-gatech/sgx-bomb)
 
-[https://github.com/sgxrop/sgxrop](https://github.com/sgxrop/sgxrop)
+SGX-Timing: Cache Attacks on Intel SGX (EuroSec 2017)
+[https://github.com/m1ghtym0/sgx-timing](https://github.com/m1ghtym0/sgx-timing)
