@@ -49,6 +49,9 @@ PDLI 2016
 
 ## Session 3: Enclave-based Secure Systems
 
+Occlum: Secure and Efficient Multitasking Inside a Single Enclave of Intel SGX
+ASPLOS 2020
+
 Graphene-SGX: A Practical Library Operating System for Unmodified Applications on Intel SGX
 ATC 2017
 
@@ -138,7 +141,10 @@ NSDI 2017
 
 
 
-## Session 7: File System and Storage
+## Session 7: Storage, File System and Database
+
+ObliDB: Oblivious Query Processing for Secure Databases
+VLDB 2019
 
 SPEICHER: Securing LSM-based Key-Value Stores using Shielded Execution
 FAST 2019
@@ -182,6 +188,12 @@ CODASPY 2017
 
 ## Session 10: Enclave Vulnerabilities and Side Channels
 
+Plundervolt: Software-based Fault Injection Attacks against Intel SGX
+IEEE S&P 2020
+
+A Tale of Two Worlds: Assessing the Vulnerability of Enclave Shielding Runtimes
+CCS 2019
+
 MicroScope: Enabling Microarchitectural Replay Attacks
 ISCA 2019
 
@@ -224,6 +236,12 @@ IEEE S&P 2015
 
 
 ## Session 11: Enclave Protection and Attack Mitigations
+
+Autarky: Closing controlled channels with self-paging enclaves
+EuroSys 2020
+
+Towards Memory Safe Enclave Programming with Rust-SGX
+CCS 2019
 
 OBFSCURO: A Commodity Obfuscation Engine on Intel SGX
 NDSS 2019
