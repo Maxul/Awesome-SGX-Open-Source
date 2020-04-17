@@ -114,6 +114,9 @@ Accountable Deep Learning: [https://github.com/arefasvadi/SGX-ADL](https://githu
 
 Open Deep Learning Compiler Stack: [TVM in Intel SGX Example](https://github.com/dmlc/tvm/tree/master/apps/sgx)
 
+Slamon: Fast, Verifiable and Private Execution of Neural Networks in Trusted Hardware (ICLR 2019)
+[https://github.com/ftramer/slalom](https://github.com/ftramer/slalom)
+
 ## Applications
 
 Hardware secure crypto wallet for Ethereum and SKALE:
