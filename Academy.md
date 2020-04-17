@@ -303,6 +303,9 @@ Middleware 2017
 Occlumency: Privacy-preserving Remote Deep-learning Inference Using SGX
 MobiSys 2019
 
+Slalom: Fast, Verifiable and Private Execution of Neural Networks in Trusted Hardware
+ICLR 2019
+
 
 ### Enclave Malware
 
