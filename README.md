@@ -20,15 +20,21 @@ Microsoft Confidential Consortium Framework: [https://github.com/microsoft/CCF](
 
 ### Library OS for quickly deploying (almost) unmodified applications
 
-Graphene-SGX: A Practical Library OS for Unmodified. Applications on SGX: [https://github.com/oscarlab/graphene](https://github.com/oscarlab/graphene)
+Graphene-SGX: A Practical Library OS for Unmodified Applications on SGX:
+[https://github.com/oscarlab/graphene](https://github.com/oscarlab/graphene)
 
-SGX-LKL: Library OS for running Linux applications inside of Intel SGX enclaves: [https://github.com/lsds/sgx-lkl](https://github.com/lsds/sgx-lkl)
+SGX-LKL: Library OS for running Linux applications inside of Intel SGX enclaves:
+[https://github.com/lsds/sgx-lkl](https://github.com/lsds/sgx-lkl)
 
-Ratel: Dynamic Binary Translation with SGX Enclaves: [https://github.com/ratel-enclave/ratel](https://github.com/ratel-enclave/ratel)
+Ratel: Dynamic Binary Translation with SGX Enclaves:
+[https://github.com/ratel-enclave/ratel](https://github.com/ratel-enclave/ratel)
 
-Panoply: Low-TCB Linux Applications with SGX Enclaves: [https://github.com/shwetasshinde24/Panoply](https://github.com/shwetasshinde24/Panoply)
+Panoply: Low-TCB Linux Applications with SGX Enclaves:
+[https://github.com/shwetasshinde24/Panoply](https://github.com/shwetasshinde24/Panoply)
 
-Container: [https://github.com/alibaba/inclavare-containers](https://github.com/alibaba/inclavare-containers)
+Container: Protected Container Runtime for Confidential Computing: 
+[https://github.com/alibaba/inclavare-containers](https://github.com/alibaba/inclavare-containers)
+
 Docker: [https://github.com/tozd/docker-sgx](https://github.com/tozd/docker-sgx)
 
 ## Remote Attestation and Secure Channel
@@ -93,13 +99,13 @@ Anonify: A blockchain-Agnostic Execution Environment with Privacy and Auditabili
 
 [https://github.com/LayerXcom/anonify](https://github.com/LayerXcom/anonify)
 
-Hyperledger:
+Hyperledger: Confidentiality-Preserving, Off-Chain Smart Contracts:
 
 [https://github.com/hyperledger-labs/private-data-objects](https://github.com/hyperledger-labs/private-data-objects)
 
 [https://github.com/hyperledger-labs/fabric-secure-chaincode](https://github.com/hyperledger-labs/fabric-secure-chaincode)
 
-EVM:
+EVM: Enclave EVM as Ethereum Virtual Machine:
 
 [https://github.com/Microsoft/eEVM](https://github.com/Microsoft/eEVM)
 
@@ -128,10 +134,10 @@ Slamon: Fast, Verifiable and Private Execution of Neural Networks in Trusted Har
 
 ## Applications
 
-SafeTrace: privacy preserving voluntary COVID-19 self-reporting platform for contact tracing:
+SafeTrace: Privacy Preserving Voluntary COVID-19 Self-Reporting Platform for Contact Tracing:
 [https://github.com/enigmampc/SafeTrace](https://github.com/enigmampc/SafeTrace)
 
-Hardware secure crypto wallet for Ethereum and SKALE:
+Hardware Secure Crypto Wallet for Ethereum and SKALE:
 [https://github.com/skalenetwork/sgxwallet](https://github.com/skalenetwork/sgxwallet)
 
 SGX + Tor:
