@@ -28,6 +28,7 @@ Ratel: Dynamic Binary Translation with SGX Enclaves: [https://github.com/ratel-e
 
 Panoply: Low-TCB Linux Applications with SGX Enclaves: [https://github.com/shwetasshinde24/Panoply](https://github.com/shwetasshinde24/Panoply)
 
+Container: [https://github.com/alibaba/inclavare-containers](https://github.com/alibaba/inclavare-containers)
 Docker: [https://github.com/tozd/docker-sgx](https://github.com/tozd/docker-sgx)
 
 ## Remote Attestation and Secure Channel
@@ -64,9 +65,11 @@ Rust:
 
 [https://github.com/fortanix/rust-sgx](https://github.com/fortanix/rust-sgx)
 
+WebAssembly: [https://github.com/bytecodealliance/wasm-micro-runtime](https://github.com/bytecodealliance/wasm-micro-runtime)
+
 Python: [https://github.com/mesalock-linux/mesapy](https://github.com/mesalock-linux/mesapy)
 
-Python binder for SGX SDK :[https://github.com/adombeck/python-sgx](https://github.com/adombeck/python-sgx)
+Python binder for SGX SDK: [https://github.com/adombeck/python-sgx](https://github.com/adombeck/python-sgx)
 
 Golang: [https://github.com/intel/GrapheneSGX-Golang-Support-and-Enhancement](https://github.com/intel/GrapheneSGX-Golang-Support-and-Enhancement)
 
@@ -76,6 +79,8 @@ C#: [https://github.com/Liaojinghui/A_C-Sharp_Project_With_SGX](https://github.c
 
 Lua: [https://github.com/vschiavoni/SecureStreams-DEBS17](https://github.com/vschiavoni/SecureStreams-DEBS17)
 
+Erlang: [https://github.com/Erlang-Enclave-Thesis/sgx-erlang-extension](https://github.com/Erlang-Enclave-Thesis/sgx-erlang-extension)
+
 C++: [https://github.com/intel/linux-sgx](https://github.com/intel/linux-sgx)
 
 ## Blockchain
@@ -83,6 +88,10 @@ C++: [https://github.com/intel/linux-sgx](https://github.com/intel/linux-sgx)
 Teechain: A Secure Payment Network with Asynchronous Blockchain Access:
 
 [https://github.com/lsds/Teechain](https://github.com/lsds/Teechain)
+
+Anonify: A blockchain-Agnostic Execution Environment with Privacy and Auditability:
+
+[https://github.com/LayerXcom/anonify](https://github.com/LayerXcom/anonify)
 
 Hyperledger:
 
@@ -118,6 +127,9 @@ Slamon: Fast, Verifiable and Private Execution of Neural Networks in Trusted Har
 [https://github.com/ftramer/slalom](https://github.com/ftramer/slalom)
 
 ## Applications
+
+SafeTrace: privacy preserving voluntary COVID-19 self-reporting platform for contact tracing:
+[https://github.com/enigmampc/SafeTrace](https://github.com/enigmampc/SafeTrace)
 
 Hardware secure crypto wallet for Ethereum and SKALE:
 [https://github.com/skalenetwork/sgxwallet](https://github.com/skalenetwork/sgxwallet)
