@@ -2,6 +2,9 @@
 
 ## Session 1: Towards a Better Enclave Architecture
 
+Nested Enclave: Supporting Fine-Grained Hierarchical Isolation with SGX
+ISCA 2020
+
 HybCache: Hybrid Side-Channel-Resilient Caches for Trusted Execution Environments
 USENIX Security 2020
 
@@ -96,6 +99,9 @@ CCS 2016
 
 ## Session 5: Privacy-Preserving Database and Analysis
 
+Oblivious Coopetitive Analytics Using Hardware Enclaves
+EuroSys 2020
+
 ObliDC: An SGX-based Oblivious Distributed Computing Framework with Formal Proof
 AsiaCCS 2019
 
@@ -127,6 +133,9 @@ IEEE S&P 2015
 
 ## Session 6: Secure Network Functions
 
+Achieving Keyless CDNs with Conclaves
+USENIX Security 2020
+
 LightBox: Full-stack Protected Stateful Middlebox at Lightning Speed
 CCS 2019
 
@@ -141,7 +150,7 @@ NSDI 2017
 
 
 
-## Session 7: Storage, File System and Database
+## Session 7: Storage, File System and Key-Value Store
 
 ObliDB: Oblivious Query Processing for Secure Databases
 VLDB 2019
@@ -154,6 +163,9 @@ EuroSys 2018
 
 Pesos: Policy Enhanced Secure Object Store
 EuroSys 2018
+
+Concerto: A High Concurrency Key-Value Store with Integrity
+SIGMOD 2017
 
 
 
@@ -187,6 +199,9 @@ CODASPY 2017
 
 
 ## Session 10: Enclave Vulnerabilities and Side Channels
+
+An Off-Chip Attack on Hardware Enclaves via the Memory Bus
+USENIX Security 2020
 
 Plundervolt: Software-based Fault Injection Attacks against Intel SGX
 IEEE S&P 2020
@@ -237,6 +252,9 @@ IEEE S&P 2015
 
 ## Session 11: Enclave Protection and Attack Mitigations
 
+BesFS: A POSIX Filesystem for Enclaves with a Mechanized Safety Proof
+USENIX Security 2020
+
 Autarky: Closing controlled channels with self-paging enclaves
 EuroSys 2020
 
@@ -280,7 +298,7 @@ CCS 2015
 ## Session 12: Miscellaneous
 
 
-### Cloud Service Integirty
+### Cloud Service Integrity
 
 LibSEAL: Revealing Service Integrity Violations Using Trusted Execution
 EuroSys 2018
