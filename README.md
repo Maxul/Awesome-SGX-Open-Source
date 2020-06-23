@@ -140,6 +140,12 @@ SafeTrace: Privacy Preserving Voluntary COVID-19 Self-Reporting Platform for Con
 Hardware Secure Crypto Wallet for Ethereum and SKALE:
 [https://github.com/skalenetwork/sgxwallet](https://github.com/skalenetwork/sgxwallet)
 
+Private Contact Discovery Service for Signal:
+[https://github.com/signalapp/ContactDiscoveryService](https://github.com/signalapp/ContactDiscoveryService)
+
+SENG: SGX-Enforced Network Gateway:
+[https://github.com/sengsgx/sengsgx](https://github.com/sengsgx/sengsgx)
+
 SGX + Tor:
 [https://github.com/kaist-ina/SGX-Tor](https://github.com/kaist-ina/SGX-Tor)
 

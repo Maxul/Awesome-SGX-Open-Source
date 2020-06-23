@@ -102,8 +102,8 @@ CCS 2016
 Oblivious Coopetitive Analytics Using Hardware Enclaves
 EuroSys 2020
 
-ObliDC: An SGX-based Oblivious Distributed Computing Framework with Formal Proof
-AsiaCCS 2019
+ObliDB: Oblivious Query Processing for Secure Databases
+VLDB 2019
 
 StealthDB: A Scalable Encrypted Database with Full SQL Query Support
 PETS 2019
@@ -152,9 +152,6 @@ NSDI 2017
 
 ## Session 7: Storage, File System and Key-Value Store
 
-ObliDB: Oblivious Query Processing for Secure Databases
-VLDB 2019
-
 SPEICHER: Securing LSM-based Key-Value Stores using Shielded Execution
 FAST 2019
 
@@ -199,6 +196,9 @@ CODASPY 2017
 
 
 ## Session 10: Enclave Vulnerabilities and Side Channels
+
+CrossTalk: Speculative Data Leaks Across Cores Are Real
+IEEE S&P 2021
 
 An Off-Chip Attack on Hardware Enclaves via the Memory Bus
 USENIX Security 2020
