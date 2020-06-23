@@ -123,6 +123,9 @@ Proof of Luck + IPFS:
 
 XGBoost: [https://github.com/mesalock-linux/gbdt-rs](https://github.com/mesalock-linux/gbdt-rs)
 
+TF-Trusted: Run TensorFlow Models in Secure Enclaves:
+[https://github.com/capeprivacy/tf-trusted](https://github.com/capeprivacy/tf-trusted)
+
 Bioinformatic Interpreter with Intel SGX: [https://github.com/hello31337/BI-SGX](https://github.com/hello31337/BI-SGX)
 
 Accountable Deep Learning: [https://github.com/arefasvadi/SGX-ADL](https://github.com/arefasvadi/SGX-ADL)
