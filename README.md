@@ -89,6 +89,9 @@ Erlang: [https://github.com/Erlang-Enclave-Thesis/sgx-erlang-extension](https://
 
 C++: [https://github.com/intel/linux-sgx](https://github.com/intel/linux-sgx)
 
+PSec: A Programming Language for Writing Secure Distributed Systems by Leveraging Intel SGX On Top Of [P](https://github.com/p-org/P):
+[https://github.com/ShivKushwah/PSec](https://github.com/ShivKushwah/PSec)
+
 ## Blockchain
 
 Teechain: A Secure Payment Network with Asynchronous Blockchain Access:
@@ -136,6 +139,9 @@ Slamon: Fast, Verifiable and Private Execution of Neural Networks in Trusted Har
 [https://github.com/ftramer/slalom](https://github.com/ftramer/slalom)
 
 ## Applications
+
+Citadel: Trusted Reference Monitors for Linux using Intel SGX Enclaves:
+[https://github.com/HarriBellThomas/citadel](https://github.com/HarriBellThomas/citadel)
 
 SafeTrace: Privacy Preserving Voluntary COVID-19 Self-Reporting Platform for Contact Tracing:
 [https://github.com/enigmampc/SafeTrace](https://github.com/enigmampc/SafeTrace)
