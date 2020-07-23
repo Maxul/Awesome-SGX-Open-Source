@@ -2,6 +2,9 @@
 
 *Hope you'd be glad to add a star if you think this list is helpful!*
 
+Academic Conference Collections:
+[Link](https://github.com/Maxul/Awesome-SGX-Open-Source/blob/master/Academy.md)
+
 ## Runtime Framework
 
 ### Industrial Leading Projects
@@ -10,20 +13,20 @@ Microsoft OpenEnclave: [https://github.com/Microsoft/openenclave](https://github
 
 Apache Teaclave: [https://github.com/apache/incubator-teaclave](https://github.com/apache/incubator-teaclave)
 
-Google Asylo: [https://github.com/google/asylo](https://github.com/google/asylo)
+Ant Financial Occlum: [https://github.com/occlum/occlum](https://github.com/occlum/occlum)
 
 Fortanix Enclave Development Platform: [https://github.com/fortanix/rust-sgx](https://github.com/fortanix/rust-sgx)
 
-Ant Financial Occlum: [https://github.com/occlum/occlum](https://github.com/occlum/occlum)
-
 Microsoft Confidential Consortium Framework: [https://github.com/microsoft/CCF](https://github.com/microsoft/CCF)
+
+Google Asylo: [https://github.com/google/asylo](https://github.com/google/asylo)
 
 ### Library OS for quickly deploying (almost) unmodified applications
 
 Graphene-SGX: A Practical Library OS for Unmodified Applications on SGX:
 [https://github.com/oscarlab/graphene](https://github.com/oscarlab/graphene)
 
-SGX-LKL: Library OS for running Linux applications inside of Intel SGX enclaves:
+SGX-LKL: Library OS for running Linux applications inside SGX enclaves:
 [https://github.com/lsds/sgx-lkl](https://github.com/lsds/sgx-lkl)
 
 Ratel: Dynamic Binary Translation with SGX Enclaves:
@@ -35,7 +38,8 @@ Panoply: Low-TCB Linux Applications with SGX Enclaves:
 Container: Protected Container Runtime for Confidential Computing: 
 [https://github.com/alibaba/inclavare-containers](https://github.com/alibaba/inclavare-containers)
 
-Docker: [https://github.com/tozd/docker-sgx](https://github.com/tozd/docker-sgx)
+Edgeless RT: SDK for TEEs/SGX based on Open Enclave with Go support:
+[https://github.com/edgelesssys/edgelessrt](https://github.com/edgelesssys/edgelessrt)
 
 ## Remote Attestation and Secure Channel
 
@@ -50,6 +54,10 @@ RA-based TLS: [https://github.com/cloud-security-research/sgx-ra-tls](https://gi
 IBM simplified RA without accessing IAS too frequently: [https://github.com/IBM/sgx-trust-management](https://github.com/IBM/sgx-trust-management)
 
 Azure Attestation SGX Certification Cache: [https://github.com/Microsoft/Azure-DCAP-Client](https://github.com/Microsoft/Azure-DCAP-Client)
+
+Enclave Mutual Attestation Library:
+[https://github.com/AntonioDan/SGX_Enclave_Mutual_Attestation_Library](https://github.com/AntonioDan/SGX_Enclave_Mutual_Attestation_Library)
+
 
 ### SSL/TLS
 
@@ -81,6 +89,8 @@ Golang: [https://github.com/intel/GrapheneSGX-Golang-Support-and-Enhancement](ht
 
 Golang binder: [https://github.com/rupc/go-with-intel-sgx](https://github.com/rupc/go-with-intel-sgx) 
 
+JavaScript: [https://github.com/luckychain/node-secureworker](https://github.com/luckychain/node-secureworker)
+
 C#: [https://github.com/Liaojinghui/A_C-Sharp_Project_With_SGX](https://github.com/Liaojinghui/A_C-Sharp_Project_With_SGX)
 
 Lua: [https://github.com/vschiavoni/SecureStreams-DEBS17](https://github.com/vschiavoni/SecureStreams-DEBS17)
@@ -89,17 +99,16 @@ Erlang: [https://github.com/Erlang-Enclave-Thesis/sgx-erlang-extension](https://
 
 C++: [https://github.com/intel/linux-sgx](https://github.com/intel/linux-sgx)
 
-PSec: A Programming Language for Writing Secure Distributed Systems by Leveraging Intel SGX On Top Of [P](https://github.com/p-org/P):
+PSec:
+Writing Secure Distributed Systems On Top Of [P](https://github.com/p-org/P) Language:
 [https://github.com/ShivKushwah/PSec](https://github.com/ShivKushwah/PSec)
 
 ## Blockchain
 
 Teechain: A Secure Payment Network with Asynchronous Blockchain Access:
-
 [https://github.com/lsds/Teechain](https://github.com/lsds/Teechain)
 
 Anonify: A blockchain-Agnostic Execution Environment with Privacy and Auditability:
-
 [https://github.com/LayerXcom/anonify](https://github.com/LayerXcom/anonify)
 
 Hyperledger: Confidentiality-Preserving, Off-Chain Smart Contracts:
@@ -108,18 +117,19 @@ Hyperledger: Confidentiality-Preserving, Off-Chain Smart Contracts:
 
 [https://github.com/hyperledger-labs/fabric-secure-chaincode](https://github.com/hyperledger-labs/fabric-secure-chaincode)
 
-EVM: Enclave EVM as Ethereum Virtual Machine:
+substraTEE: Trusted Off-Chain Compute Framework for Substrate Blockchains:
+[https://github.com/scs/substraTEE](https://github.com/scs/substraTEE)
 
+EVM: Enclave EVM as Ethereum Virtual Machine:
 [https://github.com/Microsoft/eEVM](https://github.com/Microsoft/eEVM)
 
 Proof of Luck + IPFS:
-
 [https://github.com/luckychain/lucky](https://github.com/luckychain/lucky)
 
-[https://github.com/luckychain/node-secureworker](https://github.com/luckychain/node-secureworker)
-
+Town Crier: An Authenticated Data Feed For Smart Contracts:
 [https://github.com/bl4ck5un/Town-Crier](https://github.com/bl4ck5un/Town-Crier)
 
+Ledger BOLOS Enclave:
 [https://github.com/LedgerHQ/bolos-enclave](https://github.com/LedgerHQ/bolos-enclave)
 
 ## Machine Learning Framework
@@ -140,9 +150,6 @@ Slamon: Fast, Verifiable and Private Execution of Neural Networks in Trusted Har
 
 ## Applications
 
-Citadel: Trusted Reference Monitors for Linux using Intel SGX Enclaves:
-[https://github.com/HarriBellThomas/citadel](https://github.com/HarriBellThomas/citadel)
-
 SafeTrace: Privacy Preserving Voluntary COVID-19 Self-Reporting Platform for Contact Tracing:
 [https://github.com/enigmampc/SafeTrace](https://github.com/enigmampc/SafeTrace)
 
@@ -152,11 +159,17 @@ Hardware Secure Crypto Wallet for Ethereum and SKALE:
 Private Contact Discovery Service for Signal:
 [https://github.com/signalapp/ContactDiscoveryService](https://github.com/signalapp/ContactDiscoveryService)
 
-SENG: SGX-Enforced Network Gateway:
+SENG: SGX-Enforced Network Gateway (USENIX Security 2020):
 [https://github.com/sengsgx/sengsgx](https://github.com/sengsgx/sengsgx)
+
+SGX + CDN (USENIX Security 2020):
+[https://github.com/smherwig/phoenix](https://github.com/smherwig/phoenix)
 
 SGX + Tor:
 [https://github.com/kaist-ina/SGX-Tor](https://github.com/kaist-ina/SGX-Tor)
+
+SGX + Web Crawler:
+[https://github.com/ShengHow95/simple-selenium-sgx-crawler](https://github.com/ShengHow95/simple-selenium-sgx-crawler)
 
 SGX + BitCoin:
 [https://github.com/BitObscuro/Obscuro](https://github.com/BitObscuro/Obscuro)
@@ -167,27 +180,29 @@ Channel ID Private Key Protection:
 SGX-secured Function-as-a-Service:
 [https://github.com/SSGAalto/sfaas](https://github.com/SSGAalto/sfaas)
 
-Phoenix SGX microkernel:
-[https://github.com/smherwig/phoenix](https://github.com/smherwig/phoenix)
-
-Private Search:
-[https://github.com/thanghoang/POSUP](https://github.com/thanghoang/POSUP)
-
 Securing Storage Encryption:
 [https://github.com/ayeks/TresorSGX](https://github.com/ayeks/TresorSGX)
 
-## Private Key/Passphrase Management
+## Private Search
+
+Private SSE Schemes:
+[https://github.com/MonashCybersecurityLab/SGXSSE](https://github.com/MonashCybersecurityLab/SGXSSE)
+
+POSUP: Oblivious Search and Update Platform with SGX:
+[https://github.com/thanghoang/POSUP](https://github.com/thanghoang/POSUP)
+
+A Secure, Efficient and Scalable Query Framework for Outsourcing Data:
+[https://github.com/fishermano/QShield](https://github.com/fishermano/QShield)
+
+## Private Key/Password Management
 
 SGX Enabled OpenStack Barbican Key Management System:
-
 [https://github.com/cloud-security-research/sgx-kms](https://github.com/cloud-security-research/sgx-kms)
 
 A server with SGX enclave that stores private keys and performs crypto operations upon requests:
-
 [https://github.com/cloud-key-store/keystore](https://github.com/cloud-key-store/keystore)
 
 Protecting Web Passwords using Trusted Execution Environments:
-
 [https://github.com/SafeKeeper](https://github.com/SafeKeeper)
 
 ## Database
@@ -204,12 +219,6 @@ Protect Audit-Log via Sqlite: [https://github.com/lsds/LibSEAL](https://github.c
 
 Trusted in-memory key-value stores: [https://github.com/cocoppang/ShieldStore](https://github.com/cocoppang/ShieldStore)
 
-## Digital Right Management
-
-Enclave Protected Code Loader: [https://github.com/intel/linux-sgx-pcl](https://github.com/intel/linux-sgx-pcl)
-
-A code confidentiality framework for Intel SGX: [https://github.com/utds3lab/sgxelide](https://github.com/utds3lab/sgxelide)
-
 ## Profiling
 
 Utilities for monitoring SGX driver statistics: [https://github.com/fortanix/sgxtop](https://github.com/fortanix/sgxtop)
@@ -224,7 +233,7 @@ User-level paging: [https://github.com/acsl-technion/eleos](https://github.com/a
 
 SwitchLess: [https://github.com/oweisse/hot-calls](https://github.com/oweisse/hot-calls)
 
-## Harden Memory
+## Hardened Memory
 
 Address space layout randomization (ASLR): [https://github.com/jaebaek/SGX-Shield](https://github.com/jaebaek/SGX-Shield)
 
@@ -236,23 +245,45 @@ Linear/SQRT/Path ORAM: [https://github.com/maanrachid/SGXORAM](https://github.co
 
 ## Distributed System
 
-ZooKeeper: [https://github.com/sereca/SecureKeeper](https://github.com/sereca/SecureKeeper)
+Kubernetes Device Plugin for Intel SGX:
+[https://github.com/AliyunContainerService/sgx-device-plugin](https://github.com/AliyunContainerService/sgx-device-plugin)
 
-SGX-aware container orchestrator: [https://github.com/sebva/sgx-orchestrator](https://github.com/sebva/sgx-orchestrator)
+SGX-Aware Container Orchestrator: [https://github.com/sebva/sgx-orchestrator](https://github.com/sebva/sgx-orchestrator)
+
+ZooKeeper: [https://github.com/sereca/SecureKeeper](https://github.com/sereca/SecureKeeper)
 
 VM-Migration: [https://github.com/SSGAalto/sgx-migration](https://github.com/SSGAalto/sgx-migration)
 
 P2P: [https://bitbucket.org/P2PUsingSGX/p2pusingsgx](https://bitbucket.org/P2PUsingSGX/p2pusingsgx)
 
-## I/O
+Raft: [https://github.com/LuminousXLB/EnclaveRaft](https://github.com/LuminousXLB/EnclaveRaft)
+
+## I/O Protection
 
 Building Distributed Enclave Applications with Sancus and SGX:
-
 [https://github.com/sancus-pma/tutorial-dsn18](https://github.com/sancus-pma/tutorial-dsn18)
 
 Fidelius: Protecting User Secrets from Compromised Browsers:
-
 [https://github.com/SabaEskandarian/Fidelius](https://github.com/SabaEskandarian/Fidelius)
+
+## Defenses
+
+Obfuscuro, a Commodity Obfuscation Engine for Intel SGX (NDSS 2019):
+[https://github.com/adilahmad17/Obfuscuro](https://github.com/adilahmad17/Obfuscuro)
+
+CoSMIX: A Compiler-based System for Secure Memory Instrumentation and Execution in Enclaves (ATC 2019):
+[https://github.com/acsl-technion/cosmix](https://github.com/acsl-technion/cosmix)
+
+Citadel: Trusted Reference Monitors for Linux using Intel SGX Enclaves:
+[https://github.com/HarriBellThomas/citadel](https://github.com/HarriBellThomas/citadel)
+
+Enclave Protected Code Loader:
+[https://github.com/intel/linux-sgx-pcl](https://github.com/intel/linux-sgx-pcl)
+
+A code confidentiality framework for Intel SGX:
+[https://github.com/utds3lab/sgxelide](https://github.com/utds3lab/sgxelide)
+
+CAT-SGX: [https://github.com/StanPlatinum/cat-sgx](https://github.com/StanPlatinum/cat-sgx)
 
 ## Attacks
 
