@@ -270,6 +270,9 @@ RAID 2019
 ScatterCache: Thwarting Cache Attacks via Cache Set Randomization
 USENIX Security 2019
 
+Careful-Packing: A Practical and Scalable Anti-Tampering Software Protection enforced by Trusted Computing
+CODASPY 2019
+
 Varys: Protecting Intel SGX Enclaves from Practical Side-Channel Attacks
 ATC 2018
 

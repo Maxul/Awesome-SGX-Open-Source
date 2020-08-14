@@ -123,7 +123,10 @@ substraTEE: Trusted Off-Chain Compute Framework for Substrate Blockchains:
 EVM: Enclave EVM as Ethereum Virtual Machine:
 [https://github.com/Microsoft/eEVM](https://github.com/Microsoft/eEVM)
 
-Proof of Luck + IPFS:
+BitCoin Mixer:
+[https://github.com/BitObscuro/Obscuro](https://github.com/BitObscuro/Obscuro)
+
+Proof of Luck for IPFS:
 [https://github.com/luckychain/lucky](https://github.com/luckychain/lucky)
 
 Town Crier: An Authenticated Data Feed For Smart Contracts:
@@ -133,6 +136,9 @@ Ledger BOLOS Enclave:
 [https://github.com/LedgerHQ/bolos-enclave](https://github.com/LedgerHQ/bolos-enclave)
 
 ## Machine Learning Framework
+
+Confidential Computing of Machine Learning using Intel SGX:
+[https://github.com/prasadkjose/confidential-ml-sgx](https://github.com/prasadkjose/confidential-ml-sgx)
 
 XGBoost: [https://github.com/mesalock-linux/gbdt-rs](https://github.com/mesalock-linux/gbdt-rs)
 
@@ -165,25 +171,31 @@ SENG: SGX-Enforced Network Gateway (USENIX Security 2020):
 SGX + CDN (USENIX Security 2020):
 [https://github.com/smherwig/phoenix](https://github.com/smherwig/phoenix)
 
+SGX + Snort Intrusion Detection System:
+[https://github.com/cloud-security-research/sgx-ids](https://github.com/cloud-security-research/sgx-ids)
+
 SGX + Tor:
 [https://github.com/kaist-ina/SGX-Tor](https://github.com/kaist-ina/SGX-Tor)
 
 SGX + Web Crawler:
 [https://github.com/ShengHow95/simple-selenium-sgx-crawler](https://github.com/ShengHow95/simple-selenium-sgx-crawler)
 
-SGX + BitCoin:
-[https://github.com/BitObscuro/Obscuro](https://github.com/BitObscuro/Obscuro)
-
 Channel ID Private Key Protection:
 [https://github.com/google/channel-id-enclave](https://github.com/google/channel-id-enclave)
 
-SGX-secured Function-as-a-Service:
+Trustworthy and Accountable Function-as-a-Service:
 [https://github.com/SSGAalto/sfaas](https://github.com/SSGAalto/sfaas)
 
 Securing Storage Encryption:
 [https://github.com/ayeks/TresorSGX](https://github.com/ayeks/TresorSGX)
 
 ## Private Search
+
+BiORAM-SGX: A Practical Privacy-Preserving Data Analysis for Personal Genome by Intel SGX:
+[https://github.com/cBioLab/BiORAM-SGX](https://github.com/cBioLab/BiORAM-SGX)
+
+Private Information Retrieval:
+[https://github.com/patrickwang96/BO-PIR-SGX](https://github.com/patrickwang96/BO-PIR-SGX)
 
 Private SSE Schemes:
 [https://github.com/MonashCybersecurityLab/SGXSSE](https://github.com/MonashCybersecurityLab/SGXSSE)
@@ -193,6 +205,9 @@ POSUP: Oblivious Search and Update Platform with SGX:
 
 A Secure, Efficient and Scalable Query Framework for Outsourcing Data:
 [https://github.com/fishermano/QShield](https://github.com/fishermano/QShield)
+
+BISEN: Boolean Isolated Searchable Encryption:
+[https://github.com/bernymac/BISEN](https://github.com/bernymac/BISEN)
 
 ## Private Key/Password Management
 
@@ -215,6 +230,9 @@ Database intended for Blockchain: [https://github.com/kaimast/credb](https://git
 
 Protect in-memory sqlite, not .db file encryption: [https://github.com/yerzhan7/SGX_SQLite](https://github.com/yerzhan7/SGX_SQLite)
 
+STANlite: an in-memory database engine for SGX-enabled secure data processing:
+[https://github.com/ibr-ds/STANlite](https://github.com/ibr-ds/STANlite)
+
 Protect Audit-Log via Sqlite: [https://github.com/lsds/LibSEAL](https://github.com/lsds/LibSEAL)
 
 Trusted in-memory key-value stores: [https://github.com/cocoppang/ShieldStore](https://github.com/cocoppang/ShieldStore)
@@ -225,9 +243,13 @@ Utilities for monitoring SGX driver statistics: [https://github.com/fortanix/sgx
 
 Report statistics of E/Ocalls, EPC Paging: [https://github.com/ibr-ds/sgx-perf](https://github.com/ibr-ds/sgx-perf)
 
+SGXTuner: a distributed tuning system for enclaves: [https://github.com/dzobbe/sgxtuner](https://github.com/dzobbe/sgxtuner)
+
 Actor model for better Enclave IPC: [https://github.com/ibr-ds/EActors](https://github.com/ibr-ds/EActors)
 
 Stress benchmark: [https://github.com/sebva/stress-sgx](https://github.com/sebva/stress-sgx)
+
+nbench benchmark: [https://github.com/utds3lab/sgx-nbench](https://github.com/utds3lab/sgx-nbench)
 
 User-level paging: [https://github.com/acsl-technion/eleos](https://github.com/acsl-technion/eleos)
 
@@ -244,6 +266,9 @@ Compiler-based boundary check: [https://github.com/tudinfse/sgxbounds](https://g
 Linear/SQRT/Path ORAM: [https://github.com/maanrachid/SGXORAM](https://github.com/maanrachid/SGXORAM)
 
 ## Distributed System
+
+Memory Sharing Library for Intel SGX Card:
+[https://github.com/cloud-security-research/memsharing-sgxcard](https://github.com/cloud-security-research/memsharing-sgxcard)
 
 Kubernetes Device Plugin for Intel SGX:
 [https://github.com/AliyunContainerService/sgx-device-plugin](https://github.com/AliyunContainerService/sgx-device-plugin)
@@ -276,6 +301,9 @@ CoSMIX: A Compiler-based System for Secure Memory Instrumentation and Execution 
 
 Citadel: Trusted Reference Monitors for Linux using Intel SGX Enclaves:
 [https://github.com/HarriBellThomas/citadel](https://github.com/HarriBellThomas/citadel)
+
+SGX Branch Shadowing Mitigation:
+[https://github.com/SSGAalto/sgx-branch-shadowing-mitigation](https://github.com/SSGAalto/sgx-branch-shadowing-mitigation)
 
 Enclave Protected Code Loader:
 [https://github.com/intel/linux-sgx-pcl](https://github.com/intel/linux-sgx-pcl)
