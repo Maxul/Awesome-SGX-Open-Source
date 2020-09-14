@@ -105,6 +105,9 @@ Writing Secure Distributed Systems On Top Of [P](https://github.com/p-org/P) Lan
 
 ## Blockchain
 
+sWorker: Crust MPoW-based Offchain Storage inside TEE Enclaves:
+[https://github.com/crustio/crust-sworker](https://github.com/crustio/crust-sworker)
+
 Teechain: A Secure Payment Network with Asynchronous Blockchain Access:
 [https://github.com/lsds/Teechain](https://github.com/lsds/Teechain)
 
@@ -155,6 +158,9 @@ Slamon: Fast, Verifiable and Private Execution of Neural Networks in Trusted Har
 [https://github.com/ftramer/slalom](https://github.com/ftramer/slalom)
 
 ## Applications
+
+C3PO: providing authentication, accounting and security functions for Open Mobile Evolved Core (OMEC)
+[https://github.com/omec-project/c3po](https://github.com/omec-project/c3po)
 
 SafeTrace: Privacy Preserving Voluntary COVID-19 Self-Reporting Platform for Contact Tracing:
 [https://github.com/enigmampc/SafeTrace](https://github.com/enigmampc/SafeTrace)
