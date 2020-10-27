@@ -89,6 +89,8 @@ Golang: [https://github.com/intel/GrapheneSGX-Golang-Support-and-Enhancement](ht
 
 Golang binder: [https://github.com/rupc/go-with-intel-sgx](https://github.com/rupc/go-with-intel-sgx) 
 
+GOTEE: Secured Routines using SGX: [https://github.com/epfl-dcsl/gotee](https://github.com/epfl-dcsl/gotee)
+
 JavaScript: [https://github.com/luckychain/node-secureworker](https://github.com/luckychain/node-secureworker)
 
 C#: [https://github.com/Liaojinghui/A_C-Sharp_Project_With_SGX](https://github.com/Liaojinghui/A_C-Sharp_Project_With_SGX)
@@ -159,7 +161,7 @@ Slamon: Fast, Verifiable and Private Execution of Neural Networks in Trusted Har
 
 ## Applications
 
-C3PO: providing authentication, accounting and security functions for Open Mobile Evolved Core (OMEC)
+C3PO: providing security functions for Open Mobile Evolved Core (OMEC)
 [https://github.com/omec-project/c3po](https://github.com/omec-project/c3po)
 
 SafeTrace: Privacy Preserving Voluntary COVID-19 Self-Reporting Platform for Contact Tracing:
@@ -257,6 +259,10 @@ Stress benchmark: [https://github.com/sebva/stress-sgx](https://github.com/sebva
 
 nbench benchmark: [https://github.com/utds3lab/sgx-nbench](https://github.com/utds3lab/sgx-nbench)
 
+LMbench benchmark: [https://github.com/vsecurity-research/sgx-bench](https://github.com/vsecurity-research/sgx-bench)
+
+Linux SGX Benchmarks (on encrypted buffer transfer): [https://github.com/eliadt/sgx_benchmarks](https://github.com/eliadt/sgx_benchmarks)
+
 User-level paging: [https://github.com/acsl-technion/eleos](https://github.com/acsl-technion/eleos)
 
 SwitchLess: [https://github.com/oweisse/hot-calls](https://github.com/oweisse/hot-calls)
@@ -320,6 +326,10 @@ A code confidentiality framework for Intel SGX:
 CAT-SGX: [https://github.com/StanPlatinum/cat-sgx](https://github.com/StanPlatinum/cat-sgx)
 
 ## Attacks
+
+Faulty Point Unit: ABI Poisoning Attacks on Intel SGX (ACSAC 2020)
+
+[https://github.com/fritzalder/faulty-point-unit](https://github.com/fritzalder/faulty-point-unit)
 
 COIN Attacks: on Insecurity of Enclave Untrusted Interfaces in SGX (ASPLOS 2020)
 
