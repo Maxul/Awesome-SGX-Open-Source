@@ -17,6 +17,8 @@ Ant Financial Occlum: [https://github.com/occlum/occlum](https://github.com/occl
 
 Fortanix Enclave Development Platform: [https://github.com/fortanix/rust-sgx](https://github.com/fortanix/rust-sgx)
 
+Scontain: [https://github.com/scontain](https://github.com/scontain)
+
 Microsoft Confidential Consortium Framework: [https://github.com/microsoft/CCF](https://github.com/microsoft/CCF)
 
 Google Asylo: [https://github.com/google/asylo](https://github.com/google/asylo)
@@ -91,7 +93,7 @@ Golang binder: [https://github.com/rupc/go-with-intel-sgx](https://github.com/ru
 
 GOTEE: Secured Routines using SGX: [https://github.com/epfl-dcsl/gotee](https://github.com/epfl-dcsl/gotee)
 
-JavaScript: [https://github.com/luckychain/node-secureworker](https://github.com/luckychain/node-secureworker)
+JavaScript: [https://github.com/evervault/node-secureworker](https://github.com/evervault/node-secureworker)
 
 C#: [https://github.com/Liaojinghui/A_C-Sharp_Project_With_SGX](https://github.com/Liaojinghui/A_C-Sharp_Project_With_SGX)
 
@@ -106,6 +108,9 @@ Writing Secure Distributed Systems On Top Of [P](https://github.com/p-org/P) Lan
 [https://github.com/ShivKushwah/PSec](https://github.com/ShivKushwah/PSec)
 
 ## Blockchain
+
+lockbox: Key Share Management in SGX Secure Enclaves:
+[https://github.com/commerceblock/lockbox](https://github.com/commerceblock/lockbox)
 
 sWorker: Crust MPoW-based Offchain Storage inside TEE Enclaves:
 [https://github.com/crustio/crust-sworker](https://github.com/crustio/crust-sworker)
@@ -161,7 +166,13 @@ Slamon: Fast, Verifiable and Private Execution of Neural Networks in Trusted Har
 
 ## Applications
 
-C3PO: providing security functions for Open Mobile Evolved Core (OMEC)
+Veracruz: privacy-preserving collaborative compute:
+[https://github.com/veracruz-project/veracruz](https://github.com/veracruz-project/veracruz)
+
+MACSec: Secure Network Interface with SGX:
+[https://github.com/fkirc/secure-network-interface-with-sgx](https://github.com/fkirc/secure-network-interface-with-sgx)
+
+C3PO: providing security functions for Open Mobile Evolved Core (OMEC):
 [https://github.com/omec-project/c3po](https://github.com/omec-project/c3po)
 
 SafeTrace: Privacy Preserving Voluntary COVID-19 Self-Reporting Platform for Contact Tracing:
@@ -218,6 +229,9 @@ BISEN: Boolean Isolated Searchable Encryption:
 [https://github.com/bernymac/BISEN](https://github.com/bernymac/BISEN)
 
 ## Private Key/Password Management
+
+Key-Manager for Faasm (a high-performance stateful serverless runtime):
+[https://github.com/faasm/keymanager](https://github.com/faasm/keymanager)
 
 SGX Enabled OpenStack Barbican Key Management System:
 [https://github.com/cloud-security-research/sgx-kms](https://github.com/cloud-security-research/sgx-kms)
@@ -305,7 +319,13 @@ Fidelius: Protecting User Secrets from Compromised Browsers:
 
 ## Defenses
 
-Obfuscuro, a Commodity Obfuscation Engine for Intel SGX (NDSS 2019):
+A Java flow analysis tool for SGX data sensitivity:
+[https://github.com/SOF3/enclavlow](https://github.com/SOF3/enclavlow)
+
+SGXL: Using 2MB large pages to mitigate page-based side-channels:
+[https://github.com/csl-iisc/SGXL](https://github.com/csl-iisc/SGXL)
+
+Obfuscuro: A Commodity Obfuscation Engine for Intel SGX (NDSS 2019):
 [https://github.com/adilahmad17/Obfuscuro](https://github.com/adilahmad17/Obfuscuro)
 
 CoSMIX: A Compiler-based System for Secure Memory Instrumentation and Execution in Enclaves (ATC 2019):
