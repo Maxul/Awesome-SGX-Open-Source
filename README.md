@@ -261,6 +261,8 @@ Trusted in-memory key-value stores: [https://github.com/cocoppang/ShieldStore](h
 
 ## Profiling
 
+TEEMon: A continuous performance monitoring framework for TEEs: [https://github.com/rcrane/TEEMon](https://github.com/rcrane/TEEMon)
+
 Utilities for monitoring SGX driver statistics: [https://github.com/fortanix/sgxtop](https://github.com/fortanix/sgxtop)
 
 Report statistics of E/Ocalls, EPC Paging: [https://github.com/ibr-ds/sgx-perf](https://github.com/ibr-ds/sgx-perf)
