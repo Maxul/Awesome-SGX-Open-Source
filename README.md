@@ -182,7 +182,7 @@ Accountable Deep Learning: [https://github.com/arefasvadi/SGX-ADL](https://githu
 
 Open Deep Learning Compiler Stack: [TVM in Intel SGX Example](https://github.com/dmlc/tvm/tree/master/apps/sgx)
 
-Slamon: Fast, Verifiable and Private Execution of Neural Networks in Trusted Hardware (ICLR 2019)
+Slalom: Fast, Verifiable and Private Execution of Neural Networks in Trusted Hardware (ICLR 2019)
 [https://github.com/ftramer/slalom](https://github.com/ftramer/slalom)
 
 EnclaveML: a framework for tokenized federated learning:
@@ -206,6 +206,9 @@ Libsodium AES-NI based AES-256-GCM:
 
 Achieving Reconciliation between Privacy Preservation and Auditability For File Hosting (Intel SGX + IPFS + Hyperledger Fabric):
 [https://github.com/wuliangshun/SGX-base-File-Hosting](https://github.com/wuliangshun/SGX-base-File-Hosting)
+
+bwa-sgx-scone: a parallel privacy preserved [BWA](https://github.com/lh3/bwa)(DNA sequence alignment) solution using Intel SGX and SCONE:
+[https://github.com/dsc-sgx/bwa-sgx-scone](https://github.com/dsc-sgx/bwa-sgx-scone)
 
 Veracruz: privacy-preserving collaborative compute:
 [https://github.com/veracruz-project/veracruz](https://github.com/veracruz-project/veracruz)
@@ -256,7 +259,7 @@ SGX + Web Crawler:
 
 ## Private Search
 
-X-search: revisiting private web search using intel SGX:
+X-Search: revisiting private web search using intel SGX:
 [https://github.com/Sand-jrd/SGX-Search](https://github.com/Sand-jrd/SGX-Search)
 
 BiORAM-SGX: A Practical Privacy-Preserving Data Analysis for Personal Genome by Intel SGX:
@@ -337,21 +340,25 @@ Utilities for monitoring SGX driver statistics: [https://github.com/fortanix/sgx
 
 Report statistics of E/Ocalls, EPC Paging: [https://github.com/ibr-ds/sgx-perf](https://github.com/ibr-ds/sgx-perf)
 
-SGXTuner: a distributed tuning system for enclaves: [https://github.com/dzobbe/sgxtuner](https://github.com/dzobbe/sgxtuner)
-
-Actor model for better Enclave IPC: [https://github.com/ibr-ds/EActors](https://github.com/ibr-ds/EActors)
-
 Stress benchmark: [https://github.com/sebva/stress-sgx](https://github.com/sebva/stress-sgx)
 
 nbench benchmark: [https://github.com/utds3lab/sgx-nbench](https://github.com/utds3lab/sgx-nbench)
 
 LMbench benchmark: [https://github.com/vsecurity-research/sgx-bench](https://github.com/vsecurity-research/sgx-bench)
 
-Linux SGX Benchmarks (on encrypted buffer transfer): [https://github.com/eliadt/sgx_benchmarks](https://github.com/eliadt/sgx_benchmarks)
+Linux SGX benchmarks (on encrypted buffer transfer): [https://github.com/eliadt/sgx_benchmarks](https://github.com/eliadt/sgx_benchmarks)
+
+## Performance
+
+Flume: a blazingly fast multi-producer, multi-consumer channel: [https://github.com/occlum/flume](https://github.com/occlum/flume)
 
 User-level paging: [https://github.com/acsl-technion/eleos](https://github.com/acsl-technion/eleos)
 
 SwitchLess: [https://github.com/oweisse/hot-calls](https://github.com/oweisse/hot-calls)
+
+SGXTuner: a distributed tuning system for enclaves: [https://github.com/dzobbe/sgxtuner](https://github.com/dzobbe/sgxtuner)
+
+Actor model for better Enclave IPC: [https://github.com/ibr-ds/EActors](https://github.com/ibr-ds/EActors)
 
 ## Defenses
 
@@ -379,7 +386,7 @@ Enclave Protected Code Loader:
 A code confidentiality framework for Intel SGX:
 [https://github.com/utds3lab/sgxelide](https://github.com/utds3lab/sgxelide)
 
-CAT-SGX: [https://github.com/StanPlatinum/cat-sgx](https://github.com/StanPlatinum/cat-sgx)
+Deflection (CAT-SGX): [https://github.com/StanPlatinum/cat-sgx](https://github.com/StanPlatinum/cat-sgx)
 
 Behavior-based Program Partitioning for Security Enclaves:
 [https://github.com/anahitH/program-partitioning-for-security-enclaves](https://github.com/anahitH/program-partitioning-for-security-enclaves)
