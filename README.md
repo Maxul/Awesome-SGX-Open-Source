@@ -15,6 +15,8 @@ Apache Teaclave: [https://github.com/apache/incubator-teaclave](https://github.c
 
 Ant Financial Occlum: [https://github.com/occlum/occlum](https://github.com/occlum/occlum)
 
+Next-Generation Occlum, optimized for Intel SGX 2.0: [https://github.com/occlum/ngo](https://github.com/occlum/ngo)
+
 Fortanix Enclave Development Platform: [https://github.com/fortanix/rust-sgx](https://github.com/fortanix/rust-sgx)
 
 Scontain: [https://github.com/scontain](https://github.com/scontain)
@@ -97,6 +99,9 @@ WebAssembly: [https://github.com/bytecodealliance/wasm-micro-runtime](https://gi
 Python: [https://github.com/mesalock-linux/mesapy](https://github.com/mesalock-linux/mesapy)
 
 Python binder for SGX SDK: [https://github.com/adombeck/python-sgx](https://github.com/adombeck/python-sgx)
+
+EGo: a framework for building confidential apps in Go:
+[https://github.com/edgelesssys/ego](https://github.com/edgelesssys/ego)
 
 Golang: [https://github.com/intel/GrapheneSGX-Golang-Support-and-Enhancement](https://github.com/intel/GrapheneSGX-Golang-Support-and-Enhancement)
 
@@ -203,6 +208,12 @@ Libsodium AES-NI based AES-256-GCM:
 [https://github.com/Maxul/SGX-AES-256](https://github.com/Maxul/SGX-AES-256)
 
 ## Applications
+
+Marblerun: a framework for creating distributed confidential-computing apps:
+[https://github.com/edgelesssys/marblerun](https://github.com/edgelesssys/marblerun)
+
+SGXKaller: Private Contact Discovery Service:
+[https://github.com/Arslan8/SGXKaller](https://github.com/Arslan8/SGXKaller)
 
 Achieving Reconciliation between Privacy Preservation and Auditability For File Hosting (Intel SGX + IPFS + Hyperledger Fabric):
 [https://github.com/wuliangshun/SGX-base-File-Hosting](https://github.com/wuliangshun/SGX-base-File-Hosting)
