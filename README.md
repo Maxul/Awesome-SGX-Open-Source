@@ -11,19 +11,21 @@ Academic Conference Collections:
 
 Microsoft OpenEnclave: [https://github.com/Microsoft/openenclave](https://github.com/Microsoft/openenclave)
 
+Microsoft Confidential Consortium Framework: [https://github.com/microsoft/CCF](https://github.com/microsoft/CCF)
+
 Apache Teaclave: [https://github.com/apache/incubator-teaclave](https://github.com/apache/incubator-teaclave)
 
 Ant Financial Occlum: [https://github.com/occlum/occlum](https://github.com/occlum/occlum)
 
 Next-Generation Occlum, optimized for Intel SGX 2.0: [https://github.com/occlum/ngo](https://github.com/occlum/ngo)
 
+Google Asylo: [https://github.com/google/asylo](https://github.com/google/asylo)
+
 Fortanix Enclave Development Platform: [https://github.com/fortanix/rust-sgx](https://github.com/fortanix/rust-sgx)
 
 Scontain: [https://github.com/scontain](https://github.com/scontain)
 
-Microsoft Confidential Consortium Framework: [https://github.com/microsoft/CCF](https://github.com/microsoft/CCF)
-
-Google Asylo: [https://github.com/google/asylo](https://github.com/google/asylo)
+Marblerun: [https://github.com/edgelesssys/marblerun](https://github.com/edgelesssys/marblerun)
 
 ### Library OS for quickly deploying (almost) unmodified applications
 
@@ -209,8 +211,11 @@ Libsodium AES-NI based AES-256-GCM:
 
 ## Applications
 
-Marblerun: a framework for creating distributed confidential-computing apps:
-[https://github.com/edgelesssys/marblerun](https://github.com/edgelesssys/marblerun)
+SGX-based Genome Variants Search:
+[https://github.com/ndokmai/sgx-genome-variants-search](https://github.com/ndokmai/sgx-genome-variants-search)
+
+SMac: Secure Genotype Imputation in Intel SGX:
+[https://github.com/ndokmai/sgx-genotype-imputation](https://github.com/ndokmai/sgx-genotype-imputation)
 
 SGXKaller: Private Contact Discovery Service:
 [https://github.com/Arslan8/SGXKaller](https://github.com/Arslan8/SGXKaller)
@@ -246,6 +251,9 @@ Securing Storage Encryption:
 [https://github.com/ayeks/TresorSGX](https://github.com/ayeks/TresorSGX)
 
 ## Network
+
+ZeroCache: a Cloud-Oriented Middlebox for Network Confidential Computing:
+[https://github.com/Maxul/zerocache](https://github.com/Maxul/zerocache)
 
 SnowHaze VPN Zero-Knowledge Verification:
 [https://github.com/snowhaze/zka-sgx](https://github.com/snowhaze/zka-sgx)
@@ -453,6 +461,10 @@ ZombieLoad: Cross-Privilege-Boundary Data Sampling (CCS 2019)
 SGX-ROP: Practical Enclave Malware with Intel SGX (DIMVA 2019)
 
 [https://github.com/sgxrop/sgxrop](https://github.com/sgxrop/sgxrop)
+
+MicroScope: enabling microarchitectural replay attacks (ISCA 2019)
+
+[https://github.com/dskarlatos/MicroScope](https://github.com/dskarlatos/MicroScope)
 
 Nemesis: Studying Microarchitectural Timing Leaks in Rudimentary CPU Interrupt Logic (CCS 2018)
 
