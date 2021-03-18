@@ -171,7 +171,10 @@ An trusted and lite version of OpenCV based on Intel SGX:
 Confidential ONNX Inference Server:
 [https://github.com/microsoft/onnx-server-openenclave](https://github.com/microsoft/onnx-server-openenclave)
 
-Secure collaborative training and inference for XGBoost:
+Secure Aggregation for Federated Learning:
+[https://github.com/mc2-project/secure-aggregation](https://github.com/mc2-project/secure-aggregation)
+
+Secure Collaborative Training and Inference for XGBoost:
 [https://github.com/mc2-project/secure-xgboost](https://github.com/mc2-project/secure-xgboost)
 
 Confidential Computing of Machine Learning using Intel SGX:
@@ -277,6 +280,9 @@ SGX + Web Crawler:
 [https://github.com/ShengHow95/simple-selenium-sgx-crawler](https://github.com/ShengHow95/simple-selenium-sgx-crawler)
 
 ## Private Search
+
+mc-oblivious: Oblivious RAM inside of Intel SGX enclaves:
+[https://github.com/mobilecoinofficial/mc-oblivious](https://github.com/mobilecoinofficial/mc-oblivious)
 
 X-Search: revisiting private web search using intel SGX:
 [https://github.com/Sand-jrd/SGX-Search](https://github.com/Sand-jrd/SGX-Search)
