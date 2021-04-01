@@ -75,6 +75,10 @@
 
 ## Session 5: Privacy-Preserving Database and Analysis
 
+- Building Enclave-Native Storage Engines for Practical Encrypted Databases, VLDB 2021
+
+- VeriDB: An SGX-based Verifiable Database, SIGMOD 2021
+
 - Oblivious Coopetitive Analytics Using Hardware Enclaves, EuroSys 2020
 
 - ObliDB: Oblivious Query Processing for Secure Databases, VLDB 2019
