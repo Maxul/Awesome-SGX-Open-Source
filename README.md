@@ -19,6 +19,8 @@ Ant Financial Occlum: [https://github.com/occlum/occlum](https://github.com/occl
 
 Next-Generation Occlum, optimized for Intel SGX 2.0: [https://github.com/occlum/ngo](https://github.com/occlum/ngo)
 
+KubeTEE TFF: [https://github.com/SOFAEnclave/trusted-function-framework](https://github.com/SOFAEnclave/trusted-function-framework)
+
 Google Asylo: [https://github.com/google/asylo](https://github.com/google/asylo)
 
 Fortanix Enclave Development Platform: [https://github.com/fortanix/rust-sgx](https://github.com/fortanix/rust-sgx)
@@ -165,6 +167,9 @@ Ledger BOLOS Enclave:
 
 ## Machine Learning Framework
 
+Tensorflow Lite For Intel SGX:
+[https://github.com/Jumpst3r/tensorflow-lite-sgx](https://github.com/Jumpst3r/tensorflow-lite-sgx)
+
 An trusted and lite version of OpenCV based on Intel SGX:
 [https://github.com/xymeng16/opencv_lite_sgx](https://github.com/xymeng16/opencv_lite_sgx)
 
@@ -284,7 +289,10 @@ SGX + Web Crawler:
 mc-oblivious: Oblivious RAM inside of Intel SGX enclaves:
 [https://github.com/mobilecoinofficial/mc-oblivious](https://github.com/mobilecoinofficial/mc-oblivious)
 
-X-Search: revisiting private web search using intel SGX:
+ZeroTrace: Oblivious Memory Primitives from Intel SGX:
+[https://github.com/sshsshy/ZeroTrace](https://github.com/sshsshy/ZeroTrace)
+
+X-Search: Revisiting Private Web Search using Intel SGX:
 [https://github.com/Sand-jrd/SGX-Search](https://github.com/Sand-jrd/SGX-Search)
 
 BiORAM-SGX: A Practical Privacy-Preserving Data Analysis for Personal Genome by Intel SGX:
@@ -386,6 +394,9 @@ SGXTuner: a distributed tuning system for enclaves: [https://github.com/dzobbe/s
 Actor model for better Enclave IPC: [https://github.com/ibr-ds/EActors](https://github.com/ibr-ds/EActors)
 
 ## Defenses
+
+Open Enclave specific security automation projects (CodeQL static analysis, Fuzzing and binary analysis):
+[https://github.com/mrragava/openenclave-security](https://github.com/mrragava/openenclave-security)
 
 A Java flow analysis tool for SGX data sensitivity:
 [https://github.com/SOF3/enclavlow](https://github.com/SOF3/enclavlow)
