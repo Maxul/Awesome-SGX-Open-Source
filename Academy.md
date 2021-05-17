@@ -25,6 +25,8 @@
 
 ## Session 2: Automation Toolchain and Language Runtime
 
+- Twine: An Embedded Trusted Runtime for WebAssembly, ICDE 2021
+
 - Civet: An Efficient Java Partitioning Framework for Hardware Enclaves, USENIX Security 2020
 
 - CoSMIX: A Compiler-based System for Secure Memory Instrumentation and Execution in Enclaves, ATC 2019
@@ -112,6 +114,8 @@
 
 
 ## Session 7: Storage, File System and Key-Value Store
+
+- Aria: Tolerating Skewed Workloads in Secure In-memory Key-value Stores, ICDE 2021
 
 - SPEICHER: Securing LSM-based Key-Value Stores using Shielded Execution, FAST 2019
 

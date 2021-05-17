@@ -94,24 +94,32 @@ SGX-OpenSSL (SGX-Tor Project): [https://github.com/sparkly9399/SGX-OpenSSL](http
 
 Rust:
 
-[https://github.com/baidu/rust-sgx-sdk](https://github.com/baidu/rust-sgx-sdk)
+- [https://github.com/baidu/rust-sgx-sdk](https://github.com/baidu/rust-sgx-sdk)
 
-[https://github.com/fortanix/rust-sgx](https://github.com/fortanix/rust-sgx)
+- [https://github.com/fortanix/rust-sgx](https://github.com/fortanix/rust-sgx)
 
-WebAssembly: [https://github.com/bytecodealliance/wasm-micro-runtime](https://github.com/bytecodealliance/wasm-micro-runtime)
+WebAssembly:
 
-Python: [https://github.com/mesalock-linux/mesapy](https://github.com/mesalock-linux/mesapy)
+- Twine: An Embedded Trusted Runtime for WebAssembly: [https://github.com/jamesmenetrey/unine-twine](https://github.com/jamesmenetrey/unine-twine)
 
-Python binder for SGX SDK: [https://github.com/adombeck/python-sgx](https://github.com/adombeck/python-sgx)
+- WebAssembly Micro Runtime (WAMR): [https://github.com/bytecodealliance/wasm-micro-runtime](https://github.com/bytecodealliance/wasm-micro-runtime)
 
-EGo: a framework for building confidential apps in Go:
+Python: 
+
+- MesaPy: A Memory-Safe Python Implementation based on PyPy: [https://github.com/mesalock-linux/mesapy](https://github.com/mesalock-linux/mesapy)
+
+- Python binder for SGX SDK: [https://github.com/adombeck/python-sgx](https://github.com/adombeck/python-sgx)
+
+Golang:
+
+- EGo: a framework for building confidential apps in Go:
 [https://github.com/edgelesssys/ego](https://github.com/edgelesssys/ego)
 
-Golang: [https://github.com/intel/GrapheneSGX-Golang-Support-and-Enhancement](https://github.com/intel/GrapheneSGX-Golang-Support-and-Enhancement)
+- Golang: [https://github.com/intel/GrapheneSGX-Golang-Support-and-Enhancement](https://github.com/intel/GrapheneSGX-Golang-Support-and-Enhancement)
 
-Golang binder: [https://github.com/rupc/go-with-intel-sgx](https://github.com/rupc/go-with-intel-sgx) 
+- Golang binder: [https://github.com/rupc/go-with-intel-sgx](https://github.com/rupc/go-with-intel-sgx) 
 
-GOTEE: Secured Routines using SGX: [https://github.com/epfl-dcsl/gotee](https://github.com/epfl-dcsl/gotee)
+- GOTEE: Secured Routines using SGX: [https://github.com/epfl-dcsl/gotee](https://github.com/epfl-dcsl/gotee)
 
 JavaScript: [https://github.com/evervault/node-secureworker](https://github.com/evervault/node-secureworker)
 
@@ -123,9 +131,7 @@ Erlang: [https://github.com/Erlang-Enclave-Thesis/sgx-erlang-extension](https://
 
 C++: [https://github.com/intel/linux-sgx](https://github.com/intel/linux-sgx)
 
-PSec:
-Writing Secure Distributed Systems On Top Of [P](https://github.com/p-org/P) Language:
-[https://github.com/ShivKushwah/PSec](https://github.com/ShivKushwah/PSec)
+PSec: Programming Language for Creating Secure Distributed Systems leveraging Intel SGX: [https://github.com/ShivKushwah/PSec](https://github.com/ShivKushwah/PSec)
 
 ## Blockchain
 
@@ -145,7 +151,7 @@ Hyperledger: Confidentiality-Preserving, Off-Chain Smart Contracts:
 
 [https://github.com/hyperledger-labs/private-data-objects](https://github.com/hyperledger-labs/private-data-objects)
 
-[https://github.com/hyperledger-labs/fabric-secure-chaincode](https://github.com/hyperledger-labs/fabric-secure-chaincode)
+[https://github.com/hyperledger/fabric-private-chaincode](https://github.com/hyperledger/fabric-private-chaincode)
 
 substraTEE: Trusted Off-Chain Compute Framework for Substrate Blockchains:
 [https://github.com/scs/substraTEE](https://github.com/scs/substraTEE)
