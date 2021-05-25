@@ -31,6 +31,9 @@ Marblerun: [https://github.com/edgelesssys/marblerun](https://github.com/edgeles
 
 ### Library OS for quickly deploying (almost) unmodified applications
 
+Mystikos: Tools and runtime for launching unmodified container images in Trusted Execution Environments:
+[https://github.com/deislabs/mystikos](https://github.com/deislabs/mystikos)
+
 Graphene-SGX: A Practical Library OS for Unmodified Applications on SGX:
 [https://github.com/oscarlab/graphene](https://github.com/oscarlab/graphene)
 
@@ -400,6 +403,9 @@ SGXTuner: a distributed tuning system for enclaves: [https://github.com/dzobbe/s
 Actor model for better Enclave IPC: [https://github.com/ibr-ds/EActors](https://github.com/ibr-ds/EActors)
 
 ## Defenses
+
+SGXVerif: Towards Formal Verification of State Continuity for Enclave Programs:
+[https://github.com/OSUSecLab/SGXVerif](https://github.com/OSUSecLab/SGXVerif)
 
 Open Enclave specific security automation projects (CodeQL static analysis, Fuzzing and binary analysis):
 [https://github.com/mrragava/openenclave-security](https://github.com/mrragava/openenclave-security)
