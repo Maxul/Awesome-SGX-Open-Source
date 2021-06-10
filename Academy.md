@@ -3,6 +3,8 @@
 
 ## Session 1: Towards a Better Enclave Architecture
 
+- Scalable Memory Protection in the Penglai Enclave, OSDI 2021
+
 - CURE: A Security Architecture with CUstomizable and Resilient Enclaves, USENIX Security 2021
 
 - Nested Enclave: Supporting Fine-Grained Hierarchical Isolation with SGX, ISCA 2020

@@ -64,6 +64,9 @@ Intel Security Libraries for Data Center (Intel SecL-DC):
 [SGX Hub](https://github.com/intel-secl/sgx-ah)
 [SGX Agent](https://github.com/intel-secl/sgx_agent)
 
+SGX Quote Verification Service, cloud-nativized:
+[https://github.com/pw4ever/isecl-sqvs](https://github.com/pw4ever/isecl-sqvs)
+
 OPERA: Open Remote Attestation for Intel's Secure Enclaves:
 [https://github.com/Calctopia-OpenSource/opera](https://github.com/Calctopia-OpenSource/opera)
 
@@ -338,7 +341,7 @@ Protecting Web Passwords using Trusted Execution Environments:
 
 ## Database
 
-Opaque: a package for Apache Spark SQL that enables strong security for DataFrames using Intel SGX trusted hardware: [https://github.com/ucbrise/opaque](https://github.com/ucbrise/opaque)
+Opaque: a package for Apache Spark SQL that enables strong security for DataFrames using Intel SGX trusted hardware: [https://github.com/mc2-project/opaque-sql](https://github.com/mc2-project/opaque-sql)
 
 StealthDB: an encrypted database from intel sgx with small trusted computing base: [https://github.com/cryptograph/stealthdb](https://github.com/cryptograph/stealthdb)
 
