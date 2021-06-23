@@ -358,6 +358,9 @@ Trusted in-memory key-value stores: [https://github.com/cocoppang/ShieldStore](h
 
 ## Distributed System
 
+SecDATAVIEW: A Secure Big Data Workflow Management System for Heterogeneous Computing Environments:
+[https://github.com/shiyonglu/SecDATAVIEW](https://github.com/shiyonglu/SecDATAVIEW)
+
 Oak: Meaningful Control of Data in Distributed Systems:
 [https://github.com/project-oak/oak](https://github.com/project-oak/oak)
 
@@ -407,8 +410,8 @@ Actor model for better Enclave IPC: [https://github.com/ibr-ds/EActors](https://
 
 ## Defenses
 
-SGXVerif: Towards Formal Verification of State Continuity for Enclave Programs:
-[https://github.com/OSUSecLab/SGXVerif](https://github.com/OSUSecLab/SGXVerif)
+Tamarin Models (Formal Verification) for State Continuity of Enclave Programs:
+[https://github.com/OSUSecLab/SGX-Enclave-Formal-Verification](https://github.com/OSUSecLab/SGX-Enclave-Formal-Verification)
 
 Open Enclave specific security automation projects (CodeQL static analysis, Fuzzing and binary analysis):
 [https://github.com/mrragava/openenclave-security](https://github.com/mrragava/openenclave-security)
