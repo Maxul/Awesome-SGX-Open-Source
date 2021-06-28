@@ -56,6 +56,9 @@ Edgeless RT: SDK for TEEs/SGX based on Open Enclave with Go support:
 
 ### Remote Attestation (RA)
 
+OpenID Connect Via Enclave:
+[https://github.com/DanielShteinbok/spring-oidc-conclave-authentication](https://github.com/DanielShteinbok/spring-oidc-conclave-authentication)
+
 Intel Security Libraries for Data Center (Intel SecL-DC):
 [https://github.com/intel-secl/intel-secl](https://github.com/intel-secl/intel-secl)
 [SGX Caching Service](https://github.com/intel-secl/sgx-caching-service)
@@ -177,7 +180,7 @@ Town Crier: An Authenticated Data Feed For Smart Contracts:
 Ledger BOLOS Enclave:
 [https://github.com/LedgerHQ/bolos-enclave](https://github.com/LedgerHQ/bolos-enclave)
 
-## Machine Learning Framework
+## Machine Learning
 
 Tensorflow Lite For Intel SGX:
 [https://github.com/Jumpst3r/tensorflow-lite-sgx](https://github.com/Jumpst3r/tensorflow-lite-sgx)
@@ -215,7 +218,13 @@ Slalom: Fast, Verifiable and Private Execution of Neural Networks in Trusted Har
 EnclaveML: a framework for tokenized federated learning:
 [https://github.com/jamslevy/enclaveML](https://github.com/jamslevy/enclaveML)
 
-## Common Library
+Plinius: Secure ML model training with Intel SGX and PM for fault tolerance:
+[https://github.com/anonymous-xh/plinius](https://github.com/anonymous-xh/plinius)
+
+SGX-Darknet: SGX compatible ML library:
+[https://github.com/anonymous-xh/sgx-dnet](https://github.com/anonymous-xh/sgx-dnet)
+
+## Common Libraries
 
 A trusted libjpeg on Intel SGX:
 [https://github.com/xymeng16/libtjpeg](https://github.com/xymeng16/libtjpeg)
