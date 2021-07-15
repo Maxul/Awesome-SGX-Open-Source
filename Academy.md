@@ -119,6 +119,10 @@
 
 ## Session 7: Storage, File System and Key-Value Store
 
+- Avocado: A Secure In-Memory Distributed Storage System, ATC 2021
+
+- Accelerating Encrypted Deduplication via SGX, ATC 2021
+
 - Aria: Tolerating Skewed Workloads in Secure In-memory Key-value Stores, ICDE 2021
 
 - SPEICHER: Securing LSM-based Key-Value Stores using Shielded Execution, FAST 2019

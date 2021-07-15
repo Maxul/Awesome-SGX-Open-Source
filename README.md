@@ -240,6 +240,12 @@ Libsodium AES-NI based AES-256-GCM:
 
 ## Applications
 
+Avocado: a secure distributed in-memory key-value store:
+[https://github.com/mbailleu/avocado](https://github.com/mbailleu/avocado)
+
+Accelerating Encrypted Deduplication via SGX:
+[https://github.com/jingwei87/sgxdedup](https://github.com/jingwei87/sgxdedup)
+
 SGX-based Genome Variants Search:
 [https://github.com/ndokmai/sgx-genome-variants-search](https://github.com/ndokmai/sgx-genome-variants-search)
 
