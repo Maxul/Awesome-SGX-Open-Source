@@ -425,6 +425,9 @@ Actor model for better Enclave IPC: [https://github.com/ibr-ds/EActors](https://
 
 ## Defenses
 
+Auditee: a Tool to verify the reproducibility of SGX enclave builds:
+[https://github.com/sbellem/auditee](https://github.com/sbellem/auditee)
+
 Tamarin Models (Formal Verification) for State Continuity of Enclave Programs:
 [https://github.com/OSUSecLab/SGX-Enclave-Formal-Verification](https://github.com/OSUSecLab/SGX-Enclave-Formal-Verification)
 
