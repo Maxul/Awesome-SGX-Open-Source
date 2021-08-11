@@ -29,6 +29,8 @@
 
 ## Session 2: Automation Toolchain and Language Runtime
 
+- Towards Formal Verification of State Continuity for Enclave Programs, USENIX Security 2021
+
 - Twine: An Embedded Trusted Runtime for WebAssembly, ICDE 2021
 
 - Civet: An Efficient Java Partitioning Framework for Hardware Enclaves, USENIX Security 2020
@@ -158,6 +160,10 @@
 
 
 ## Session 10: Enclave Vulnerabilities and Side Channels
+
+- Frontal Attack: Leaking Control-Flow in SGX via the CPU Frontend, USENIX Security 2021
+
+- VoltPillager: Hardware-based fault injection attacks against Intel SGX Enclaves using the SVID voltage scaling interface, USENIX Security 2021
 
 - CrossTalk: Speculative Data Leaks Across Cores Are Real, IEEE S&P 2021
 

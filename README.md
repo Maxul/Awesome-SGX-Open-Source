@@ -240,6 +240,9 @@ Libsodium AES-NI based AES-256-GCM:
 
 ## Applications
 
+Black-Scholes-Merton computation in Intel SGX:
+[https://github.com/sbellem/sgx-bsm](https://github.com/sbellem/sgx-bsm)
+
 Avocado: a secure distributed in-memory key-value store:
 [https://github.com/mbailleu/avocado](https://github.com/mbailleu/avocado)
 
@@ -482,6 +485,14 @@ Fidelius: Protecting User Secrets from Compromised Browsers:
 [https://github.com/SabaEskandarian/Fidelius](https://github.com/SabaEskandarian/Fidelius)
 
 ## Attacks
+
+Frontal Attack: Leaking Control-Flow in SGX via the CPU Frontend (USENIX Security 2021)
+
+[https://github.com/dn0sar/frontal_poc](https://github.com/dn0sar/frontal_poc)
+
+VoltPillager: Hardware-based fault injection attacks against IntelSGX Enclaves using the SVID voltage scaling interface (USENIX Security 2021)
+
+[https://github.com/zt-chen/voltpillager](https://github.com/zt-chen/voltpillager)
 
 Faulty Point Unit: ABI Poisoning Attacks on Intel SGX (ACSAC 2020)
 
