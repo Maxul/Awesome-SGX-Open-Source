@@ -156,6 +156,9 @@ Teechain: A Secure Payment Network with Asynchronous Blockchain Access:
 Anonify: A blockchain-Agnostic Execution Environment with Privacy and Auditability:
 [https://github.com/LayerXcom/anonify](https://github.com/LayerXcom/anonify)
 
+FLOCK: Fast, Lightweight, and Scalable Allocation for Decentralised Services on Blockchain
+[https://github.com/navinkeizer/FLOCK](https://github.com/navinkeizer/FLOCK)
+
 Hyperledger: Confidentiality-Preserving, Off-Chain Smart Contracts:
 
 [https://github.com/hyperledger-labs/private-data-objects](https://github.com/hyperledger-labs/private-data-objects)
