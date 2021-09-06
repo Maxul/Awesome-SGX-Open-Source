@@ -428,14 +428,14 @@ Actor model for better Enclave IPC: [https://github.com/ibr-ds/EActors](https://
 
 ## Defenses
 
+Open Enclave specific security automation projects (CodeQL static analysis, Fuzzing and binary analysis):
+[https://github.com/openenclave/openenclave-security](https://github.com/openenclave/openenclave-security)
+
 Auditee: a Tool to verify the reproducibility of SGX enclave builds:
 [https://github.com/sbellem/auditee](https://github.com/sbellem/auditee)
 
 Tamarin Models (Formal Verification) for State Continuity of Enclave Programs:
 [https://github.com/OSUSecLab/SGX-Enclave-Formal-Verification](https://github.com/OSUSecLab/SGX-Enclave-Formal-Verification)
-
-Open Enclave specific security automation projects (CodeQL static analysis, Fuzzing and binary analysis):
-[https://github.com/mrragava/openenclave-security](https://github.com/mrragava/openenclave-security)
 
 A Java flow analysis tool for SGX data sensitivity:
 [https://github.com/SOF3/enclavlow](https://github.com/SOF3/enclavlow)
@@ -485,6 +485,10 @@ Fidelius: Protecting User Secrets from Compromised Browsers:
 [https://github.com/SabaEskandarian/Fidelius](https://github.com/SabaEskandarian/Fidelius)
 
 ## Attacks
+
+Interface-Based Side Channel Attack Against Intel SGX (INFOCOM 2022)
+
+[https://github.com/sgx-interface-side-channel/sgx-interface-side-channel](https://github.com/sgx-interface-side-channel/sgx-interface-side-channel)
 
 Frontal Attack: Leaking Control-Flow in SGX via the CPU Frontend (USENIX Security 2021)
 
