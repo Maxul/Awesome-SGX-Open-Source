@@ -31,11 +31,14 @@ Marblerun: [https://github.com/edgelesssys/marblerun](https://github.com/edgeles
 
 ### Library OS for quickly deploying (almost) unmodified applications
 
+Porpoise: A tool to port commodity application to Intel SGX:
+[https://github.com/iisc-cssl/porpoise](https://github.com/iisc-cssl/porpoise)
+
 Mystikos: Tools and runtime for launching unmodified container images in Trusted Execution Environments:
 [https://github.com/deislabs/mystikos](https://github.com/deislabs/mystikos)
 
-Graphene-SGX: A Practical Library OS for Unmodified Applications on SGX:
-[https://github.com/oscarlab/graphene](https://github.com/oscarlab/graphene)
+Gramine Library OS with Intel SGX Support (formerly called Graphene):
+[https://github.com/gramineproject/gramine](https://github.com/gramineproject/gramine)
 
 SGX-LKL: Library OS for running Linux applications inside SGX enclaves:
 [https://github.com/lsds/sgx-lkl](https://github.com/lsds/sgx-lkl)
@@ -165,7 +168,7 @@ Hyperledger: Confidentiality-Preserving, Off-Chain Smart Contracts:
 substraTEE: Trusted Off-Chain Compute Framework for Substrate Blockchains:
 [https://github.com/scs/substraTEE](https://github.com/scs/substraTEE)
 
-EVM: Enclave EVM as Ethereum Virtual Machine:
+eEVM: Enclave EVM as Ethereum Virtual Machine:
 [https://github.com/Microsoft/eEVM](https://github.com/Microsoft/eEVM)
 
 BitCoin Mixer:
@@ -239,6 +242,9 @@ Libsodium AES-NI based AES-256-GCM:
 [https://github.com/Maxul/SGX-AES-256](https://github.com/Maxul/SGX-AES-256)
 
 ## Applications
+
+Hidden anonymization with SGX-based mixes:
+[https://github.com/oEscal/sgx-based-mix-networks](https://github.com/oEscal/sgx-based-mix-networks)
 
 Black-Scholes-Merton computation in Intel SGX:
 [https://github.com/sbellem/sgx-bsm](https://github.com/sbellem/sgx-bsm)
@@ -314,6 +320,20 @@ SGX + Tor:
 SGX + Web Crawler:
 [https://github.com/ShengHow95/simple-selenium-sgx-crawler](https://github.com/ShengHow95/simple-selenium-sgx-crawler)
 
+## Data Analytics
+
+MC2: A Platform for Secure Analytics and Machine Learning:
+[https://github.com/mc2-project/mc2](https://github.com/mc2-project/mc2)
+
+Opaque: An encrypted data analytics platform:
+[https://github.com/mc2-project/opaque-sql](https://github.com/mc2-project/opaque-sql)
+
+Confidential Analytics on Azure SGX VM's with Apache Spark and SCONE:
+[https://github.com/mdrakiburrahman/sgx-pyspark-sql-demo](https://github.com/mdrakiburrahman/sgx-pyspark-sql-demo)
+
+BiORAM-SGX: A Practical Privacy-Preserving Data Analysis for Personal Genome by Intel SGX:
+[https://github.com/cBioLab/BiORAM-SGX](https://github.com/cBioLab/BiORAM-SGX)
+
 ## Private Search
 
 mc-oblivious: Oblivious RAM inside of Intel SGX enclaves:
@@ -324,9 +344,6 @@ ZeroTrace: Oblivious Memory Primitives from Intel SGX:
 
 X-Search: Revisiting Private Web Search using Intel SGX:
 [https://github.com/Sand-jrd/SGX-Search](https://github.com/Sand-jrd/SGX-Search)
-
-BiORAM-SGX: A Practical Privacy-Preserving Data Analysis for Personal Genome by Intel SGX:
-[https://github.com/cBioLab/BiORAM-SGX](https://github.com/cBioLab/BiORAM-SGX)
 
 Private Information Retrieval:
 [https://github.com/patrickwang96/BO-PIR-SGX](https://github.com/patrickwang96/BO-PIR-SGX)
@@ -359,8 +376,6 @@ Protecting Web Passwords using Trusted Execution Environments:
 
 ## Database
 
-Opaque: a package for Apache Spark SQL that enables strong security for DataFrames using Intel SGX trusted hardware: [https://github.com/mc2-project/opaque-sql](https://github.com/mc2-project/opaque-sql)
-
 StealthDB: an encrypted database from intel sgx with small trusted computing base: [https://github.com/cryptograph/stealthdb](https://github.com/cryptograph/stealthdb)
 
 Database intended for Blockchain: [https://github.com/kaimast/credb](https://github.com/kaimast/credb)
@@ -374,7 +389,7 @@ Protect Audit-Log via Sqlite: [https://github.com/lsds/LibSEAL](https://github.c
 
 Trusted in-memory key-value stores: [https://github.com/cocoppang/ShieldStore](https://github.com/cocoppang/ShieldStore)
 
-## Distributed System
+## Distributed Systems
 
 SecDATAVIEW: A Secure Big Data Workflow Management System for Heterogeneous Computing Environments:
 [https://github.com/shiyonglu/SecDATAVIEW](https://github.com/shiyonglu/SecDATAVIEW)
@@ -427,6 +442,12 @@ SGXTuner: a distributed tuning system for enclaves: [https://github.com/dzobbe/s
 Actor model for better Enclave IPC: [https://github.com/ibr-ds/EActors](https://github.com/ibr-ds/EActors)
 
 ## Defenses
+
+SGXRay: Automated Vulnerability Finding in SGX Enclave Applications:
+[https://github.com/baidu/sgxray](https://github.com/baidu/sgxray)
+
+Collection of tools to perform memory analysis of machine SGX-enabled:
+[https://github.com/tregua87/sgx-forensic](https://github.com/tregua87/sgx-forensic)
 
 Open Enclave specific security automation projects (CodeQL static analysis, Fuzzing and binary analysis):
 [https://github.com/openenclave/openenclave-security](https://github.com/openenclave/openenclave-security)
@@ -558,7 +579,7 @@ SGX-Timing: Cache Attacks on Intel SGX (EuroSec 2017)
 
 [https://github.com/m1ghtym0/sgx-timing](https://github.com/m1ghtym0/sgx-timing)
 
-## Beyond-SGX Enclave Projects
+## Beyond SGX Enclave Projects
 
 Penglai-Enclave: Open-sourced secure and scalable TEE system for RISC-V:
 [https://github.com/Penglai-Enclave/Penglai-Enclave](https://github.com/Penglai-Enclave/Penglai-Enclave)
