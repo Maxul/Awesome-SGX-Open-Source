@@ -121,6 +121,8 @@
 
 ## Session 7: Storage, File System and Key-Value Store
 
+- Snoopy: Surpassing the Scalability Bottleneck of Oblivious Storage, SOSP 2021
+
 - Avocado: A Secure In-Memory Distributed Storage System, ATC 2021
 
 - Accelerating Encrypted Deduplication via SGX, ATC 2021

@@ -243,6 +243,9 @@ Libsodium AES-NI based AES-256-GCM:
 
 ## Applications
 
+SRX – SGX Recovery Extension:
+[https://github.com/andrade/srx](https://github.com/andrade/srx)
+
 Hidden anonymization with SGX-based mixes:
 [https://github.com/oEscal/sgx-based-mix-networks](https://github.com/oEscal/sgx-based-mix-networks)
 
@@ -296,6 +299,9 @@ Securing Storage Encryption:
 
 ## Network
 
+Hidden anonymization with SGX-based mix-networks:
+[https://github.com/oEscal/sgx-based-mix-networks](https://github.com/oEscal/sgx-based-mix-networks)
+
 ZeroCache: a Cloud-Oriented Middlebox for Network Confidential Computing:
 [https://github.com/Maxul/zerocache](https://github.com/Maxul/zerocache)
 
@@ -336,6 +342,9 @@ BiORAM-SGX: A Practical Privacy-Preserving Data Analysis for Personal Genome by 
 
 ## Private Search
 
+Snoopy: Surpassing the Scalability Bottleneck of Oblivious Storage:
+[https://github.com/ucbrise/snoopy](https://github.com/ucbrise/snoopy)
+
 mc-oblivious: Oblivious RAM inside of Intel SGX enclaves:
 [https://github.com/mobilecoinofficial/mc-oblivious](https://github.com/mobilecoinofficial/mc-oblivious)
 
@@ -374,7 +383,7 @@ A server with SGX enclave that stores private keys and performs crypto operation
 Protecting Web Passwords using Trusted Execution Environments:
 [https://github.com/SafeKeeper](https://github.com/SafeKeeper)
 
-## Database
+## Encrypted Database
 
 StealthDB: an encrypted database from intel sgx with small trusted computing base: [https://github.com/cryptograph/stealthdb](https://github.com/cryptograph/stealthdb)
 
@@ -482,7 +491,8 @@ Enclave Protected Code Loader:
 A code confidentiality framework for Intel SGX:
 [https://github.com/utds3lab/sgxelide](https://github.com/utds3lab/sgxelide)
 
-Deflection (CAT-SGX): [https://github.com/StanPlatinum/cat-sgx](https://github.com/StanPlatinum/cat-sgx)
+Deflection (CAT-SGX): Practical and Efficient in-Enclave Verification of Privacy Compliance:
+[https://github.com/StanPlatinum/cat-sgx](https://github.com/StanPlatinum/cat-sgx)
 
 Behavior-based Program Partitioning for Security Enclaves:
 [https://github.com/anahitH/program-partitioning-for-security-enclaves](https://github.com/anahitH/program-partitioning-for-security-enclaves)
