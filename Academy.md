@@ -3,6 +3,8 @@
 
 ## Session 1: Towards a Better Enclave Architecture
 
+- Elasticlave: An Efficient Memory Model for Enclaves, USENIX Security 2022
+
 - Scalable Memory Protection in the Penglai Enclave, OSDI 2021
 
 - Confidential Serverless Made Efficient with Plug-In Enclaves, ISCA 2021
@@ -11,13 +13,7 @@
 
 - Nested Enclave: Supporting Fine-Grained Hierarchical Isolation with SGX, ISCA 2020
 
-- HybCache: Hybrid Side-Channel-Resilient Caches for Trusted Execution Environments, USENIX Security 2020
-
 - InvisiPage: Oblivious Demand Paging for Secure Enclaves, ISCA 2019
-
-- Scaling Intel® Software Guard Extensions Applications with Intel® SGX Card, HASP @ ISCA 2019
-
-- EA-PLRU: Enclave-Aware Cache Replacement, HASP @ ISCA 2019
 
 - TIMBER-V: Tag-Isolated Memory Bringing Fine-grained Enclaves to RISC-V, NDSS 2019
 
@@ -205,6 +201,8 @@
 
 ## Session 11: Enclave Protection and Attack Mitigations
 
+- HybCache: Hybrid Side-Channel-Resilient Caches for Trusted Execution Environments, USENIX Security 2020
+
 - BesFS: A POSIX Filesystem for Enclaves with a Mechanized Safety Proof, USENIX Security 2020
 
 - Autarky: Closing controlled channels with self-paging enclaves, EuroSys 2020
@@ -238,7 +236,9 @@
 ## Session 12: Miscellaneous
 
 
-### Secure Machine Learning
+### Machine Learning
+
+- DarKnight: An Accelerated Framework for Privacy and Integrity Preserving Deep Learning Using Trusted Hardware, MICRO 2021
 
 - Vessels: Efficient and Scalable Deep Learning Prediction on Trusted Processors, SoCC 2020
 
@@ -247,14 +247,16 @@
 - Slalom: Fast, Verifiable and Private Execution of Neural Networks in Trusted Hardware, ICLR 2019
 
 
-### Cloud Service Integrity
+### Cloud Integrity
 
 - LibSEAL: Revealing Service Integrity Violations Using Trusted Execution, EuroSys 2018
 
-- Scotch: Combining Intel SGX and System Management Mode to Monitor Cloud Resource Usage RAID 2017
+- Scotch: Combining Intel SGX and System Management Mode to Monitor Cloud Resource Usage, RAID 2017
 
 
-### Web Search Privacy
+### Search Privacy
+
+- Bringing Decentralized Search to Decentralized Services, OSDI 2021
 
 - CYCLOSA: Decentralizing Private Web Search Through SGX-Based Browser Extensions, ICDCS 2018
 
@@ -267,6 +269,12 @@
 
 - SGX-Bomb: Locking Down the Processor via Rowhammer Attack, SysTEX@SOSP 2017
 
+
+### Enclave Attestation
+
+- MAGE: Mutual Attestation for a Group of Enclaves without Trusted Third Parties, USENIX Security 2022
+
+- SGXLock: Towards Efficiently Establishing Mutual Distrust Between Host Application and Enclave for SGX, USENIX Security 2022
 
 
 ## Other Online Resources
