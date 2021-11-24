@@ -517,6 +517,10 @@ Fidelius: Protecting User Secrets from Compromised Browsers:
 
 ## Attacks
 
+SmashEx: Smashing SGX Enclaves Using Exceptions (CCS 2021)
+
+[https://jasonyu1996.github.io/SmashEx/](https://jasonyu1996.github.io/SmashEx/)
+
 Interface-Based Side Channel Attack Against Intel SGX (INFOCOM 2022)
 
 [https://github.com/sgx-interface-side-channel/sgx-interface-side-channel](https://github.com/sgx-interface-side-channel/sgx-interface-side-channel)

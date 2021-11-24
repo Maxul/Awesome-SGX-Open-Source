@@ -159,6 +159,8 @@
 
 ## Session 10: Enclave Vulnerabilities and Side Channels
 
+- SmashEx: Smashing SGX Enclaves Using Exceptions, CCS 2021
+
 - Frontal Attack: Leaking Control-Flow in SGX via the CPU Frontend, USENIX Security 2021
 
 - VoltPillager: Hardware-based fault injection attacks against Intel SGX Enclaves using the SVID voltage scaling interface, USENIX Security 2021
