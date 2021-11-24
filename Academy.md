@@ -43,7 +43,7 @@
 
 
 
-## Session 3: Enclave-based Secure Systems
+## Session 3: Enclave-based Secure (Lib)OS
 
 - Occlum: Secure and Efficient Multitasking Inside a Single Enclave of Intel SGX, ASPLOS 2020
 
@@ -78,6 +78,8 @@
 
 
 ## Session 5: Privacy-Preserving Database and Analysis
+
+- EncDBDB: Searchable Encrypted, Fast, Compressed, In-Memory Database Using Enclaves, DSN 2021
 
 - Building Enclave-Native Storage Engines for Practical Encrypted Databases, VLDB 2021
 
@@ -135,7 +137,23 @@
 
 
 
-## Session 8: Performance Still Matters
+## Session 8: ML Training and Inference
+
+- DarKnight: An Accelerated Framework for Privacy and Integrity Preserving Deep Learning Using Trusted Hardware, MICRO 2021
+
+- Citadel: Protecting Data Privacy and Model Confidentiality for Collaborative Learning, SoCC 2021
+
+- Lasagna: Accelerating Secure Deep Learning Inference in SGX-enabled Edge Cloud, SoCC 2021
+
+- Vessels: Efficient and Scalable Deep Learning Prediction on Trusted Processors, SoCC 2020
+
+- Occlumency: Privacy-preserving Remote Deep-learning Inference Using SGX, MobiSys 2019
+
+- Slalom: Fast, Verifiable and Private Execution of Neural Networks in Trusted Hardware, ICLR 2019
+
+
+
+## Session 9: Performance Still Matters
 
 - VAULT: Reducing Paging Overheads in Intel SGX with Efficient Integrity Verification Structures, ASPLOS 2018
 
@@ -144,16 +162,6 @@
 - Eleos: ExitLess Operating System Services for Intel SGX Enclaves, EuroSys 2017
 
 - Regain Lost Cycles with HotCalls: A Fast Interface for Intel SGX Secure Enclaves, ISCA 2017
-
-
-
-## Session 9: Trusted User I/O Path
-
-- Fidelius: Protecting User Secrets from Compromised Browsers, IEEE S&P 2019
-
-- BASTION-SGX: Bluetooth and Architectural Support for Trusted I/O on SGX, HASP @ ISCA 2018
-
-- SGXIO: Generic Trusted I/O Path for Intel SGX, CODASPY 2017
 
 
 
@@ -203,6 +211,10 @@
 
 ## Session 11: Enclave Protection and Attack Mitigations
 
+- Repurposing Segmentation as a Practical LVI-NULL Mitigation in SGX, USENIX Security 2022
+
+- CHANCEL: Efficient Multi-client Isolation Under Adversarial Programs, NDSS 2021
+
 - HybCache: Hybrid Side-Channel-Resilient Caches for Trusted Execution Environments, USENIX Security 2020
 
 - BesFS: A POSIX Filesystem for Enclaves with a Mechanized Safety Proof, USENIX Security 2020
@@ -237,23 +249,13 @@
 
 ## Session 12: Miscellaneous
 
+### Enclave Attestation
 
-### Machine Learning
+- MAGE: Mutual Attestation for a Group of Enclaves without Trusted Third Parties, USENIX Security 2022
 
-- DarKnight: An Accelerated Framework for Privacy and Integrity Preserving Deep Learning Using Trusted Hardware, MICRO 2021
+- SGXLock: Towards Efficiently Establishing Mutual Distrust Between Host Application and Enclave for SGX, USENIX Security 2022
 
-- Vessels: Efficient and Scalable Deep Learning Prediction on Trusted Processors, SoCC 2020
-
-- Occlumency: Privacy-preserving Remote Deep-learning Inference Using SGX, MobiSys 2019
-
-- Slalom: Fast, Verifiable and Private Execution of Neural Networks in Trusted Hardware, ICLR 2019
-
-
-### Cloud Integrity
-
-- LibSEAL: Revealing Service Integrity Violations Using Trusted Execution, EuroSys 2018
-
-- Scotch: Combining Intel SGX and System Management Mode to Monitor Cloud Resource Usage, RAID 2017
+- Practical and Efficient in-Enclave Verification of Privacy Compliance, DSN 2021
 
 
 ### Search Privacy
@@ -265,18 +267,28 @@
 - X-Search: Revisiting Private Web Search Using Intel SGX, Middleware 2017
 
 
+### Trusted User I/O Path
+
+- Fidelius: Protecting User Secrets from Compromised Browsers, IEEE S&P 2019
+
+- BASTION-SGX: Bluetooth and Architectural Support for Trusted I/O on SGX, HASP @ ISCA 2018
+
+- SGXIO: Generic Trusted I/O Path for Intel SGX, CODASPY 2017
+
+
+### Cloud Integrity
+
+- LibSEAL: Revealing Service Integrity Violations Using Trusted Execution, EuroSys 2018
+
+- Scotch: Combining Intel SGX and System Management Mode to Monitor Cloud Resource Usage, RAID 2017
+
+
 ### Enclave Malware
 
 - Practical Enclave Malware with Intel SGX, DIMVA 2019
 
 - SGX-Bomb: Locking Down the Processor via Rowhammer Attack, SysTEX@SOSP 2017
 
-
-### Enclave Attestation
-
-- MAGE: Mutual Attestation for a Group of Enclaves without Trusted Third Parties, USENIX Security 2022
-
-- SGXLock: Towards Efficiently Establishing Mutual Distrust Between Host Application and Enclave for SGX, USENIX Security 2022
 
 
 ## Other Online Resources

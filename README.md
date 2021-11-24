@@ -452,6 +452,9 @@ Actor model for better Enclave IPC: [https://github.com/ibr-ds/EActors](https://
 
 ## Defenses
 
+Repurposing Segmentation as a Practical LVI-NULL Mitigation in SGX (USENIX Security 2022):
+[https://github.com/IAIK/LVI-NULLify](https://github.com/IAIK/LVI-NULLify)
+
 SGXRay: Automated Vulnerability Finding in SGX Enclave Applications:
 [https://github.com/baidu/sgxray](https://github.com/baidu/sgxray)
 
@@ -519,7 +522,7 @@ Fidelius: Protecting User Secrets from Compromised Browsers:
 
 SmashEx: Smashing SGX Enclaves Using Exceptions (CCS 2021)
 
-[https://jasonyu1996.github.io/SmashEx/](https://jasonyu1996.github.io/SmashEx/)
+[https://github.com/cimcs/poc-exploits-of-smashex](https://github.com/cimcs/poc-exploits-of-smashex)
 
 Interface-Based Side Channel Attack Against Intel SGX (INFOCOM 2022)
 
