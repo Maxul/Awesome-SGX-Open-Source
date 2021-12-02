@@ -105,6 +105,8 @@
 
 ## Session 6: Secure Network Functions
 
+- Don't Yank My Chain: Auditable NF Service Chaining, NSDI 2021
+
 - Achieving Keyless CDNs with Conclaves, USENIX Security 2020
 
 - LightBox: Full-stack Protected Stateful Middlebox at Lightning Speed, CCS 2019

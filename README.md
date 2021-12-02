@@ -320,13 +320,19 @@ SGX + CDN (USENIX Security 2020):
 SGX + Snort Intrusion Detection System:
 [https://github.com/cloud-security-research/sgx-ids](https://github.com/cloud-security-research/sgx-ids)
 
-SGX + Tor:
+SafeBricks: Shielding Network Functions in the Cloud (NSDI 2018):
+[https://github.com/YangZhou1997/SafeBricks](https://github.com/YangZhou1997/SafeBricks)
+
+SGX + Tor (NSDI 2017):
 [https://github.com/kaist-ina/SGX-Tor](https://github.com/kaist-ina/SGX-Tor)
 
 SGX + Web Crawler:
 [https://github.com/ShengHow95/simple-selenium-sgx-crawler](https://github.com/ShengHow95/simple-selenium-sgx-crawler)
 
 ## Data Analytics
+
+Ryoan: A distributed sandbox for untrusted computation on secret data:
+[https://github.com/ut-osa/ryoan](https://github.com/ut-osa/ryoan)
 
 MC2: A Platform for Secure Analytics and Machine Learning:
 [https://github.com/mc2-project/mc2](https://github.com/mc2-project/mc2)
