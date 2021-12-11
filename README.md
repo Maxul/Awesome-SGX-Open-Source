@@ -27,7 +27,7 @@ Fortanix Enclave Development Platform: [https://github.com/fortanix/rust-sgx](ht
 
 Scontain: [https://github.com/scontain](https://github.com/scontain)
 
-Marblerun: [https://github.com/edgelesssys/marblerun](https://github.com/edgelesssys/marblerun)
+MarbleRun: [https://github.com/edgelesssys/marblerun](https://github.com/edgelesssys/marblerun)
 
 ### Library OS for quickly deploying (almost) unmodified applications
 
@@ -58,6 +58,12 @@ Edgeless RT: SDK for TEEs/SGX based on Open Enclave with Go support:
 ## Remote Attestation and Secure Channel
 
 ### Remote Attestation (RA)
+
+Microsoft Azure Attestation service (MAA) for Attesting Trusted Execution Environments (TEEs):
+[https://github.com/Azure-Samples/microsoft-azure-attestation](https://github.com/Azure-Samples/microsoft-azure-attestation)
+
+Linux SGX remote attestation example including the communication with IAS:
+[https://github.com/svartkanin/linux-sgx-remoteattestation](https://github.com/svartkanin/linux-sgx-remoteattestation)
 
 OpenID Connect Via Enclave:
 [https://github.com/DanielShteinbok/spring-oidc-conclave-authentication](https://github.com/DanielShteinbok/spring-oidc-conclave-authentication)
@@ -112,6 +118,8 @@ Rust:
 
 WebAssembly:
 
+- Wasm interpreter in Rust: [https://github.com/mesalock-linux/wasmi-sgx](https://github.com/mesalock-linux/wasmi-sgx)
+
 - Twine: An Embedded Trusted Runtime for WebAssembly: [https://github.com/jamesmenetrey/unine-twine](https://github.com/jamesmenetrey/unine-twine)
 
 - WebAssembly Micro Runtime (WAMR): [https://github.com/bytecodealliance/wasm-micro-runtime](https://github.com/bytecodealliance/wasm-micro-runtime)
@@ -146,6 +154,12 @@ C++: [https://github.com/intel/linux-sgx](https://github.com/intel/linux-sgx)
 PSec: Programming Language for Creating Secure Distributed Systems leveraging Intel SGX: [https://github.com/ShivKushwah/PSec](https://github.com/ShivKushwah/PSec)
 
 ## Blockchain
+
+Automata Network: Web 3.0 Realized with Tracless Privacy and Seamless Compatibility:
+[https://github.com/automata-network/automata](https://github.com/automata-network/automata)
+
+Phala Blockchain: a blockchain-based confidential computing cloud:
+[https://github.com/Phala-Network/phala-blockchain](https://github.com/Phala-Network/phala-blockchain)
 
 lockbox: Key Share Management in SGX Secure Enclaves:
 [https://github.com/commerceblock/lockbox](https://github.com/commerceblock/lockbox)
@@ -184,6 +198,9 @@ Ledger BOLOS Enclave:
 [https://github.com/LedgerHQ/bolos-enclave](https://github.com/LedgerHQ/bolos-enclave)
 
 ## Machine Learning
+
+Enclave Hardening for Private ML (GBDT Learning + Differential Privacy):
+[https://github.com/loretanr/dp-gbdt](https://github.com/loretanr/dp-gbdt)
 
 Tensorflow Lite For Intel SGX:
 [https://github.com/Jumpst3r/tensorflow-lite-sgx](https://github.com/Jumpst3r/tensorflow-lite-sgx)
@@ -317,6 +334,9 @@ SENG: SGX-Enforced Network Gateway (USENIX Security 2020):
 SGX + CDN (USENIX Security 2020):
 [https://github.com/smherwig/phoenix](https://github.com/smherwig/phoenix)
 
+ConsenSGX: Scaling Anonymous Communications Networks with Trusted Execution Environments (PETS 2019):
+[https://github.com/sshsshy/ConsenSGX](https://github.com/sshsshy/ConsenSGX)
+
 SGX + Snort Intrusion Detection System:
 [https://github.com/cloud-security-research/sgx-ids](https://github.com/cloud-security-research/sgx-ids)
 
@@ -445,6 +465,9 @@ LMbench benchmark: [https://github.com/vsecurity-research/sgx-bench](https://git
 Linux SGX benchmarks (on encrypted buffer transfer): [https://github.com/eliadt/sgx_benchmarks](https://github.com/eliadt/sgx_benchmarks)
 
 ## Performance
+
+rkt-io Library OS for running Linux applications inside of Intel SGX enclaves:
+[https://github.com/Mic92/rkt-io](https://github.com/Mic92/rkt-io)
 
 Flume: a blazingly fast multi-producer, multi-consumer channel: [https://github.com/occlum/flume](https://github.com/occlum/flume)
 
