@@ -199,6 +199,9 @@ Ledger BOLOS Enclave:
 
 ## Machine Learning
 
+Confidential Computing Zoo provides confidential computing solutions based on Intel SGX, TDX, HEXL, etc. technologies:
+[https://github.com/intel/confidential-computing-zoo](https://github.com/intel/confidential-computing-zoo)
+
 Enclave Hardening for Private ML (GBDT Learning + Differential Privacy):
 [https://github.com/loretanr/dp-gbdt](https://github.com/loretanr/dp-gbdt)
 

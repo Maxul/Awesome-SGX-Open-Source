@@ -26,10 +26,14 @@ Given the above comparison, I do not see any wins for SGX. TDX supports remote a
 A3: Probably not. For two reasons.
 
 - As long as Intel still reuses SGX to assist the remote attestation of TDX [2].
-- SGX is very useful for small applications such as key management services (KMS).
+- SGX is pretty useful for micro-services such as key management services (KMS).
 
 [1] https://edc.intel.com/content/www/us/en/design/ipla/software-development-platforms/client/platforms/alder-lake-desktop/12th-generation-intel-core-processors-datasheet-volume-1-of-2/001/operating-systems-support/
+
 [2] https://www.intel.com/content/www/us/en/developer/articles/technical/intel-trust-domain-extensions.html
+
 [3] http://unikernel.org/
+
 [4] https://github.com/gramineproject/gramine
+
 [5] https://github.com/occlum/occlum
