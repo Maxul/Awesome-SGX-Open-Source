@@ -155,6 +155,9 @@ PSec: Programming Language for Creating Secure Distributed Systems leveraging In
 
 ## Blockchain
 
+Ternoa's Blockchain to support the secure creation and transfer of Capsules:
+[https://github.com/capsule-corp-ternoa/chain](https://github.com/capsule-corp-ternoa/chain)
+
 Automata Network: Web 3.0 Realized with Tracless Privacy and Seamless Compatibility:
 [https://github.com/automata-network/automata](https://github.com/automata-network/automata)
 

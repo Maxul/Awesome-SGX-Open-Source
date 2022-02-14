@@ -23,7 +23,7 @@ Given the above comparison, I do not see any wins for SGX. TDX supports remote a
 
 #### Q3: Will Intel SGX be finally replaced by Intel TDX?
 
-A3: Probably not. For two reasons.
+A3: Probably not. For two reasons:
 
 - As long as Intel still reuses SGX to assist the remote attestation of TDX [3].
 - SGX is pretty useful for micro-services such as key management services (KMS).
