@@ -214,8 +214,8 @@ Tensorflow Lite For Intel SGX:
 An trusted and lite version of OpenCV based on Intel SGX:
 [https://github.com/xymeng16/opencv_lite_sgx](https://github.com/xymeng16/opencv_lite_sgx)
 
-Confidential ONNX Inference Server:
-[https://github.com/microsoft/onnx-server-openenclave](https://github.com/microsoft/onnx-server-openenclave)
+Open Enclave port of the ONNX runtime for confidential inferencing on Azure Confidential Computing:
+[https://github.com/microsoft/onnxruntime-openenclave](https://github.com/microsoft/onnxruntime-openenclave)
 
 Secure Aggregation for Federated Learning:
 [https://github.com/mc2-project/secure-aggregation](https://github.com/mc2-project/secure-aggregation)
@@ -255,7 +255,7 @@ SGX-Darknet: SGX compatible ML library:
 A trusted libjpeg on Intel SGX:
 [https://github.com/xymeng16/libtjpeg](https://github.com/xymeng16/libtjpeg)
 
-ZLIB Data Compression Library inside SGX Enclaves:
+Zlib Data Compression Library inside SGX Enclaves:
 [https://github.com/ffosilva/zlib-sgx](https://github.com/ffosilva/zlib-sgx)
 
 Enclaved-FE: enable applications using Fentec Functional Encryption libraries ([CiFEr](https://github.com/fentec-project/CiFEr), [GoFE](https://github.com/fentec-project/gofe)) in Intel SGX:
@@ -266,6 +266,9 @@ Libsodium AES-NI based AES-256-GCM:
 
 ## Applications
 
+Loading SGX enclave from DLL on Windows 10 64-bit:
+[https://github.com/nadiaivc/Load-SGX-enclave-from-DLL](https://github.com/nadiaivc/Load-SGX-enclave-from-DLL)
+
 SRX – SGX Recovery Extension:
 [https://github.com/andrade/srx](https://github.com/andrade/srx)
 
@@ -274,9 +277,6 @@ Hidden anonymization with SGX-based mixes:
 
 Black-Scholes-Merton computation in Intel SGX:
 [https://github.com/sbellem/sgx-bsm](https://github.com/sbellem/sgx-bsm)
-
-Avocado: a secure distributed in-memory key-value store:
-[https://github.com/mbailleu/avocado](https://github.com/mbailleu/avocado)
 
 Accelerating Encrypted Deduplication via SGX:
 [https://github.com/jingwei87/sgxdedup](https://github.com/jingwei87/sgxdedup)
@@ -322,6 +322,9 @@ Securing Storage Encryption:
 
 ## Network
 
+Nginx-SGX: SGX-ready Nginx open source server:
+[https://github.com/enclaive/enclaive-docker-nginx-sgx](https://github.com/enclaive/enclaive-docker-nginx-sgx)
+
 Hidden anonymization with SGX-based mix-networks:
 [https://github.com/oEscal/sgx-based-mix-networks](https://github.com/oEscal/sgx-based-mix-networks)
 
@@ -357,14 +360,14 @@ SGX + Web Crawler:
 
 ## Data Analytics
 
-Ryoan: A distributed sandbox for untrusted computation on secret data:
-[https://github.com/ut-osa/ryoan](https://github.com/ut-osa/ryoan)
-
 MC2: A Platform for Secure Analytics and Machine Learning:
 [https://github.com/mc2-project/mc2](https://github.com/mc2-project/mc2)
 
-Opaque: An encrypted data analytics platform:
+Opaque: An encrypted data analytics platform (NSDI 2017):
 [https://github.com/mc2-project/opaque-sql](https://github.com/mc2-project/opaque-sql)
+
+Ryoan: A distributed sandbox for untrusted computation on secret data (OSDI 2016):
+[https://github.com/ut-osa/ryoan](https://github.com/ut-osa/ryoan)
 
 Confidential Analytics on Azure SGX VM's with Apache Spark and SCONE:
 [https://github.com/mdrakiburrahman/sgx-pyspark-sql-demo](https://github.com/mdrakiburrahman/sgx-pyspark-sql-demo)
@@ -374,16 +377,16 @@ BiORAM-SGX: A Practical Privacy-Preserving Data Analysis for Personal Genome by 
 
 ## Private Search
 
-Snoopy: Surpassing the Scalability Bottleneck of Oblivious Storage:
+Snoopy: Surpassing the Scalability Bottleneck of Oblivious Storage (SOSP 2021):
 [https://github.com/ucbrise/snoopy](https://github.com/ucbrise/snoopy)
 
 mc-oblivious: Oblivious RAM inside of Intel SGX enclaves:
 [https://github.com/mobilecoinofficial/mc-oblivious](https://github.com/mobilecoinofficial/mc-oblivious)
 
-ZeroTrace: Oblivious Memory Primitives from Intel SGX:
+ZeroTrace: Oblivious Memory Primitives from Intel SGX (NDSS 2018):
 [https://github.com/sshsshy/ZeroTrace](https://github.com/sshsshy/ZeroTrace)
 
-X-Search: Revisiting Private Web Search using Intel SGX:
+X-Search: Revisiting Private Web Search using Intel SGX (Middleware 2017):
 [https://github.com/Sand-jrd/SGX-Search](https://github.com/Sand-jrd/SGX-Search)
 
 Private Information Retrieval:
@@ -415,9 +418,13 @@ A server with SGX enclave that stores private keys and performs crypto operation
 Protecting Web Passwords using Trusted Execution Environments:
 [https://github.com/SafeKeeper](https://github.com/SafeKeeper)
 
-## Encrypted Database
+## Encrypted Database and Key-value Store
 
-StealthDB: an encrypted database from intel sgx with small trusted computing base: [https://github.com/cryptograph/stealthdb](https://github.com/cryptograph/stealthdb)
+Avocado: a secure distributed in-memory key-value store (USENIX ATC 2021):
+[https://github.com/mbailleu/avocado](https://github.com/mbailleu/avocado)
+
+StealthDB: an encrypted database from intel sgx with small trusted computing base (PETS 2019):
+[https://github.com/cryptograph/stealthdb](https://github.com/cryptograph/stealthdb)
 
 Database intended for Blockchain: [https://github.com/kaimast/credb](https://github.com/kaimast/credb)
 
@@ -426,9 +433,11 @@ Protect in-memory sqlite, not .db file encryption: [https://github.com/yerzhan7/
 STANlite: an in-memory database engine for SGX-enabled secure data processing:
 [https://github.com/ibr-ds/STANlite](https://github.com/ibr-ds/STANlite)
 
-Protect Audit-Log via Sqlite: [https://github.com/lsds/LibSEAL](https://github.com/lsds/LibSEAL)
+Trusted in-memory key-value stores (EuroSys 2019):
+[https://github.com/cocoppang/ShieldStore](https://github.com/cocoppang/ShieldStore)
 
-Trusted in-memory key-value stores: [https://github.com/cocoppang/ShieldStore](https://github.com/cocoppang/ShieldStore)
+Protect Audit-Log via Sqlite (EuroSys 2018):
+[https://github.com/lsds/LibSEAL](https://github.com/lsds/LibSEAL)
 
 ## Distributed Systems
 
@@ -456,9 +465,9 @@ Raft: [https://github.com/LuminousXLB/EnclaveRaft](https://github.com/LuminousXL
 
 ## Profiling
 
-TEEMon: A continuous performance monitoring framework for TEEs: [https://github.com/rcrane/TEEMon](https://github.com/rcrane/TEEMon)
+TEEMon: A continuous performance monitoring framework for TEEs (Middleware 2020): [https://github.com/rcrane/TEEMon](https://github.com/rcrane/TEEMon)
 
-Utilities for monitoring SGX driver statistics: [https://github.com/fortanix/sgxtop](https://github.com/fortanix/sgxtop)
+sgxtop and sgxstat utilities for monitoring SGX driver statistics: [https://github.com/fortanix/sgxtop](https://github.com/fortanix/sgxtop)
 
 Report statistics of E/Ocalls, EPC Paging: [https://github.com/ibr-ds/sgx-perf](https://github.com/ibr-ds/sgx-perf)
 
@@ -472,7 +481,7 @@ Linux SGX benchmarks (on encrypted buffer transfer): [https://github.com/eliadt/
 
 ## Performance
 
-rkt-io Library OS for running Linux applications inside of Intel SGX enclaves:
+rkt-io Library OS for running Linux applications inside of Intel SGX enclaves (EuroSys 2021):
 [https://github.com/Mic92/rkt-io](https://github.com/Mic92/rkt-io)
 
 Flume: a blazingly fast multi-producer, multi-consumer channel: [https://github.com/occlum/flume](https://github.com/occlum/flume)
@@ -644,3 +653,6 @@ MultiZone Security TEE for RISC-V processors:
 
 AWS Nitro Enclaves: CPU and memory isolation for Amazon EC2 instances using Nitro Hypervisor:
 [https://github.com/aws/aws-nitro-enclaves-cli](https://github.com/aws/aws-nitro-enclaves-cli)
+
+A Lightweight Trusted Execution Environment for Secure IoT Devices:
+[https://github.com/sancus-tee](https://github.com/sancus-tee)
