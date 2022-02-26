@@ -202,6 +202,9 @@ Ledger BOLOS Enclave:
 
 ## Machine Learning
 
+BlindAI: Fast, accessible and privacy friendly AI deployment:
+[https://github.com/mithril-security/blindai](https://github.com/mithril-security/blindai)
+
 Confidential Computing Zoo provides confidential computing solutions based on Intel SGX, TDX, HEXL, etc. technologies:
 [https://github.com/intel/confidential-computing-zoo](https://github.com/intel/confidential-computing-zoo)
 
