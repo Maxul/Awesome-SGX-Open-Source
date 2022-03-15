@@ -3,6 +3,8 @@
 
 ## Session 1: Towards a Better Enclave Architecture
 
+- ShEF: Shielded Enclaves for Cloud FPGAs, ASPLOS 2022
+
 - Elasticlave: An Efficient Memory Model for Enclaves, USENIX Security 2022
 
 - Scalable Memory Protection in the Penglai Enclave, OSDI 2021

@@ -155,6 +155,9 @@ PSec: Programming Language for Creating Secure Distributed Systems leveraging In
 
 ## Blockchain
 
+Integritee off-chain worker and sidechain validateer:
+[https://github.com/integritee-network/worker](https://github.com/integritee-network/worker)
+
 Ternoa's Blockchain to support the secure creation and transfer of Capsules:
 [https://github.com/capsule-corp-ternoa/chain](https://github.com/capsule-corp-ternoa/chain)
 
@@ -201,6 +204,9 @@ Ledger BOLOS Enclave:
 [https://github.com/LedgerHQ/bolos-enclave](https://github.com/LedgerHQ/bolos-enclave)
 
 ## Machine Learning
+
+Pytorch with SGX solution:
+[https://github.com/intel/sgx-pytorch](https://github.com/intel/sgx-pytorch)
 
 BlindAI: Fast, accessible and privacy friendly AI deployment:
 [https://github.com/mithril-security/blindai](https://github.com/mithril-security/blindai)
@@ -407,7 +413,16 @@ A Secure, Efficient and Scalable Query Framework for Outsourcing Data:
 BISEN: Boolean Isolated Searchable Encryption:
 [https://github.com/bernymac/BISEN](https://github.com/bernymac/BISEN)
 
-## Private Key/Password Management
+## Private Key and Password Management
+
+eHSM (SGX Enclave Based Hardware Security Module):
+[https://github.com/intel/ehsm](https://github.com/intel/ehsm)
+
+Trusted Certificate Service for Kubernetes Platform:
+[https://github.com/intel/trusted-certificate-issuer](https://github.com/intel/trusted-certificate-issuer)
+
+Password manager supporting the login where the credentials are stored securely in an enclave:
+[https://github.com/enclaive/sgx-login](https://github.com/enclaive/sgx-login)
 
 Key-Manager for Faasm (a high-performance stateful serverless runtime):
 [https://github.com/faasm/keymanager](https://github.com/faasm/keymanager)
