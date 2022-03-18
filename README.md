@@ -457,6 +457,9 @@ Trusted in-memory key-value stores (EuroSys 2019):
 Protect Audit-Log via Sqlite (EuroSys 2018):
 [https://github.com/lsds/LibSEAL](https://github.com/lsds/LibSEAL)
 
+EdgelessDB: a MySQL-compatible database running entirely inside SGX enclaves:
+[https://github.com/edgelesssys/edgelessdb](https://github.com/edgelesssys/edgelessdb)
+
 ## Distributed Systems
 
 SecDATAVIEW: A Secure Big Data Workflow Management System for Heterogeneous Computing Environments:
