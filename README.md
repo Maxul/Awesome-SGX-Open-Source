@@ -261,6 +261,9 @@ SGX-Darknet: SGX compatible ML library:
 
 ## Common Libraries
 
+VRF-enhanced random number source running inside enclaves:
+[https://github.com/smartbch/enclave-vrf](https://github.com/smartbch/enclave-vrf)
+
 A trusted libjpeg on Intel SGX:
 [https://github.com/xymeng16/libtjpeg](https://github.com/xymeng16/libtjpeg)
 
@@ -496,6 +499,9 @@ nbench benchmark: [https://github.com/utds3lab/sgx-nbench](https://github.com/ut
 LMbench benchmark: [https://github.com/vsecurity-research/sgx-bench](https://github.com/vsecurity-research/sgx-bench)
 
 Linux SGX benchmarks (on encrypted buffer transfer): [https://github.com/eliadt/sgx_benchmarks](https://github.com/eliadt/sgx_benchmarks)
+
+Simple memory benchmarking of Intel SGX:
+[https://github.com/lsds/sgx-membench](https://github.com/lsds/sgx-membench)
 
 ## Performance
 

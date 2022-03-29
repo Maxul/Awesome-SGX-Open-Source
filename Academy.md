@@ -262,6 +262,15 @@
 - Practical and Efficient in-Enclave Verification of Privacy Compliance, DSN 2021
 
 
+### Heterogeneous Computing
+
+- vSGX: Virtualizing SGX Enclaves on AMD SEV, IEEE S&P 2022
+
+- Secure and Policy-CompliantQuery Processing on Heterogeneous Computational Storage Architectures, SIGMOD 2022
+
+- Enabling Rack-scale Confidential Computing using Heterogeneous Trusted Execution Environment, IEEE S&P 2020
+
+
 ### Search Privacy
 
 - Bringing Decentralized Search to Decentralized Services, OSDI 2021
