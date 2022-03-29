@@ -7,6 +7,8 @@
 
 - Elasticlave: An Efficient Memory Model for Enclaves, USENIX Security 2022
 
+- Cryptographic Capability Computing, MICRO 2021
+
 - Scalable Memory Protection in the Penglai Enclave, OSDI 2021
 
 - Confidential Serverless Made Efficient with Plug-In Enclaves, ISCA 2021
