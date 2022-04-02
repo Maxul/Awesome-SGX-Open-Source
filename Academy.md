@@ -1,6 +1,26 @@
 # Enclave Academy (High Ranking Conferences)
 
 
+## Session 0: Heterogeneous Trusted Execution
+
+- TNPU: Supporting Trusted Execution with Tree-less Integrity Protection for Neural Processing Unit, HPCA 2022
+
+- SecNDP: Secure Near-Data Processing with Untrusted Memory, HPCA 2022
+
+- Adaptive Security Support for Heterogeneous Memory on GPUs, HPCA 2022
+
+- Secure and Policy-CompliantQuery Processing on Heterogeneous Computational Storage Architectures, SIGMOD 2022
+
+- IceClave: A Trusted Execution Environment for In-Storage Computing, MICRO 2021
+
+- Enabling Rack-scale Confidential Computing using Heterogeneous Trusted Execution Environment, IEEE S&P 2020
+
+- Heterogeneous Isolated Execution for Commodity GPUs, ASPLOS 2019
+
+- Graviton: Trusted Execution Environments on GPUs, OSDI 2018
+
+
+
 ## Session 1: Towards a Better Enclave Architecture
 
 - ShEF: Shielded Enclaves for Cloud FPGAs, ASPLOS 2022
@@ -267,10 +287,6 @@
 ### Heterogeneous Computing
 
 - vSGX: Virtualizing SGX Enclaves on AMD SEV, IEEE S&P 2022
-
-- Secure and Policy-CompliantQuery Processing on Heterogeneous Computational Storage Architectures, SIGMOD 2022
-
-- Enabling Rack-scale Confidential Computing using Heterogeneous Trusted Execution Environment, IEEE S&P 2020
 
 
 ### Search Privacy
