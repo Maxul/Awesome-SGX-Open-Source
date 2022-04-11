@@ -518,6 +518,11 @@ SGXTuner: a distributed tuning system for enclaves: [https://github.com/dzobbe/s
 
 Actor model for better Enclave IPC: [https://github.com/ibr-ds/EActors](https://github.com/ibr-ds/EActors)
 
+## Compatibility
+
+vSGX: Virtualizing SGX Enclaves on AMD SEV:
+[https://github.com/OSUSecLab/vSGX](https://github.com/OSUSecLab/vSGX)
+
 ## Defenses
 
 Repurposing Segmentation as a Practical LVI-NULL Mitigation in SGX (USENIX Security 2022):
