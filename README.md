@@ -685,3 +685,14 @@ AWS Nitro Enclaves: CPU and memory isolation for Amazon EC2 instances using Nitr
 
 A Lightweight Trusted Execution Environment for Secure IoT Devices:
 [https://github.com/sancus-tee](https://github.com/sancus-tee)
+
+## Other TEE
+
+AMD SEV-SNP:
+[https://github.com/AMDESE/sev-guest](https://github.com/AMDESE/sev-guest)
+
+AMD SEV-SNP measurement:
+[https://github.com/IBM/sev-snp-measure](https://github.com/IBM/sev-snp-measure)
+
+Intel TDX:
+[https://github.com/intel/tdx-tools](https://github.com/intel/tdx-tools)
