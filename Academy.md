@@ -1,4 +1,6 @@
-# Enclave Academy (High Ranking Conferences)
+# Academy Zoo (High Ranking Conferences)
+
+[toc]
 
 
 ## Session 0: Heterogeneous Trusted Execution
@@ -309,6 +311,8 @@
 
 ### Cloud Integrity
 
+- SMILE: Secure Memory Introspection for Live Enclave, IEEE S&P 2022
+
 - LibSEAL: Revealing Service Integrity Violations Using Trusted Execution, EuroSys 2018
 
 - Scotch: Combining Intel SGX and System Management Mode to Monitor Cloud Resource Usage, RAID 2017
@@ -323,5 +327,6 @@
 
 
 ## Other Online Resources
+
 * [A collection of SGX academic researches categorized by Intel](https://software.intel.com/en-us/sgx/documentation/academic-research)
 * [A collection of SGX papers from Valerio Schiavoni](https://github.com/vschiavoni/sgx-papers)
