@@ -1,6 +1,25 @@
 # Academy Zoo (High Ranking Conferences)
 
-[toc]
+- [Session 0: Heterogeneous Trusted Execution](#session-0-heterogeneous-trusted-execution)
+- [Session 1: Towards a Better Enclave Architecture](#session-1-towards-a-better-enclave-architecture)
+- [Session 2: Automation Toolchain and Language Runtime](#session-2-automation-toolchain-and-language-runtime)
+- [Session 3: Enclave-based Secure (Lib)OS](#session-3-enclave-based-secure-libos)
+- [Session 4: Blockchain and Online Payment System](#session-4-blockchain-and-online-payment-system)
+- [Session 5: Privacy-Preserving Database and Analysis](#session-5-privacy-preserving-database-and-analysis)
+- [Session 6: Secure Network Functions](#session-6-secure-network-functions)
+- [Session 7: Storage, File System and Key-Value Store](#session-7-storage-file-system-and-key-value-store)
+- [Session 8: ML Training and Inference](#session-8-ml-training-and-inference)
+- [Session 9: Performance Still Matters](#session-9-performance-still-matters)
+- [Session 10: Enclave Vulnerabilities and Side Channels](#session-10-enclave-vulnerabilities-and-side-channels)
+- [Session 11: Enclave Protection and Attack Mitigations](#session-11-enclave-protection-and-attack-mitigations)
+- [Session 12: Miscellaneous](#session-12-miscellaneous)
+  - [Enclave Attestation](#enclave-attestation)
+  - [Heterogeneous Computing](#heterogeneous-computing)
+  - [Search Privacy](#search-privacy)
+  - [Trusted User I/O Path](#trusted-user-io-path)
+  - [Cloud Integrity](#cloud-integrity)
+  - [Enclave Malware](#enclave-malware)
+- [Other Online Resources](#other-online-resources)
 
 
 ## Session 0: Heterogeneous Trusted Execution

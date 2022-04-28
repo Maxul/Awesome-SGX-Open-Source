@@ -4,7 +4,31 @@
 
 Academic Conference Collections: [Link](https://github.com/Maxul/Awesome-SGX-Open-Source/blob/master/Academy.md)
 
-[toc]
+- [Runtime Framework](#runtime-framework)
+  - [Industrial Leading Projects](#industrial-leading-projects)
+  - [Library OSes and SDKs](#library-oses-and-sdks)
+- [Remote Attestation (RA) and Secure Channels](#remote-attestation-ra-and-secure-channels)
+- [Crypto](#crypto)
+- [Language Frameworks](#language-frameworks)
+- [Blockchains](#blockchains)
+- [Machine Learning](#machine-learning)
+- [Common Libraries](#common-libraries)
+- [Applications](#applications)
+- [Network](#network)
+- [Data Analytics](#data-analytics)
+- [Private Search](#private-search)
+- [Key and Password Management](#key-and-password-management)
+- [Encrypted Databases and Key-value Stores](#encrypted-databases-and-key-value-stores)
+- [Distributed Systems](#distributed-systems)
+- [Profiling](#profiling)
+- [Performance](#performance)
+- [Compatibility](#compatibility)
+- [Defenses](#defenses)
+  - [Memory Protection](#memory-protection)
+  - [I/O Protection](#io-protection)
+- [Attacks](#attacks)
+- [Beyond SGX Enclave Projects](#beyond-sgx-enclave-projects)
+- [Other TEEs](#other-tees)
 
 ## Runtime Framework
 
