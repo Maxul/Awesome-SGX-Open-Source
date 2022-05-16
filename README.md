@@ -208,6 +208,9 @@ PSec: Programming Language for Creating Secure Distributed Systems leveraging In
 
 ## Blockchains
 
+BigDL Privacy Preserving Machine Learning:
+[https://github.com/intel-analytics/BigDL](https://github.com/intel-analytics/BigDL)
+
 Integritee off-chain worker and sidechain validateer:
 [https://github.com/integritee-network/worker](https://github.com/integritee-network/worker)
 
@@ -448,6 +451,9 @@ BiORAM-SGX: A Practical Privacy-Preserving Data Analysis for Personal Genome by 
 Snoopy: Surpassing the Scalability Bottleneck of Oblivious Storage (SOSP 2021):
 [https://github.com/ucbrise/snoopy](https://github.com/ucbrise/snoopy)
 
+DeSearch: a decentralized search engine with verifiable dataflow (OSDI 2021):
+[https://github.com/SJTU-IPADS/DeSearch](https://github.com/SJTU-IPADS/DeSearch)
+
 mc-oblivious: Oblivious RAM inside of Intel SGX enclaves:
 [https://github.com/mobilecoinofficial/mc-oblivious](https://github.com/mobilecoinofficial/mc-oblivious)
 
@@ -664,6 +670,9 @@ Compiler-based boundary check:
 
 Linear/SQRT/Path ORAM:
 [https://github.com/maanrachid/SGXORAM](https://github.com/maanrachid/SGXORAM)
+
+SO2 ORAM:
+[https://github.com/hiroki-chen/SGXOram](https://github.com/hiroki-chen/SGXOram)
 
 ### I/O Protection
 
