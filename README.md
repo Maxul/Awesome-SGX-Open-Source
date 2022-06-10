@@ -89,6 +89,9 @@ Edgeless RT: SDK for TEEs/SGX based on Open Enclave with Go support:
 
 ## Remote Attestation (RA) and Secure Channels
 
+MAGE: Mutual Attestation for a Group of Enclaves without Trusted Third Parties (USENIX Security 2022):
+[https://github.com/donnod/linux-sgx-mage](https://github.com/donnod/linux-sgx-mage)
+
 Microsoft Azure Attestation service (MAA) for Attesting Trusted Execution Environments (TEEs):
 [https://github.com/Azure-Samples/microsoft-azure-attestation](https://github.com/Azure-Samples/microsoft-azure-attestation)
 
@@ -336,6 +339,9 @@ Libsodium AES-NI based AES-256-GCM:
 [https://github.com/Maxul/SGX-AES-256](https://github.com/Maxul/SGX-AES-256)
 
 ## Applications
+
+Rex: SGX decentralized recommender (IEEE IPDPS 2022):
+[https://github.com/rafaelppires/rex](https://github.com/rafaelppires/rex)
 
 Loading SGX enclave from DLL on Windows 10 64-bit:
 [https://github.com/nadiaivc/Load-SGX-enclave-from-DLL](https://github.com/nadiaivc/Load-SGX-enclave-from-DLL)
@@ -699,6 +705,10 @@ Frontal Attack: Leaking Control-Flow in SGX via the CPU Frontend (USENIX Securit
 VoltPillager: Hardware-based fault injection attacks against IntelSGX Enclaves using the SVID voltage scaling interface (USENIX Security 2021)
 
 [https://github.com/zt-chen/voltpillager](https://github.com/zt-chen/voltpillager)
+
+TeeRex: Discovery and Exploitation of Memory Corruption Vulnerabilities in SGX Enclaves (USENIX Security 2020)
+
+[https://github.com/uni-due-syssec/teerex-exploits](https://github.com/uni-due-syssec/teerex-exploits)
 
 Faulty Point Unit: ABI Poisoning Attacks on Intel SGX (ACSAC 2020)
 
