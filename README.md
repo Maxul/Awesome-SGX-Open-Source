@@ -340,6 +340,9 @@ Libsodium AES-NI based AES-256-GCM:
 
 ## Applications
 
+Verifiable Election:
+[https://github.com/davidgmorais/verifiable-election](https://github.com/davidgmorais/verifiable-election)
+
 Rex: SGX decentralized recommender (IEEE IPDPS 2022):
 [https://github.com/rafaelppires/rex](https://github.com/rafaelppires/rex)
 
@@ -614,6 +617,9 @@ vSGX: Virtualizing SGX Enclaves on AMD SEV:
 [https://github.com/OSUSecLab/vSGX](https://github.com/OSUSecLab/vSGX)
 
 ## Defenses
+
+SGXFuzz: Efficiently Synthesizing Nested Structures for SGX Enclave Fuzzing (USENIX Security 2022):
+[https://github.com/uni-due-syssec/sgxfuzz](https://github.com/uni-due-syssec/sgxfuzz)
 
 Repurposing Segmentation as a Practical LVI-NULL Mitigation in SGX (USENIX Security 2022):
 [https://github.com/IAIK/LVI-NULLify](https://github.com/IAIK/LVI-NULLify)
