@@ -211,9 +211,6 @@ PSec: Programming Language for Creating Secure Distributed Systems leveraging In
 
 ## Blockchains
 
-BigDL Privacy Preserving Machine Learning:
-[https://github.com/intel-analytics/BigDL](https://github.com/intel-analytics/BigDL)
-
 Integritee off-chain worker and sidechain validateer:
 [https://github.com/integritee-network/worker](https://github.com/integritee-network/worker)
 
@@ -264,14 +261,20 @@ Ledger BOLOS Enclave:
 
 ## Machine Learning
 
-Pytorch with SGX solution:
-[https://github.com/intel/sgx-pytorch](https://github.com/intel/sgx-pytorch)
+SOTER: Guarding Black-box Inference for General Neural Networks at the Edge (ATC 2022):
+[https://github.com/hku-systems/SOTER](https://github.com/hku-systems/SOTER)
+
+BigDL Privacy Preserving Machine Learning:
+[https://github.com/intel-analytics/BigDL](https://github.com/intel-analytics/BigDL)
 
 BlindAI: Fast, accessible and privacy friendly AI deployment:
 [https://github.com/mithril-security/blindai](https://github.com/mithril-security/blindai)
 
 Confidential Computing Zoo provides confidential computing solutions based on Intel SGX, TDX, HEXL, etc. technologies:
 [https://github.com/intel/confidential-computing-zoo](https://github.com/intel/confidential-computing-zoo)
+
+Pytorch with SGX solution:
+[https://github.com/intel/sgx-pytorch](https://github.com/intel/sgx-pytorch)
 
 Enclave Hardening for Private ML (GBDT Learning + Differential Privacy):
 [https://github.com/loretanr/dp-gbdt](https://github.com/loretanr/dp-gbdt)
@@ -340,6 +343,9 @@ Libsodium AES-NI based AES-256-GCM:
 
 ## Applications
 
+Secure and Lightweight Deduplicated Storage via Shielded Deduplication-Before-Encryption (ATC 2022):
+[https://github.com/yzr95924/DEBE](https://github.com/yzr95924/DEBE)
+
 Verifiable Election:
 [https://github.com/davidgmorais/verifiable-election](https://github.com/davidgmorais/verifiable-election)
 
@@ -358,7 +364,7 @@ Hidden anonymization with SGX-based mixes:
 Black-Scholes-Merton computation in Intel SGX:
 [https://github.com/sbellem/sgx-bsm](https://github.com/sbellem/sgx-bsm)
 
-Accelerating Encrypted Deduplication via SGX:
+Accelerating Encrypted Deduplication via SGX (ATC 2021):
 [https://github.com/jingwei87/sgxdedup](https://github.com/jingwei87/sgxdedup)
 
 SGX-based Genome Variants Search:
@@ -602,7 +608,7 @@ Flume: a blazingly fast multi-producer, multi-consumer channel:
 User-level paging:
 [https://github.com/acsl-technion/eleos](https://github.com/acsl-technion/eleos)
 
-SwitchLess:
+Switch-less:
 [https://github.com/oweisse/hot-calls](https://github.com/oweisse/hot-calls)
 
 SGXTuner: a distributed tuning system for enclaves:
@@ -613,10 +619,16 @@ Actor model for better Enclave IPC:
 
 ## Compatibility
 
-vSGX: Virtualizing SGX Enclaves on AMD SEV:
+HyperEnclave: An Open and Cross-platform Trusted Execution Environment (ATC 2022):
+[https://github.com/HyperEnclave](https://github.com/HyperEnclave)
+
+vSGX: Virtualizing SGX Enclaves on AMD SEV (Oakland 2022):
 [https://github.com/OSUSecLab/vSGX](https://github.com/OSUSecLab/vSGX)
 
 ## Defenses
+
+Minefield: A Software-only Protection for SGX Enclaves against DVFS Attacks (USENIX Security 2022):
+[https://github.com/iaik/minefield](https://github.com/iaik/minefield)
 
 SGXFuzz: Efficiently Synthesizing Nested Structures for SGX Enclave Fuzzing (USENIX Security 2022):
 [https://github.com/uni-due-syssec/sgxfuzz](https://github.com/uni-due-syssec/sgxfuzz)
