@@ -223,9 +223,6 @@ Automata Network: Web 3.0 Realized with Tracless Privacy and Seamless Compatibil
 Phala Blockchain: a blockchain-based confidential computing cloud:
 [https://github.com/Phala-Network/phala-blockchain](https://github.com/Phala-Network/phala-blockchain)
 
-lockbox: Key Share Management in SGX Secure Enclaves:
-[https://github.com/commerceblock/lockbox](https://github.com/commerceblock/lockbox)
-
 sWorker: Crust MPoW-based Offchain Storage inside TEE Enclaves:
 [https://github.com/crustio/crust-sworker](https://github.com/crustio/crust-sworker)
 
@@ -408,6 +405,9 @@ Securing Storage Encryption:
 
 ## Network
 
+Bento: Safely Bringing Network Function Virtualization to Tor (SIGCOMM 2021):
+[https://github.com/breakerspace/bento](https://github.com/breakerspace/bento)
+
 Nginx-SGX: SGX-ready Nginx open source server:
 [https://github.com/enclaive/enclaive-docker-nginx-sgx](https://github.com/enclaive/enclaive-docker-nginx-sgx)
 
@@ -500,6 +500,9 @@ eHSM (SGX Enclave Based Hardware Security Module):
 
 Trusted Certificate Service for Kubernetes Platform:
 [https://github.com/intel/trusted-certificate-issuer](https://github.com/intel/trusted-certificate-issuer)
+
+lockbox: Key Share Management in SGX Secure Enclaves:
+[https://github.com/commerceblock/lockbox](https://github.com/commerceblock/lockbox)
 
 Password manager supporting the login where the credentials are stored securely in an enclave:
 [https://github.com/enclaive/sgx-login](https://github.com/enclaive/sgx-login)

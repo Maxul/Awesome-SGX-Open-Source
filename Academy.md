@@ -208,7 +208,7 @@
 
 - Eleos: ExitLess Operating System Services for Intel SGX Enclaves, EuroSys 2017
 
-- Regain Lost Cycles with HotCalls: A Fast Interface for Intel SGX Secure Enclaves, ISCA 2017
+- Regaining Lost Cycles with HotCalls: A Fast Interface for Intel SGX Secure Enclaves, ISCA 2017
 
 
 
