@@ -37,20 +37,17 @@ Academic Conference Collections: [Link](https://github.com/Maxul/Awesome-SGX-Ope
 Microsoft Confidential Consortium Framework:
 [https://github.com/microsoft/CCF](https://github.com/microsoft/CCF)
 
-Apache Teaclave:
-[https://github.com/apache/incubator-teaclave](https://github.com/apache/incubator-teaclave)
-
 Ant Financial Occlum:
 [https://github.com/occlum/occlum](https://github.com/occlum/occlum)
 
 Next-Generation Occlum, optimized for Intel SGX 2.0:
 [https://github.com/occlum/ngo](https://github.com/occlum/ngo)
 
+Enarx: Confidential Computing with WebAssembly:
+[https://github.com/enarx/enarx](https://github.com/enarx/enarx)
+
 KubeTEE TFF:
 [https://github.com/SOFAEnclave/trusted-function-framework](https://github.com/SOFAEnclave/trusted-function-framework)
-
-Google Asylo:
-[https://github.com/google/asylo](https://github.com/google/asylo)
 
 Fortanix Enclave Development Platform:
 [https://github.com/fortanix/rust-sgx](https://github.com/fortanix/rust-sgx)
@@ -61,6 +58,12 @@ Scontain:
 MarbleRun:
 [https://github.com/edgelesssys/marblerun](https://github.com/edgelesssys/marblerun)
 
+Apache Teaclave:
+[https://github.com/apache/incubator-teaclave](https://github.com/apache/incubator-teaclave)
+
+Google Asylo:
+[https://github.com/google/asylo](https://github.com/google/asylo)
+
 ### Library OSes and SDKs
 
 Porpoise: A tool to port commodity application to Intel SGX:
@@ -69,7 +72,7 @@ Porpoise: A tool to port commodity application to Intel SGX:
 Mystikos: Tools and runtime for launching unmodified container images in Trusted Execution Environments:
 [https://github.com/deislabs/mystikos](https://github.com/deislabs/mystikos)
 
-Gramine Library OS with Intel SGX Support (formerly called Graphene):
+Gramine Library OS with Intel SGX Support (formerly Graphene):
 [https://github.com/gramineproject/gramine](https://github.com/gramineproject/gramine)
 
 GX-LKL: Library OS for running Linux applications inside SGX enclaves:
@@ -210,6 +213,12 @@ PSec: Programming Language for Creating Secure Distributed Systems leveraging In
 [https://github.com/ShivKushwah/PSec](https://github.com/ShivKushwah/PSec)
 
 ## Blockchains
+
+Oasis Network: Performant and Confidentiality-Preserving Smart Contracts + Blockchains:
+[https://github.com/oasisprotocol/oasis-core](https://github.com/oasisprotocol/oasis-core)
+
+MobileCoin: Private payments for mobile devices:
+[https://github.com/mobilecoinfoundation/mobilecoin](https://github.com/mobilecoinfoundation/mobilecoin)
 
 Integritee off-chain worker and sidechain validateer:
 [https://github.com/integritee-network/worker](https://github.com/integritee-network/worker)
@@ -394,9 +403,6 @@ Hardware Secure Crypto Wallet for Ethereum and SKALE:
 Private Contact Discovery Service for Signal:
 [https://github.com/signalapp/ContactDiscoveryService](https://github.com/signalapp/ContactDiscoveryService)
 
-Channel ID Private Key Protection:
-[https://github.com/google/channel-id-enclave](https://github.com/google/channel-id-enclave)
-
 Trustworthy and Accountable Function-as-a-Service:
 [https://github.com/SSGAalto/sfaas](https://github.com/SSGAalto/sfaas)
 
@@ -495,6 +501,9 @@ BISEN: Boolean Isolated Searchable Encryption:
 
 ## Key and Password Management
 
+Conclave Pass: Password Manager implemented using Conclave Cloud:
+[https://github.com/R3Conclave/ccl-sample-conclavepass](https://github.com/R3Conclave/ccl-sample-conclavepass)
+
 eHSM (SGX Enclave Based Hardware Security Module):
 [https://github.com/intel/ehsm](https://github.com/intel/ehsm)
 
@@ -518,6 +527,9 @@ A server with SGX enclave that stores private keys and performs crypto operation
 
 Protecting Web Passwords using Trusted Execution Environments:
 [https://github.com/SafeKeeper](https://github.com/SafeKeeper)
+
+Channel ID Private Key Protection:
+[https://github.com/google/channel-id-enclave](https://github.com/google/channel-id-enclave)
 
 ## Encrypted Databases and Key-value Stores
 
@@ -793,10 +805,16 @@ SGX-Timing: Cache Attacks on Intel SGX (EuroSec 2017)
 
 ## Beyond SGX Enclave Projects
 
-Penglai-Enclave: Open-sourced secure and scalable TEE system for RISC-V:
+TwinVisor: Hardware-isolated Confidential Virtual Machines for ARM (SOSP 2021):
+[https://github.com/TwinVisor](https://github.com/TwinVisor)
+
+Penglai-Enclave: Open-sourced secure and scalable TEE system for RISC-V (OSDI 2021):
 [https://github.com/Penglai-Enclave/Penglai-Enclave](https://github.com/Penglai-Enclave/Penglai-Enclave)
 
-Keystone: An Open-Source Secure Enclave Framework for RISC-V Processors:
+IBM OpenPOWER Protected Execution Facility (EuroSys 2021):
+[https://github.com/open-power/ultravisor](https://github.com/open-power/ultravisor)
+
+Keystone: An Open-Source Secure Enclave Framework for RISC-V Processors (EuroSys 2020):
 [https://github.com/keystone-enclave/keystone](https://github.com/keystone-enclave/keystone)
 
 MultiZone Security TEE for RISC-V processors:
@@ -816,5 +834,14 @@ AMD SEV-SNP:
 AMD SEV-SNP measurement:
 [https://github.com/IBM/sev-snp-measure](https://github.com/IBM/sev-snp-measure)
 
+Kata Containers:
+[https://github.com/kata-containers/kata-containers](https://github.com/kata-containers/kata-containers)
+
+Key Broker Server for SEV(-ES):
+[https://github.com/confidential-containers/simple-kbs](https://github.com/confidential-containers/simple-kbs)
+
 Intel TDX:
 [https://github.com/intel/tdx-tools](https://github.com/intel/tdx-tools)
+
+TD-shim: Confidential Containers Shim Firmware:
+[https://github.com/confidential-containers/td-shim](https://github.com/confidential-containers/td-shim)
