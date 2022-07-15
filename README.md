@@ -332,6 +332,9 @@ SGX-Darknet: SGX compatible ML library:
 
 ## Common Libraries
 
+Enclave Memory Manager:
+[https://github.com/intel/sgx-emm](https://github.com/intel/sgx-emm)
+
 VRF-enhanced random number source running inside enclaves:
 [https://github.com/smartbch/enclave-vrf](https://github.com/smartbch/enclave-vrf)
 
@@ -340,6 +343,9 @@ A trusted libjpeg on Intel SGX:
 
 Zlib Data Compression Library inside SGX Enclaves:
 [https://github.com/ffosilva/zlib-sgx](https://github.com/ffosilva/zlib-sgx)
+
+SEAL library in SGX:
+[https://github.com/shenqtao/seal_SGX](https://github.com/shenqtao/seal_SGX)
 
 Enclaved-FE: enable applications using Fentec Functional Encryption libraries ([CiFEr](https://github.com/fentec-project/CiFEr), [GoFE](https://github.com/fentec-project/gofe)) in Intel SGX:
 [https://github.com/cryptohackathon/enclaved-FE](https://github.com/cryptohackathon/enclaved-FE)
@@ -451,6 +457,9 @@ SGX + Web Crawler:
 [https://github.com/ShengHow95/simple-selenium-sgx-crawler](https://github.com/ShengHow95/simple-selenium-sgx-crawler)
 
 ## Data Analytics
+
+SecretFlow: A unified framework for privacy-preserving data analysis and machine learning:
+[https://github.com/secretflow/secretflow](https://github.com/secretflow/secretflow)
 
 MC2: A Platform for Secure Analytics and Machine Learning:
 [https://github.com/mc2-project/mc2](https://github.com/mc2-project/mc2)
@@ -808,40 +817,43 @@ SGX-Timing: Cache Attacks on Intel SGX (EuroSec 2017)
 TwinVisor: Hardware-isolated Confidential Virtual Machines for ARM (SOSP 2021):
 [https://github.com/TwinVisor](https://github.com/TwinVisor)
 
-Penglai-Enclave: Open-sourced secure and scalable TEE system for RISC-V (OSDI 2021):
-[https://github.com/Penglai-Enclave/Penglai-Enclave](https://github.com/Penglai-Enclave/Penglai-Enclave)
-
-IBM OpenPOWER Protected Execution Facility (EuroSys 2021):
-[https://github.com/open-power/ultravisor](https://github.com/open-power/ultravisor)
-
-Keystone: An Open-Source Secure Enclave Framework for RISC-V Processors (EuroSys 2020):
-[https://github.com/keystone-enclave/keystone](https://github.com/keystone-enclave/keystone)
-
-MultiZone Security TEE for RISC-V processors:
-[https://github.com/hex-five/multizone-sdk](https://github.com/hex-five/multizone-sdk)
+Kata Containers:
+[https://github.com/kata-containers/kata-containers](https://github.com/kata-containers/kata-containers)
 
 AWS Nitro Enclaves: CPU and memory isolation for Amazon EC2 instances using Nitro Hypervisor:
 [https://github.com/aws/aws-nitro-enclaves-cli](https://github.com/aws/aws-nitro-enclaves-cli)
 
-A Lightweight Trusted Execution Environment for Secure IoT Devices:
-[https://github.com/sancus-tee](https://github.com/sancus-tee)
+TD-shim: Confidential Containers Shim Firmware:
+[https://github.com/confidential-containers/td-shim](https://github.com/confidential-containers/td-shim)
+
+AMD SEV-SNP measurement:
+[https://github.com/IBM/sev-snp-measure](https://github.com/IBM/sev-snp-measure)
+
+Key Broker Server for SEV(-ES):
+[https://github.com/confidential-containers/simple-kbs](https://github.com/confidential-containers/simple-kbs)
 
 ## Other TEEs
 
 AMD SEV-SNP:
 [https://github.com/AMDESE/sev-guest](https://github.com/AMDESE/sev-guest)
 
-AMD SEV-SNP measurement:
-[https://github.com/IBM/sev-snp-measure](https://github.com/IBM/sev-snp-measure)
-
-Kata Containers:
-[https://github.com/kata-containers/kata-containers](https://github.com/kata-containers/kata-containers)
-
-Key Broker Server for SEV(-ES):
-[https://github.com/confidential-containers/simple-kbs](https://github.com/confidential-containers/simple-kbs)
-
 Intel TDX:
 [https://github.com/intel/tdx-tools](https://github.com/intel/tdx-tools)
 
-TD-shim: Confidential Containers Shim Firmware:
-[https://github.com/confidential-containers/td-shim](https://github.com/confidential-containers/td-shim)
+Secure Processing Unit (SPU), a provable, measurable secure computation device:
+[https://github.com/secretflow/spu](https://github.com/secretflow/spu)
+
+Penglai-Enclave: Open-sourced secure and scalable TEE system for RISC-V (OSDI 2021):
+[https://github.com/Penglai-Enclave/Penglai-Enclave](https://github.com/Penglai-Enclave/Penglai-Enclave)
+
+IBM OpenPOWER Protected Execution Facility (EuroSys 2021):
+[https://github.com/open-power/ultravisor](https://github.com/open-power/ultravisor)
+
+A Lightweight Trusted Execution Environment for Secure IoT Devices (CCS 2021):
+[https://github.com/sancus-tee](https://github.com/sancus-tee)
+
+Keystone: An Open-Source Secure Enclave Framework for RISC-V Processors (EuroSys 2020):
+[https://github.com/keystone-enclave/keystone](https://github.com/keystone-enclave/keystone)
+
+MultiZone Security TEE for RISC-V processors:
+[https://github.com/hex-five/multizone-sdk](https://github.com/hex-five/multizone-sdk)
