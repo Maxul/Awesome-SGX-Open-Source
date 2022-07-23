@@ -2,7 +2,7 @@
 
 *Hope that you'd be glad to add a star if you think this list is helpful!*
 
-Academic Conference Collections: [Link](https://github.com/Maxul/Awesome-SGX-Open-Source/blob/master/Academy.md)
+A curated list of academic work from top conferences: [link](https://github.com/Maxul/Awesome-SGX-Open-Source/blob/master/Academy.md)
 
 - [Runtime Framework](#runtime-framework)
   - [Industrial Leading Projects](#industrial-leading-projects)
@@ -365,6 +365,9 @@ Enclaved-FE: enable applications using Fentec Functional Encryption libraries ([
 Libsodium AES-NI based AES-256-GCM:
 [https://github.com/Maxul/SGX-AES-256](https://github.com/Maxul/SGX-AES-256)
 
+GNU Multiple Precision Arithmetic Trusted Library for Intel SGX:
+[https://github.com/intel/sgx-gmp](https://github.com/intel/sgx-gmp)
+
 ## Applications
 
 Secure and Lightweight Deduplicated Storage via Shielded Deduplication-Before-Encryption (ATC 2022):
@@ -557,7 +560,7 @@ Channel ID Private Key Protection:
 
 ## Encrypted Databases and Key-value Stores
 
-EdgelessDB: MySQL-compatible database for confidential computing:
+EdgelessDB: a MySQL-compatible database running entirely inside SGX enclaves:
 [https://github.com/edgelesssys/edgelessdb](https://github.com/edgelesssys/edgelessdb)
 
 Avocado: a secure distributed in-memory key-value store (USENIX ATC 2021):
@@ -577,9 +580,6 @@ Trusted in-memory key-value stores (EuroSys 2019):
 
 Protect Audit-Log via Sqlite (EuroSys 2018):
 [https://github.com/lsds/LibSEAL](https://github.com/lsds/LibSEAL)
-
-EdgelessDB: a MySQL-compatible database running entirely inside SGX enclaves:
-[https://github.com/edgelesssys/edgelessdb](https://github.com/edgelesssys/edgelessdb)
 
 ## Distributed Systems
 
