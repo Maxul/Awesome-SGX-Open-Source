@@ -186,6 +186,8 @@
 
 ## Session 8: ML Training and Inference
 
+- SOTER: Guarding Black-box Inference for General Neural Networks at the Edge, ATC 2022
+
 - DarKnight: An Accelerated Framework for Privacy and Integrity Preserving Deep Learning Using Trusted Hardware, MICRO 2021
 
 - Citadel: Protecting Data Privacy and Model Confidentiality for Collaborative Learning, SoCC 2021
@@ -258,6 +260,8 @@
 
 ## Session 11: Enclave Protection and Attack Mitigations
 
+- PRIDWEN: Universally Hardening SGX Programs via Load-Time Synthesis, ATC 2022
+
 - Repurposing Segmentation as a Practical LVI-NULL Mitigation in SGX, USENIX Security 2022
 
 - CHANCEL: Efficient Multi-client Isolation Under Adversarial Programs, NDSS 2021
@@ -305,7 +309,9 @@
 - Practical and Efficient in-Enclave Verification of Privacy Compliance, DSN 2021
 
 
-### Heterogeneous Computing
+### Cross-platform Compatibility
+
+- HyperEnclave: An Open and Cross-platform Trusted Execution Environment, ATC 2022
 
 - vSGX: Virtualizing SGX Enclaves on AMD SEV, IEEE S&P 2022
 

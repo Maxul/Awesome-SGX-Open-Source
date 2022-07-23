@@ -666,6 +666,9 @@ vSGX: Virtualizing SGX Enclaves on AMD SEV (Oakland 2022):
 
 ## Defenses
 
+PRIDWEN: Universally Hardening SGX Programs via Load-Time Synthesis (ATC 2022):
+[https://github.com/sslab-gatech/Pridwen](https://github.com/sslab-gatech/Pridwen)
+
 Minefield: A Software-only Protection for SGX Enclaves against DVFS Attacks (USENIX Security 2022):
 [https://github.com/iaik/minefield](https://github.com/iaik/minefield)
 
