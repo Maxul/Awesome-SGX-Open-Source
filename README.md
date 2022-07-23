@@ -43,6 +43,9 @@ Ant Financial Occlum:
 Next-Generation Occlum, optimized for Intel SGX 2.0:
 [https://github.com/occlum/ngo](https://github.com/occlum/ngo)
 
+Inclavare: a confidential container for cloud-native confidential computing and enclave runtime ecosystem: 
+[https://github.com/inclavare-containers/inclavare-containers](https://github.com/inclavare-containers/inclavare-containers)
+
 Enarx: Confidential Computing with WebAssembly:
 [https://github.com/enarx/enarx](https://github.com/enarx/enarx)
 
@@ -89,9 +92,6 @@ Ratel: Dynamic Binary Translation with SGX Enclaves:
 
 Panoply: Low-TCB Linux Applications with SGX Enclaves:
 [https://github.com/shwetasshinde24/Panoply](https://github.com/shwetasshinde24/Panoply)
-
-Container: Protected Container Runtime for Confidential Computing:
-[https://github.com/alibaba/inclavare-containers](https://github.com/alibaba/inclavare-containers)
 
 ## Remote Attestation (RA) and Secure Channels
 
