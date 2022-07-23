@@ -1,35 +1,82 @@
 # Awesome SGX Open Source Projects
 
-*Hope you'd be glad to add a star if you think this list is helpful!*
+*Hope that you'd be glad to add a star if you think this list is helpful!*
 
-Academic Conference Collections:
-[Link](https://github.com/Maxul/Awesome-SGX-Open-Source/blob/master/Academy.md)
+Academic Conference Collections: [Link](https://github.com/Maxul/Awesome-SGX-Open-Source/blob/master/Academy.md)
+
+- [Runtime Framework](#runtime-framework)
+  - [Industrial Leading Projects](#industrial-leading-projects)
+  - [Library OSes and SDKs](#library-oses-and-sdks)
+- [Remote Attestation (RA) and Secure Channels](#remote-attestation-ra-and-secure-channels)
+- [Crypto](#crypto)
+- [Language Frameworks](#language-frameworks)
+- [Blockchains](#blockchains)
+- [Machine Learning](#machine-learning)
+- [Common Libraries](#common-libraries)
+- [Applications](#applications)
+- [Network](#network)
+- [Data Analytics](#data-analytics)
+- [Private Search](#private-search)
+- [Key and Password Management](#key-and-password-management)
+- [Encrypted Databases and Key-value Stores](#encrypted-databases-and-key-value-stores)
+- [Distributed Systems](#distributed-systems)
+- [Profiling](#profiling)
+- [Performance](#performance)
+- [Compatibility](#compatibility)
+- [Defenses](#defenses)
+  - [Memory Protection](#memory-protection)
+  - [I/O Protection](#io-protection)
+- [Attacks](#attacks)
+- [Beyond SGX Enclave Projects](#beyond-sgx-enclave-projects)
+- [Other TEEs](#other-tees)
 
 ## Runtime Framework
 
 ### Industrial Leading Projects
 
-Microsoft OpenEnclave: [https://github.com/Microsoft/openenclave](https://github.com/Microsoft/openenclave)
+Microsoft Confidential Consortium Framework:
+[https://github.com/microsoft/CCF](https://github.com/microsoft/CCF)
 
-Microsoft Confidential Consortium Framework: [https://github.com/microsoft/CCF](https://github.com/microsoft/CCF)
+Ant Financial Occlum:
+[https://github.com/occlum/occlum](https://github.com/occlum/occlum)
 
-Apache Teaclave: [https://github.com/apache/incubator-teaclave](https://github.com/apache/incubator-teaclave)
+Next-Generation Occlum, optimized for Intel SGX 2.0:
+[https://github.com/occlum/ngo](https://github.com/occlum/ngo)
 
-Ant Financial Occlum: [https://github.com/occlum/occlum](https://github.com/occlum/occlum)
+Inclavare: a confidential container for cloud-native confidential computing and enclave runtime ecosystem: 
+[https://github.com/inclavare-containers/inclavare-containers](https://github.com/inclavare-containers/inclavare-containers)
 
-Next-Generation Occlum, optimized for Intel SGX 2.0: [https://github.com/occlum/ngo](https://github.com/occlum/ngo)
+Enarx: Confidential Computing with WebAssembly:
+[https://github.com/enarx/enarx](https://github.com/enarx/enarx)
 
-KubeTEE TFF: [https://github.com/SOFAEnclave/trusted-function-framework](https://github.com/SOFAEnclave/trusted-function-framework)
+KubeTEE TFF:
+[https://github.com/SOFAEnclave/trusted-function-framework](https://github.com/SOFAEnclave/trusted-function-framework)
 
-Google Asylo: [https://github.com/google/asylo](https://github.com/google/asylo)
+Fortanix Enclave Development Platform:
+[https://github.com/fortanix/rust-sgx](https://github.com/fortanix/rust-sgx)
 
-Fortanix Enclave Development Platform: [https://github.com/fortanix/rust-sgx](https://github.com/fortanix/rust-sgx)
+Scontain: Confidential Computing Playground Virtual Machine:
+[https://github.com/scontain](https://github.com/scontain)
 
-Scontain: [https://github.com/scontain](https://github.com/scontain)
+Veracruz: privacy-preserving collaborative compute, now an adopted project of the Confidential Compute Consortium (CCC):
+[https://github.com/veracruz-project/veracruz](https://github.com/veracruz-project/veracruz)
 
-MarbleRun: [https://github.com/edgelesssys/marblerun](https://github.com/edgelesssys/marblerun)
+MarbleRun: a framework for creating distributed confidential-computing apps:
+[https://github.com/edgelesssys/marblerun](https://github.com/edgelesssys/marblerun)
 
-### Library OS for quickly deploying (almost) unmodified applications
+Apache Teaclave:
+[https://github.com/apache/incubator-teaclave](https://github.com/apache/incubator-teaclave)
+
+Google Asylo:
+[https://github.com/google/asylo](https://github.com/google/asylo)
+
+### Library OSes and SDKs
+
+Gramine Library OS with Intel SGX Support (formerly Graphene):
+[https://github.com/gramineproject/gramine](https://github.com/gramineproject/gramine)
+
+Edgeless RT: SDK for TEEs/SGX based on Open Enclave with Go support:
+[https://github.com/edgelesssys/edgelessrt](https://github.com/edgelesssys/edgelessrt)
 
 Porpoise: A tool to port commodity application to Intel SGX:
 [https://github.com/iisc-cssl/porpoise](https://github.com/iisc-cssl/porpoise)
@@ -37,10 +84,7 @@ Porpoise: A tool to port commodity application to Intel SGX:
 Mystikos: Tools and runtime for launching unmodified container images in Trusted Execution Environments:
 [https://github.com/deislabs/mystikos](https://github.com/deislabs/mystikos)
 
-Gramine Library OS with Intel SGX Support (formerly called Graphene):
-[https://github.com/gramineproject/gramine](https://github.com/gramineproject/gramine)
-
-SGX-LKL: Library OS for running Linux applications inside SGX enclaves:
+GX-LKL: Library OS for running Linux applications inside SGX enclaves:
 [https://github.com/lsds/sgx-lkl](https://github.com/lsds/sgx-lkl)
 
 Ratel: Dynamic Binary Translation with SGX Enclaves:
@@ -49,15 +93,10 @@ Ratel: Dynamic Binary Translation with SGX Enclaves:
 Panoply: Low-TCB Linux Applications with SGX Enclaves:
 [https://github.com/shwetasshinde24/Panoply](https://github.com/shwetasshinde24/Panoply)
 
-Container: Protected Container Runtime for Confidential Computing: 
-[https://github.com/alibaba/inclavare-containers](https://github.com/inclavare-containers/inclavare-containers)
+## Remote Attestation (RA) and Secure Channels
 
-Edgeless RT: SDK for TEEs/SGX based on Open Enclave with Go support:
-[https://github.com/edgelesssys/edgelessrt](https://github.com/edgelesssys/edgelessrt)
-
-## Remote Attestation and Secure Channel
-
-### Remote Attestation (RA)
+MAGE: Mutual Attestation for a Group of Enclaves without Trusted Third Parties (USENIX Security 2022):
+[https://github.com/donnod/linux-sgx-mage](https://github.com/donnod/linux-sgx-mage)
 
 Microsoft Azure Attestation service (MAA) for Attesting Trusted Execution Environments (TEEs):
 [https://github.com/Azure-Samples/microsoft-azure-attestation](https://github.com/Azure-Samples/microsoft-azure-attestation)
@@ -82,33 +121,42 @@ SGX Quote Verification Service, cloud-nativized:
 OPERA: Open Remote Attestation for Intel's Secure Enclaves:
 [https://github.com/Calctopia-OpenSource/opera](https://github.com/Calctopia-OpenSource/opera)
 
-Intel end-to-end RA: [https://github.com/intel/sgx-ra-sample](https://github.com/intel/sgx-ra-sample)
+Intel end-to-end RA:
+[https://github.com/intel/sgx-ra-sample](https://github.com/intel/sgx-ra-sample)
 
-Data Center Attestation Primitives (DCAP): [https://github.com/intel/SGXDataCenterAttestationPrimitives](https://github.com/intel/SGXDataCenterAttestationPrimitives)
+Data Center Attestation Primitives (DCAP):
+[https://github.com/intel/SGXDataCenterAttestationPrimitives](https://github.com/intel/SGXDataCenterAttestationPrimitives)
 
-RA-based TLS: [https://github.com/cloud-security-research/sgx-ra-tls](https://github.com/cloud-security-research/sgx-ra-tls)
+RA-based TLS:
+[https://github.com/cloud-security-research/sgx-ra-tls](https://github.com/cloud-security-research/sgx-ra-tls)
 
-IBM simplified RA without accessing IAS too frequently: [https://github.com/IBM/sgx-trust-management](https://github.com/IBM/sgx-trust-management)
+IBM simplified RA without accessing IAS too frequently:
+[https://github.com/IBM/sgx-trust-management](https://github.com/IBM/sgx-trust-management)
 
-Azure Attestation SGX Certification Cache: [https://github.com/Microsoft/Azure-DCAP-Client](https://github.com/Microsoft/Azure-DCAP-Client)
+Azure Attestation SGX Certification Cache:
+[https://github.com/Microsoft/Azure-DCAP-Client](https://github.com/Microsoft/Azure-DCAP-Client)
 
 Enclave Mutual Attestation Library:
 [https://github.com/AntonioDan/SGX_Enclave_Mutual_Attestation_Library](https://github.com/AntonioDan/SGX_Enclave_Mutual_Attestation_Library)
 
+## Crypto
 
-### SSL/TLS
+Enclavised OpenSSL (Intel Official):
+[https://github.com/intel/intel-sgx-ssl](https://github.com/intel/intel-sgx-ssl)
 
-Enclavised LibreSSL: [https://github.com/lsds/TaLoS](https://github.com/lsds/TaLoS)
+Enclavised LibreSSL:
+[https://github.com/lsds/TaLoS](https://github.com/lsds/TaLoS)
 
-Enclavised mbedTLS: [https://github.com/bl4ck5un/mbedtls-SGX](https://github.com/bl4ck5un/mbedtls-SGX)
+Enclavised mbedTLS:
+[https://github.com/bl4ck5un/mbedtls-SGX](https://github.com/bl4ck5un/mbedtls-SGX)
 
-Enclavised WolfSSL: [https://github.com/wolfSSL/wolfssl-examples](https://github.com/wolfSSL/wolfssl-examples)
+Enclavised WolfSSL:
+[https://github.com/wolfSSL/wolfssl-examples](https://github.com/wolfSSL/wolfssl-examples)
 
-Enclavised OpenSSL (Intel Official): [https://github.com/intel/intel-sgx-ssl](https://github.com/intel/intel-sgx-ssl)
+SGX-OpenSSL (SGX-Tor Project):
+[https://github.com/sparkly9399/SGX-OpenSSL](https://github.com/sparkly9399/SGX-OpenSSL)
 
-SGX-OpenSSL (SGX-Tor Project): [https://github.com/sparkly9399/SGX-OpenSSL](https://github.com/sparkly9399/SGX-OpenSSL)
-
-## Language Framework
+## Language Frameworks
 
 Rust:
 
@@ -118,42 +166,65 @@ Rust:
 
 WebAssembly:
 
-- Wasm interpreter in Rust: [https://github.com/mesalock-linux/wasmi-sgx](https://github.com/mesalock-linux/wasmi-sgx)
+- Wasm interpreter in Rust:
+[https://github.com/mesalock-linux/wasmi-sgx](https://github.com/mesalock-linux/wasmi-sgx)
 
-- Twine: An Embedded Trusted Runtime for WebAssembly: [https://github.com/jamesmenetrey/unine-twine](https://github.com/jamesmenetrey/unine-twine)
+- Twine: An Embedded Trusted Runtime for WebAssembly:
+[https://github.com/jamesmenetrey/unine-twine](https://github.com/jamesmenetrey/unine-twine)
 
-- WebAssembly Micro Runtime (WAMR): [https://github.com/bytecodealliance/wasm-micro-runtime](https://github.com/bytecodealliance/wasm-micro-runtime)
+- WebAssembly Micro Runtime (WAMR):
+[https://github.com/bytecodealliance/wasm-micro-runtime](https://github.com/bytecodealliance/wasm-micro-runtime)
 
 Python: 
 
-- MesaPy: A Memory-Safe Python Implementation based on PyPy: [https://github.com/mesalock-linux/mesapy](https://github.com/mesalock-linux/mesapy)
+- MesaPy: A Memory-Safe Python Implementation based on PyPy:
+[https://github.com/mesalock-linux/mesapy](https://github.com/mesalock-linux/mesapy)
 
-- Python binder for SGX SDK: [https://github.com/adombeck/python-sgx](https://github.com/adombeck/python-sgx)
+- Python binder for SGX SDK:
+[https://github.com/adombeck/python-sgx](https://github.com/adombeck/python-sgx)
 
 Golang:
 
 - EGo: a framework for building confidential apps in Go:
 [https://github.com/edgelesssys/ego](https://github.com/edgelesssys/ego)
 
-- Golang: [https://github.com/intel/GrapheneSGX-Golang-Support-and-Enhancement](https://github.com/intel/GrapheneSGX-Golang-Support-and-Enhancement)
+- Golang:
+[https://github.com/intel/GrapheneSGX-Golang-Support-and-Enhancement](https://github.com/intel/GrapheneSGX-Golang-Support-and-Enhancement)
 
-- Golang binder: [https://github.com/rupc/go-with-intel-sgx](https://github.com/rupc/go-with-intel-sgx) 
+- Golang binder:
+[https://github.com/rupc/go-with-intel-sgx](https://github.com/rupc/go-with-intel-sgx) 
 
-- GOTEE: Secured Routines using SGX: [https://github.com/epfl-dcsl/gotee](https://github.com/epfl-dcsl/gotee)
+- GOTEE: Secured Routines using SGX:
+[https://github.com/epfl-dcsl/gotee](https://github.com/epfl-dcsl/gotee)
 
-JavaScript: [https://github.com/evervault/node-secureworker](https://github.com/evervault/node-secureworker)
+JavaScript:
+[https://github.com/evervault/node-secureworker](https://github.com/evervault/node-secureworker)
 
-C#: [https://github.com/Liaojinghui/A_C-Sharp_Project_With_SGX](https://github.com/Liaojinghui/A_C-Sharp_Project_With_SGX)
+C#:
+[https://github.com/Liaojinghui/A_C-Sharp_Project_With_SGX](https://github.com/Liaojinghui/A_C-Sharp_Project_With_SGX)
 
-Lua: [https://github.com/vschiavoni/SecureStreams-DEBS17](https://github.com/vschiavoni/SecureStreams-DEBS17)
+Lua:
+[https://github.com/vschiavoni/SecureStreams-DEBS17](https://github.com/vschiavoni/SecureStreams-DEBS17)
 
-Erlang: [https://github.com/Erlang-Enclave-Thesis/sgx-erlang-extension](https://github.com/Erlang-Enclave-Thesis/sgx-erlang-extension)
+Erlang:
+[https://github.com/Erlang-Enclave-Thesis/sgx-erlang-extension](https://github.com/Erlang-Enclave-Thesis/sgx-erlang-extension)
 
-C++: [https://github.com/intel/linux-sgx](https://github.com/intel/linux-sgx)
+C/C++ (Intel Official):
+[https://github.com/intel/linux-sgx](https://github.com/intel/linux-sgx)
 
-PSec: Programming Language for Creating Secure Distributed Systems leveraging Intel SGX: [https://github.com/ShivKushwah/PSec](https://github.com/ShivKushwah/PSec)
+PSec: Programming Language for Creating Secure Distributed Systems leveraging Intel SGX:
+[https://github.com/ShivKushwah/PSec](https://github.com/ShivKushwah/PSec)
 
-## Blockchain
+## Blockchains
+
+Oasis Network: Performant and Confidentiality-Preserving Smart Contracts + Blockchains:
+[https://github.com/oasisprotocol/oasis-core](https://github.com/oasisprotocol/oasis-core)
+
+MobileCoin: Private payments for mobile devices:
+[https://github.com/mobilecoinfoundation/mobilecoin](https://github.com/mobilecoinfoundation/mobilecoin)
+
+Integritee off-chain worker and sidechain validateer:
+[https://github.com/integritee-network/worker](https://github.com/integritee-network/worker)
 
 Ternoa's Blockchain to support the secure creation and transfer of Capsules:
 [https://github.com/capsule-corp-ternoa/chain](https://github.com/capsule-corp-ternoa/chain)
@@ -164,23 +235,29 @@ Automata Network: Web 3.0 Realized with Tracless Privacy and Seamless Compatibil
 Phala Blockchain: a blockchain-based confidential computing cloud:
 [https://github.com/Phala-Network/phala-blockchain](https://github.com/Phala-Network/phala-blockchain)
 
-lockbox: Key Share Management in SGX Secure Enclaves:
-[https://github.com/commerceblock/lockbox](https://github.com/commerceblock/lockbox)
-
 sWorker: Crust MPoW-based Offchain Storage inside TEE Enclaves:
 [https://github.com/crustio/crust-sworker](https://github.com/crustio/crust-sworker)
 
-Teechain: A Secure Payment Network with Asynchronous Blockchain Access:
+Teechain: A Secure Payment Network with Asynchronous Blockchain Access (SOSP 2019):
 [https://github.com/lsds/Teechain](https://github.com/lsds/Teechain)
+
+Ekiden: Confidentiality-Preserving Smart Contract Platform (EuroS&P 2019):
+[https://github.com/ekiden/ekiden](https://github.com/ekiden/ekiden)
+
+Hardware Secure Crypto Wallet for Ethereum and SKALE:
+[https://github.com/skalenetwork/sgxwallet](https://github.com/skalenetwork/sgxwallet)
+
+Database intended for Blockchain:
+[https://github.com/kaimast/credb](https://github.com/kaimast/credb)
 
 Anonify: A blockchain-Agnostic Execution Environment with Privacy and Auditability:
 [https://github.com/LayerXcom/anonify](https://github.com/LayerXcom/anonify)
 
 Hyperledger: Confidentiality-Preserving, Off-Chain Smart Contracts:
 
-[https://github.com/hyperledger-labs/private-data-objects](https://github.com/hyperledger-labs/private-data-objects)
+- [https://github.com/hyperledger-labs/private-data-objects](https://github.com/hyperledger-labs/private-data-objects)
 
-[https://github.com/hyperledger/fabric-private-chaincode](https://github.com/hyperledger/fabric-private-chaincode)
+- [https://github.com/hyperledger/fabric-private-chaincode](https://github.com/hyperledger/fabric-private-chaincode)
 
 substraTEE: Trusted Off-Chain Compute Framework for Substrate Blockchains:
 [https://github.com/scs/substraTEE](https://github.com/scs/substraTEE)
@@ -202,11 +279,23 @@ Ledger BOLOS Enclave:
 
 ## Machine Learning
 
+SOTER: Guarding Black-box Inference for General Neural Networks at the Edge (ATC 2022):
+[https://github.com/hku-systems/SOTER](https://github.com/hku-systems/SOTER)
+
+TF-Encrypted: A Framework for Encrypted Machine Learning in TensorFlow:
+[https://github.com/tf-encrypted/tf-encrypted](https://github.com/tf-encrypted/tf-encrypted)
+
+BigDL Privacy Preserving Machine Learning:
+[https://github.com/intel-analytics/BigDL](https://github.com/intel-analytics/BigDL)
+
 BlindAI: Fast, accessible and privacy friendly AI deployment:
 [https://github.com/mithril-security/blindai](https://github.com/mithril-security/blindai)
 
 Confidential Computing Zoo provides confidential computing solutions based on Intel SGX, TDX, HEXL, etc. technologies:
 [https://github.com/intel/confidential-computing-zoo](https://github.com/intel/confidential-computing-zoo)
+
+Pytorch with SGX solution:
+[https://github.com/intel/sgx-pytorch](https://github.com/intel/sgx-pytorch)
 
 Enclave Hardening for Private ML (GBDT Learning + Differential Privacy):
 [https://github.com/loretanr/dp-gbdt](https://github.com/loretanr/dp-gbdt)
@@ -235,11 +324,11 @@ MesaTEE GBDT-RS: A Fast and Secure GBDT library:
 TF-Trusted: Run TensorFlow Models in Secure Enclaves:
 [https://github.com/capeprivacy/tf-trusted](https://github.com/capeprivacy/tf-trusted)
 
-Bioinformatic Interpreter with Intel SGX: [https://github.com/hello31337/BI-SGX](https://github.com/hello31337/BI-SGX)
+Accountable Deep Learning:
+[https://github.com/arefasvadi/SGX-ADL](https://github.com/arefasvadi/SGX-ADL)
 
-Accountable Deep Learning: [https://github.com/arefasvadi/SGX-ADL](https://github.com/arefasvadi/SGX-ADL)
-
-Open Deep Learning Compiler Stack: [TVM in Intel SGX Example](https://github.com/dmlc/tvm/tree/master/apps/sgx)
+Open Deep Learning Compiler Stack:
+[TVM in Intel SGX Example](https://github.com/dmlc/tvm/tree/master/apps/sgx)
 
 Slalom: Fast, Verifiable and Private Execution of Neural Networks in Trusted Hardware (ICLR 2019)
 [https://github.com/ftramer/slalom](https://github.com/ftramer/slalom)
@@ -255,11 +344,20 @@ SGX-Darknet: SGX compatible ML library:
 
 ## Common Libraries
 
+Enclave Memory Manager:
+[https://github.com/intel/sgx-emm](https://github.com/intel/sgx-emm)
+
+VRF-enhanced random number source running inside enclaves:
+[https://github.com/smartbch/enclave-vrf](https://github.com/smartbch/enclave-vrf)
+
 A trusted libjpeg on Intel SGX:
 [https://github.com/xymeng16/libtjpeg](https://github.com/xymeng16/libtjpeg)
 
 Zlib Data Compression Library inside SGX Enclaves:
 [https://github.com/ffosilva/zlib-sgx](https://github.com/ffosilva/zlib-sgx)
+
+SEAL library in SGX:
+[https://github.com/shenqtao/seal_SGX](https://github.com/shenqtao/seal_SGX)
 
 Enclaved-FE: enable applications using Fentec Functional Encryption libraries ([CiFEr](https://github.com/fentec-project/CiFEr), [GoFE](https://github.com/fentec-project/gofe)) in Intel SGX:
 [https://github.com/cryptohackathon/enclaved-FE](https://github.com/cryptohackathon/enclaved-FE)
@@ -269,19 +367,25 @@ Libsodium AES-NI based AES-256-GCM:
 
 ## Applications
 
+Secure and Lightweight Deduplicated Storage via Shielded Deduplication-Before-Encryption (ATC 2022):
+[https://github.com/yzr95924/DEBE](https://github.com/yzr95924/DEBE)
+
+Verifiable Election:
+[https://github.com/davidgmorais/verifiable-election](https://github.com/davidgmorais/verifiable-election)
+
+Rex: SGX decentralized recommender (IEEE IPDPS 2022):
+[https://github.com/rafaelppires/rex](https://github.com/rafaelppires/rex)
+
 Loading SGX enclave from DLL on Windows 10 64-bit:
 [https://github.com/nadiaivc/Load-SGX-enclave-from-DLL](https://github.com/nadiaivc/Load-SGX-enclave-from-DLL)
 
 SRX – SGX Recovery Extension:
 [https://github.com/andrade/srx](https://github.com/andrade/srx)
 
-Hidden anonymization with SGX-based mixes:
-[https://github.com/oEscal/sgx-based-mix-networks](https://github.com/oEscal/sgx-based-mix-networks)
-
 Black-Scholes-Merton computation in Intel SGX:
 [https://github.com/sbellem/sgx-bsm](https://github.com/sbellem/sgx-bsm)
 
-Accelerating Encrypted Deduplication via SGX:
+Accelerating Encrypted Deduplication via SGX (ATC 2021):
 [https://github.com/jingwei87/sgxdedup](https://github.com/jingwei87/sgxdedup)
 
 SGX-based Genome Variants Search:
@@ -299,8 +403,8 @@ Achieving Reconciliation between Privacy Preservation and Auditability For File 
 bwa-sgx-scone: a parallel privacy preserved [BWA](https://github.com/lh3/bwa)(DNA sequence alignment) solution using Intel SGX and SCONE:
 [https://github.com/dsc-sgx/bwa-sgx-scone](https://github.com/dsc-sgx/bwa-sgx-scone)
 
-Veracruz: privacy-preserving collaborative compute:
-[https://github.com/veracruz-project/veracruz](https://github.com/veracruz-project/veracruz)
+Bioinformatic Interpreter with Intel SGX:
+[https://github.com/hello31337/BI-SGX](https://github.com/hello31337/BI-SGX)
 
 C3PO: providing security functions for Open Mobile Evolved Core (OMEC):
 [https://github.com/omec-project/c3po](https://github.com/omec-project/c3po)
@@ -308,14 +412,8 @@ C3PO: providing security functions for Open Mobile Evolved Core (OMEC):
 SafeTrace: Privacy Preserving Voluntary COVID-19 Self-Reporting Platform for Contact Tracing:
 [https://github.com/enigmampc/SafeTrace](https://github.com/enigmampc/SafeTrace)
 
-Hardware Secure Crypto Wallet for Ethereum and SKALE:
-[https://github.com/skalenetwork/sgxwallet](https://github.com/skalenetwork/sgxwallet)
-
 Private Contact Discovery Service for Signal:
 [https://github.com/signalapp/ContactDiscoveryService](https://github.com/signalapp/ContactDiscoveryService)
-
-Channel ID Private Key Protection:
-[https://github.com/google/channel-id-enclave](https://github.com/google/channel-id-enclave)
 
 Trustworthy and Accountable Function-as-a-Service:
 [https://github.com/SSGAalto/sfaas](https://github.com/SSGAalto/sfaas)
@@ -325,6 +423,12 @@ Securing Storage Encryption:
 
 ## Network
 
+OpenRelay: Community-built, Privacy-first VPN (WIP):
+[https://github.com/triumphantomato/openrelay](https://github.com/triumphantomato/openrelay)
+
+Bento: Safely Bringing Network Function Virtualization to Tor (SIGCOMM 2021):
+[https://github.com/breakerspace/bento](https://github.com/breakerspace/bento)
+
 Nginx-SGX: SGX-ready Nginx open source server:
 [https://github.com/enclaive/enclaive-docker-nginx-sgx](https://github.com/enclaive/enclaive-docker-nginx-sgx)
 
@@ -333,6 +437,9 @@ Hidden anonymization with SGX-based mix-networks:
 
 ZeroCache: a Cloud-Oriented Middlebox for Network Confidential Computing:
 [https://github.com/Maxul/zerocache](https://github.com/Maxul/zerocache)
+
+Hidden anonymization with SGX-based mixes:
+[https://github.com/oEscal/sgx-based-mix-networks](https://github.com/oEscal/sgx-based-mix-networks)
 
 SnowHaze VPN Zero-Knowledge Verification:
 [https://github.com/snowhaze/zka-sgx](https://github.com/snowhaze/zka-sgx)
@@ -363,6 +470,9 @@ SGX + Web Crawler:
 
 ## Data Analytics
 
+SecretFlow: A unified framework for privacy-preserving data analysis and machine learning:
+[https://github.com/secretflow/secretflow](https://github.com/secretflow/secretflow)
+
 MC2: A Platform for Secure Analytics and Machine Learning:
 [https://github.com/mc2-project/mc2](https://github.com/mc2-project/mc2)
 
@@ -382,6 +492,9 @@ BiORAM-SGX: A Practical Privacy-Preserving Data Analysis for Personal Genome by 
 
 Snoopy: Surpassing the Scalability Bottleneck of Oblivious Storage (SOSP 2021):
 [https://github.com/ucbrise/snoopy](https://github.com/ucbrise/snoopy)
+
+DeSearch: a decentralized search engine with verifiable dataflow (OSDI 2021):
+[https://github.com/SJTU-IPADS/DeSearch](https://github.com/SJTU-IPADS/DeSearch)
 
 mc-oblivious: Oblivious RAM inside of Intel SGX enclaves:
 [https://github.com/mobilecoinofficial/mc-oblivious](https://github.com/mobilecoinofficial/mc-oblivious)
@@ -407,7 +520,25 @@ A Secure, Efficient and Scalable Query Framework for Outsourcing Data:
 BISEN: Boolean Isolated Searchable Encryption:
 [https://github.com/bernymac/BISEN](https://github.com/bernymac/BISEN)
 
-## Private Key/Password Management
+## Key and Password Management
+
+Let's eSign Enclave:
+[https://github.com/letsesign/letsesign-enclave](https://github.com/letsesign/letsesign-enclave)
+
+Conclave Pass: Password Manager implemented using Conclave Cloud:
+[https://github.com/R3Conclave/ccl-sample-conclavepass](https://github.com/R3Conclave/ccl-sample-conclavepass)
+
+eHSM (SGX Enclave Based Hardware Security Module):
+[https://github.com/intel/ehsm](https://github.com/intel/ehsm)
+
+Trusted Certificate Service for Kubernetes Platform:
+[https://github.com/intel/trusted-certificate-issuer](https://github.com/intel/trusted-certificate-issuer)
+
+lockbox: Key Share Management in SGX Secure Enclaves:
+[https://github.com/commerceblock/lockbox](https://github.com/commerceblock/lockbox)
+
+Password manager supporting the login where the credentials are stored securely in an enclave:
+[https://github.com/enclaive/sgx-login](https://github.com/enclaive/sgx-login)
 
 Key-Manager for Faasm (a high-performance stateful serverless runtime):
 [https://github.com/faasm/keymanager](https://github.com/faasm/keymanager)
@@ -421,7 +552,13 @@ A server with SGX enclave that stores private keys and performs crypto operation
 Protecting Web Passwords using Trusted Execution Environments:
 [https://github.com/SafeKeeper](https://github.com/SafeKeeper)
 
-## Encrypted Database and Key-value Store
+Channel ID Private Key Protection:
+[https://github.com/google/channel-id-enclave](https://github.com/google/channel-id-enclave)
+
+## Encrypted Databases and Key-value Stores
+
+EdgelessDB: MySQL-compatible database for confidential computing:
+[https://github.com/edgelesssys/edgelessdb](https://github.com/edgelesssys/edgelessdb)
 
 Avocado: a secure distributed in-memory key-value store (USENIX ATC 2021):
 [https://github.com/mbailleu/avocado](https://github.com/mbailleu/avocado)
@@ -429,9 +566,8 @@ Avocado: a secure distributed in-memory key-value store (USENIX ATC 2021):
 StealthDB: an encrypted database from intel sgx with small trusted computing base (PETS 2019):
 [https://github.com/cryptograph/stealthdb](https://github.com/cryptograph/stealthdb)
 
-Database intended for Blockchain: [https://github.com/kaimast/credb](https://github.com/kaimast/credb)
-
-Protect in-memory sqlite, not .db file encryption: [https://github.com/yerzhan7/SGX_SQLite](https://github.com/yerzhan7/SGX_SQLite)
+SQLite database inside a secure Intel SGX enclave (Linux):
+[https://github.com/yerzhan7/SGX_SQLite](https://github.com/yerzhan7/SGX_SQLite)
 
 STANlite: an in-memory database engine for SGX-enabled secure data processing:
 [https://github.com/ibr-ds/STANlite](https://github.com/ibr-ds/STANlite)
@@ -444,60 +580,100 @@ Protect Audit-Log via Sqlite (EuroSys 2018):
 
 ## Distributed Systems
 
-SecDATAVIEW: A Secure Big Data Workflow Management System for Heterogeneous Computing Environments:
-[https://github.com/shiyonglu/SecDATAVIEW](https://github.com/shiyonglu/SecDATAVIEW)
-
 Oak: Meaningful Control of Data in Distributed Systems:
 [https://github.com/project-oak/oak](https://github.com/project-oak/oak)
-
-Memory Sharing Library for Intel SGX Card:
-[https://github.com/cloud-security-research/memsharing-sgxcard](https://github.com/cloud-security-research/memsharing-sgxcard)
 
 Kubernetes Device Plugin for Intel SGX:
 [https://github.com/AliyunContainerService/sgx-device-plugin](https://github.com/AliyunContainerService/sgx-device-plugin)
 
-SGX-Aware Container Orchestrator: [https://github.com/sebva/sgx-orchestrator](https://github.com/sebva/sgx-orchestrator)
+Intel Software Guard Extensions (SGX) device plugin for Kubernetes:
+[https://github.com/intel/intel-device-plugins-for-kubernetes/tree/main/cmd/sgx_plugin](https://github.com/intel/intel-device-plugins-for-kubernetes/tree/main/cmd/sgx_plugin)
 
-ZooKeeper: [https://github.com/sereca/SecureKeeper](https://github.com/sereca/SecureKeeper)
+Robust P2P Primitives Using SGX Enclaves (RAID 2020):
+[https://bitbucket.org/P2PUsingSGX/p2pusingsgx](https://bitbucket.org/P2PUsingSGX/p2pusingsgx)
 
-VM-Migration: [https://github.com/SSGAalto/sgx-migration](https://github.com/SSGAalto/sgx-migration)
+SecDATAVIEW: A Secure Big Data Workflow Management System for Heterogeneous Computing Environments (ACSAC 2019):
+[https://github.com/shiyonglu/SecDATAVIEW](https://github.com/shiyonglu/SecDATAVIEW)
 
-P2P: [https://bitbucket.org/P2PUsingSGX/p2pusingsgx](https://bitbucket.org/P2PUsingSGX/p2pusingsgx)
+SGX-Migration: A library and an application to provide migratable primitives for SGX enclaves (DSN 2018):
+[https://github.com/SSGAalto/sgx-migration](https://github.com/SSGAalto/sgx-migration)
 
-Raft: [https://github.com/LuminousXLB/EnclaveRaft](https://github.com/LuminousXLB/EnclaveRaft)
+Memory Sharing Library for Intel SGX Card:
+[https://github.com/cloud-security-research/memsharing-sgxcard](https://github.com/cloud-security-research/memsharing-sgxcard)
+
+SGX-Aware Container Orchestrator:
+[https://github.com/sebva/sgx-orchestrator](https://github.com/sebva/sgx-orchestrator)
+
+ZooKeeper:
+[https://github.com/sereca/SecureKeeper](https://github.com/sereca/SecureKeeper)
+
+Raft:
+[https://github.com/LuminousXLB/EnclaveRaft](https://github.com/LuminousXLB/EnclaveRaft)
 
 ## Profiling
 
-TEEMon: A continuous performance monitoring framework for TEEs (Middleware 2020): [https://github.com/rcrane/TEEMon](https://github.com/rcrane/TEEMon)
+TEEMon: A continuous performance monitoring framework for TEEs (Middleware 2020):
+[https://github.com/rcrane/TEEMon](https://github.com/rcrane/TEEMon)
 
-sgxtop and sgxstat utilities for monitoring SGX driver statistics: [https://github.com/fortanix/sgxtop](https://github.com/fortanix/sgxtop)
+sgxtop and sgxstat utilities for monitoring SGX driver statistics:
+[https://github.com/fortanix/sgxtop](https://github.com/fortanix/sgxtop)
 
-Report statistics of E/Ocalls, EPC Paging: [https://github.com/ibr-ds/sgx-perf](https://github.com/ibr-ds/sgx-perf)
+Report statistics of E/Ocalls, EPC Paging:
+[https://github.com/ibr-ds/sgx-perf](https://github.com/ibr-ds/sgx-perf)
 
-Stress benchmark: [https://github.com/sebva/stress-sgx](https://github.com/sebva/stress-sgx)
+Stress benchmark:
+[https://github.com/sebva/stress-sgx](https://github.com/sebva/stress-sgx)
 
-nbench benchmark: [https://github.com/utds3lab/sgx-nbench](https://github.com/utds3lab/sgx-nbench)
+nbench benchmark:
+[https://github.com/utds3lab/sgx-nbench](https://github.com/utds3lab/sgx-nbench)
 
-LMbench benchmark: [https://github.com/vsecurity-research/sgx-bench](https://github.com/vsecurity-research/sgx-bench)
+LMbench benchmark:
+[https://github.com/vsecurity-research/sgx-bench](https://github.com/vsecurity-research/sgx-bench)
 
-Linux SGX benchmarks (on encrypted buffer transfer): [https://github.com/eliadt/sgx_benchmarks](https://github.com/eliadt/sgx_benchmarks)
+Linux SGX benchmarks (on encrypted buffer transfer):
+[https://github.com/eliadt/sgx_benchmarks](https://github.com/eliadt/sgx_benchmarks)
+
+Simple memory benchmarking of Intel SGX:
+[https://github.com/lsds/sgx-membench](https://github.com/lsds/sgx-membench)
 
 ## Performance
 
 rkt-io Library OS for running Linux applications inside of Intel SGX enclaves (EuroSys 2021):
 [https://github.com/Mic92/rkt-io](https://github.com/Mic92/rkt-io)
 
-Flume: a blazingly fast multi-producer, multi-consumer channel: [https://github.com/occlum/flume](https://github.com/occlum/flume)
+Flume: a blazingly fast multi-producer, multi-consumer channel:
+[https://github.com/occlum/flume](https://github.com/occlum/flume)
 
-User-level paging: [https://github.com/acsl-technion/eleos](https://github.com/acsl-technion/eleos)
+Actor model for better Enclave IPC (Middleware 2018):
+[https://github.com/ibr-ds/EActors](https://github.com/ibr-ds/EActors)
 
-SwitchLess: [https://github.com/oweisse/hot-calls](https://github.com/oweisse/hot-calls)
+User-level paging (EuroSys 2017):
+[https://github.com/acsl-technion/eleos](https://github.com/acsl-technion/eleos)
 
-SGXTuner: a distributed tuning system for enclaves: [https://github.com/dzobbe/sgxtuner](https://github.com/dzobbe/sgxtuner)
+Switch-less (ISCA 2017):
+[https://github.com/oweisse/hot-calls](https://github.com/oweisse/hot-calls)
 
-Actor model for better Enclave IPC: [https://github.com/ibr-ds/EActors](https://github.com/ibr-ds/EActors)
+SGXTuner: a distributed tuning system for enclaves:
+[https://github.com/dzobbe/sgxtuner](https://github.com/dzobbe/sgxtuner)
+
+## Compatibility
+
+HyperEnclave: An Open and Cross-platform Trusted Execution Environment (ATC 2022):
+[https://github.com/HyperEnclave](https://github.com/HyperEnclave)
+
+vSGX: Virtualizing SGX Enclaves on AMD SEV (Oakland 2022):
+[https://github.com/OSUSecLab/vSGX](https://github.com/OSUSecLab/vSGX)
 
 ## Defenses
+
+PRIDWEN: Universally Hardening SGX Programs via Load-Time Synthesis (ATC 2022):
+[https://github.com/sslab-gatech/Pridwen](https://github.com/sslab-gatech/Pridwen)
+
+Minefield: A Software-only Protection for SGX Enclaves against DVFS Attacks (USENIX Security 2022):
+[https://github.com/iaik/minefield](https://github.com/iaik/minefield)
+
+SGXFuzz: Efficiently Synthesizing Nested Structures for SGX Enclave Fuzzing (USENIX Security 2022):
+[https://github.com/uni-due-syssec/sgxfuzz](https://github.com/uni-due-syssec/sgxfuzz)
 
 Repurposing Segmentation as a Practical LVI-NULL Mitigation in SGX (USENIX Security 2022):
 [https://github.com/IAIK/LVI-NULLify](https://github.com/IAIK/LVI-NULLify)
@@ -547,23 +723,30 @@ Deflection (CAT-SGX): Practical and Efficient in-Enclave Verification of Privacy
 Behavior-based Program Partitioning for Security Enclaves:
 [https://github.com/anahitH/program-partitioning-for-security-enclaves](https://github.com/anahitH/program-partitioning-for-security-enclaves)
 
-### Hardened Memory
+### Memory Protection
 
-Address space layout randomization (ASLR): [https://github.com/jaebaek/SGX-Shield](https://github.com/jaebaek/SGX-Shield)
+Address space layout randomization (NDSS 2017):
+[https://github.com/jaebaek/SGX-Shield](https://github.com/jaebaek/SGX-Shield)
 
-Hardware transactional memory (TSX): [https://github.com/sslab-gatech/t-sgx](https://github.com/sslab-gatech/t-sgx)
+Hardware transactional memory (NDSS 2017):
+[https://github.com/sslab-gatech/t-sgx](https://github.com/sslab-gatech/t-sgx)
 
-Compiler-based boundary check: [https://github.com/tudinfse/sgxbounds](https://github.com/tudinfse/sgxbounds)
+Compiler-based boundscheck (EuroSys 2017):
+[https://github.com/tudinfse/sgxbounds](https://github.com/tudinfse/sgxbounds)
 
-Linear/SQRT/Path ORAM: [https://github.com/maanrachid/SGXORAM](https://github.com/maanrachid/SGXORAM)
+Linear/SQRT/Path ORAM:
+[https://github.com/maanrachid/SGXORAM](https://github.com/maanrachid/SGXORAM)
+
+SO2 ORAM:
+[https://github.com/hiroki-chen/SGXOram](https://github.com/hiroki-chen/SGXOram)
 
 ### I/O Protection
 
+Fidelius: Protecting User Secrets from Compromised Browsers (Oakland 2019):
+[https://github.com/SabaEskandarian/Fidelius](https://github.com/SabaEskandarian/Fidelius)
+
 Building Distributed Enclave Applications with Sancus and SGX:
 [https://github.com/sancus-pma/tutorial-dsn18](https://github.com/sancus-pma/tutorial-dsn18)
-
-Fidelius: Protecting User Secrets from Compromised Browsers:
-[https://github.com/SabaEskandarian/Fidelius](https://github.com/SabaEskandarian/Fidelius)
 
 ## Attacks
 
@@ -582,6 +765,10 @@ Frontal Attack: Leaking Control-Flow in SGX via the CPU Frontend (USENIX Securit
 VoltPillager: Hardware-based fault injection attacks against IntelSGX Enclaves using the SVID voltage scaling interface (USENIX Security 2021)
 
 [https://github.com/zt-chen/voltpillager](https://github.com/zt-chen/voltpillager)
+
+TeeRex: Discovery and Exploitation of Memory Corruption Vulnerabilities in SGX Enclaves (USENIX Security 2020)
+
+[https://github.com/uni-due-syssec/teerex-exploits](https://github.com/uni-due-syssec/teerex-exploits)
 
 Faulty Point Unit: ABI Poisoning Attacks on Intel SGX (ACSAC 2020)
 
@@ -645,17 +832,46 @@ SGX-Timing: Cache Attacks on Intel SGX (EuroSec 2017)
 
 ## Beyond SGX Enclave Projects
 
-Penglai-Enclave: Open-sourced secure and scalable TEE system for RISC-V:
-[https://github.com/Penglai-Enclave/Penglai-Enclave](https://github.com/Penglai-Enclave/Penglai-Enclave)
+TwinVisor: Hardware-isolated Confidential Virtual Machines for ARM (SOSP 2021):
+[https://github.com/TwinVisor](https://github.com/TwinVisor)
 
-Keystone: An Open-Source Secure Enclave Framework for RISC-V Processors:
-[https://github.com/keystone-enclave/keystone](https://github.com/keystone-enclave/keystone)
-
-MultiZone Security TEE for RISC-V processors:
-[https://github.com/hex-five/multizone-sdk](https://github.com/hex-five/multizone-sdk)
+Kata Containers:
+[https://github.com/kata-containers/kata-containers](https://github.com/kata-containers/kata-containers)
 
 AWS Nitro Enclaves: CPU and memory isolation for Amazon EC2 instances using Nitro Hypervisor:
 [https://github.com/aws/aws-nitro-enclaves-cli](https://github.com/aws/aws-nitro-enclaves-cli)
 
-A Lightweight Trusted Execution Environment for Secure IoT Devices:
+TD-shim: Confidential Containers Shim Firmware:
+[https://github.com/confidential-containers/td-shim](https://github.com/confidential-containers/td-shim)
+
+AMD SEV-SNP measurement:
+[https://github.com/IBM/sev-snp-measure](https://github.com/IBM/sev-snp-measure)
+
+Key Broker Server for SEV(-ES):
+[https://github.com/confidential-containers/simple-kbs](https://github.com/confidential-containers/simple-kbs)
+
+## Other TEEs
+
+AMD SEV-SNP:
+[https://github.com/AMDESE/sev-guest](https://github.com/AMDESE/sev-guest)
+
+Intel TDX:
+[https://github.com/intel/tdx-tools](https://github.com/intel/tdx-tools)
+
+Secure Processing Unit (SPU), a provable, measurable secure computation device:
+[https://github.com/secretflow/spu](https://github.com/secretflow/spu)
+
+Penglai-Enclave: Open-sourced secure and scalable TEE system for RISC-V (OSDI 2021):
+[https://github.com/Penglai-Enclave/Penglai-Enclave](https://github.com/Penglai-Enclave/Penglai-Enclave)
+
+IBM OpenPOWER Protected Execution Facility (EuroSys 2021):
+[https://github.com/open-power/ultravisor](https://github.com/open-power/ultravisor)
+
+A Lightweight Trusted Execution Environment for Secure IoT Devices (CCS 2021):
 [https://github.com/sancus-tee](https://github.com/sancus-tee)
+
+Keystone: An Open-Source Secure Enclave Framework for RISC-V Processors (EuroSys 2020):
+[https://github.com/keystone-enclave/keystone](https://github.com/keystone-enclave/keystone)
+
+MultiZone Security TEE for RISC-V processors:
+[https://github.com/hex-five/multizone-sdk](https://github.com/hex-five/multizone-sdk)

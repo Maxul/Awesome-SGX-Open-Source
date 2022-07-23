@@ -1,9 +1,54 @@
-# Enclave Academy (High Ranking Conferences)
+# Academy Zoo (High Ranking Conferences)
+
+- [Session 0: Heterogeneous Trusted Execution](#session-0-heterogeneous-trusted-execution)
+- [Session 1: Towards a Better Enclave Architecture](#session-1-towards-a-better-enclave-architecture)
+- [Session 2: Automation Toolchain and Language Runtime](#session-2-automation-toolchain-and-language-runtime)
+- [Session 3: Enclave-based Secure (Lib)OS](#session-3-enclave-based-secure-libos)
+- [Session 4: Blockchain and Online Payment System](#session-4-blockchain-and-online-payment-system)
+- [Session 5: Privacy-Preserving Database and Analysis](#session-5-privacy-preserving-database-and-analysis)
+- [Session 6: Secure Network Functions](#session-6-secure-network-functions)
+- [Session 7: Storage, File System and Key-Value Store](#session-7-storage-file-system-and-key-value-store)
+- [Session 8: ML Training and Inference](#session-8-ml-training-and-inference)
+- [Session 9: Performance Still Matters](#session-9-performance-still-matters)
+- [Session 10: Enclave Vulnerabilities and Side Channels](#session-10-enclave-vulnerabilities-and-side-channels)
+- [Session 11: Enclave Protection and Attack Mitigations](#session-11-enclave-protection-and-attack-mitigations)
+- [Session 12: Miscellaneous](#session-12-miscellaneous)
+  - [Enclave Attestation](#enclave-attestation)
+  - [Heterogeneous Computing](#heterogeneous-computing)
+  - [Search Privacy](#search-privacy)
+  - [Trusted User I/O Path](#trusted-user-io-path)
+  - [Cloud Integrity](#cloud-integrity)
+  - [Enclave Malware](#enclave-malware)
+- [Other Online Resources](#other-online-resources)
+
+
+## Session 0: Heterogeneous Trusted Execution
+
+- TNPU: Supporting Trusted Execution with Tree-less Integrity Protection for Neural Processing Unit, HPCA 2022
+
+- SecNDP: Secure Near-Data Processing with Untrusted Memory, HPCA 2022
+
+- Adaptive Security Support for Heterogeneous Memory on GPUs, HPCA 2022
+
+- Secure and Policy-CompliantQuery Processing on Heterogeneous Computational Storage Architectures, SIGMOD 2022
+
+- IceClave: A Trusted Execution Environment for In-Storage Computing, MICRO 2021
+
+- Enabling Rack-scale Confidential Computing using Heterogeneous Trusted Execution Environment, IEEE S&P 2020
+
+- Heterogeneous Isolated Execution for Commodity GPUs, ASPLOS 2019
+
+- Graviton: Trusted Execution Environments on GPUs, OSDI 2018
+
 
 
 ## Session 1: Towards a Better Enclave Architecture
 
+- ShEF: Shielded Enclaves for Cloud FPGAs, ASPLOS 2022
+
 - Elasticlave: An Efficient Memory Model for Enclaves, USENIX Security 2022
+
+- Cryptographic Capability Computing, MICRO 2021
 
 - Scalable Memory Protection in the Penglai Enclave, OSDI 2021
 
@@ -141,6 +186,8 @@
 
 ## Session 8: ML Training and Inference
 
+- SOTER: Guarding Black-box Inference for General Neural Networks at the Edge, ATC 2022
+
 - DarKnight: An Accelerated Framework for Privacy and Integrity Preserving Deep Learning Using Trusted Hardware, MICRO 2021
 
 - Citadel: Protecting Data Privacy and Model Confidentiality for Collaborative Learning, SoCC 2021
@@ -163,7 +210,7 @@
 
 - Eleos: ExitLess Operating System Services for Intel SGX Enclaves, EuroSys 2017
 
-- Regain Lost Cycles with HotCalls: A Fast Interface for Intel SGX Secure Enclaves, ISCA 2017
+- Regaining Lost Cycles with HotCalls: A Fast Interface for Intel SGX Secure Enclaves, ISCA 2017
 
 
 
@@ -213,6 +260,8 @@
 
 ## Session 11: Enclave Protection and Attack Mitigations
 
+- PRIDWEN: Universally Hardening SGX Programs via Load-Time Synthesis, ATC 2022
+
 - Repurposing Segmentation as a Practical LVI-NULL Mitigation in SGX, USENIX Security 2022
 
 - CHANCEL: Efficient Multi-client Isolation Under Adversarial Programs, NDSS 2021
@@ -260,6 +309,13 @@
 - Practical and Efficient in-Enclave Verification of Privacy Compliance, DSN 2021
 
 
+### Cross-platform Compatibility
+
+- HyperEnclave: An Open and Cross-platform Trusted Execution Environment, ATC 2022
+
+- vSGX: Virtualizing SGX Enclaves on AMD SEV, IEEE S&P 2022
+
+
 ### Search Privacy
 
 - Bringing Decentralized Search to Decentralized Services, OSDI 2021
@@ -280,6 +336,8 @@
 
 ### Cloud Integrity
 
+- SMILE: Secure Memory Introspection for Live Enclave, IEEE S&P 2022
+
 - LibSEAL: Revealing Service Integrity Violations Using Trusted Execution, EuroSys 2018
 
 - Scotch: Combining Intel SGX and System Management Mode to Monitor Cloud Resource Usage, RAID 2017
@@ -294,5 +352,6 @@
 
 
 ## Other Online Resources
+
 * [A collection of SGX academic researches categorized by Intel](https://software.intel.com/en-us/sgx/documentation/academic-research)
 * [A collection of SGX papers from Valerio Schiavoni](https://github.com/vschiavoni/sgx-papers)
