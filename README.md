@@ -217,6 +217,9 @@ PSec: Programming Language for Creating Secure Distributed Systems leveraging In
 
 ## Blockchains
 
+Ethernity Cloud Node:
+[https://github.com/ethernity-cloud/mvp-pox-node](https://github.com/ethernity-cloud/mvp-pox-node)
+
 Oasis Network: Performant and Confidentiality-Preserving Smart Contracts + Blockchains:
 [https://github.com/oasisprotocol/oasis-core](https://github.com/oasisprotocol/oasis-core)
 
