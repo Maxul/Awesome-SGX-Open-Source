@@ -95,6 +95,9 @@ Panoply: Low-TCB Linux Applications with SGX Enclaves:
 
 ## Remote Attestation (RA) and Secure Channels
 
+OpenEmbedded layer for the use cases on secure boot, integrity and encryption:
+[https://github.com/jiazhang0/meta-secure-core](https://github.com/jiazhang0/meta-secure-core)
+
 MAGE: Mutual Attestation for a Group of Enclaves without Trusted Third Parties (USENIX Security 2022):
 [https://github.com/donnod/linux-sgx-mage](https://github.com/donnod/linux-sgx-mage)
 
@@ -296,6 +299,9 @@ BlindAI: Fast, accessible and privacy friendly AI deployment:
 
 Confidential Computing Zoo provides confidential computing solutions based on Intel SGX, TDX, HEXL, etc. technologies:
 [https://github.com/intel/confidential-computing-zoo](https://github.com/intel/confidential-computing-zoo)
+
+MNIST hand-written text recognition task using FEDn with the PyTorch C++:
+[https://github.com/scaleoutsystems/tee-mnist](https://github.com/scaleoutsystems/tee-mnist)
 
 Pytorch with SGX solution:
 [https://github.com/intel/sgx-pytorch](https://github.com/intel/sgx-pytorch)
@@ -756,6 +762,10 @@ Building Distributed Enclave Applications with Sancus and SGX:
 
 ## Attacks
 
+Rapid Prototyping for Microarchitectural Attacks (USENIX Security 2022)
+
+[https://github.com/libtea/frameworks](https://github.com/libtea/frameworks)
+
 SmashEx: Smashing SGX Enclaves Using Exceptions (CCS 2021)
 
 [https://github.com/cimcs/poc-exploits-of-smashex](https://github.com/cimcs/poc-exploits-of-smashex)
@@ -856,7 +866,13 @@ AMD SEV-SNP measurement:
 Key Broker Server for SEV(-ES):
 [https://github.com/confidential-containers/simple-kbs](https://github.com/confidential-containers/simple-kbs)
 
+A dynamic library providing Virtualization-based process isolation capabilities, also capable of creating TEEs using AMD SEV(-ES):
+[https://github.com/containers/libkrun](https://github.com/containers/libkrun)
+
 ## Other TEEs
+
+ARMv9 CCA + Samsung ISLET: enable on-device confidential computing for end users on ARM devices:
+[https://github.com/Samsung/islet](https://github.com/Samsung/islet)
 
 AMD SEV-SNP:
 [https://github.com/AMDESE/sev-guest](https://github.com/AMDESE/sev-guest)
