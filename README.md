@@ -220,6 +220,9 @@ PSec: Programming Language for Creating Secure Distributed Systems leveraging In
 
 ## Blockchains
 
+Twilight: A Differentially Private Payment Channel Network (USENIX Security 2022):
+[https://github.com/saart/Twilight](https://github.com/saart/Twilight)
+
 Ethernity Cloud Node:
 [https://github.com/ethernity-cloud/mvp-pox-node](https://github.com/ethernity-cloud/mvp-pox-node)
 

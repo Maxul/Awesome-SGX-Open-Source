@@ -106,6 +106,8 @@
 
 ## Session 4: Blockchain and Online Payment System
 
+- Twilight: A Differentially Private Payment Channel Network, USENIX Security 2022
+
 - Teechain: A Secure Payment Network with Asynchronous Blockchain Access, SOSP 2019
 
 - Tesseract: Real-time cryptocurrency exchange using trusted hardware, CCS 2019
