@@ -14,7 +14,7 @@ From my perspective, Intel TDX is indeed a good alternative to Intel SGX. TDX ou
 
 2. **Performance**: TDX supports para-virtualization and SR-IOV for high-performance I/O. On the contrary, SGX must involve expensive context switches for I/O intensive workloads. Although asynchrony can assist, asynchrony brings more CPUs into busy looping.
 
-3. **Security**: TDX utilizes multi-key memory encryption (MKTME) and introduces a secure yet thin hypervisor (i.e., SEAM module) that minimizes the controlled-channel attacks compared with SGX.
+3. **Security**: TDX utilizes multi-key memory encryption (MKTME) and introduces a secure yet thin hypervisor (i.e., SEAM module) that minimizes the controlled-channel attacks that exist in SGX. Nevertheless, TCB in SGX is supposed to be smaller than in TDX.
 
 4. **Utilization**: SGX statically partitions the physical memory into two halves; secure memory (i.e., enclave page cache or EPC) cannot be shared with the OS, whereas TD (namely, encrypted VM) pages can be flexibly configured to be private, shared or public (unencrypted).
 
@@ -27,7 +27,7 @@ Worse still, recent scalable SGX on Xeon3 gives up memory integrity, making TDX 
 A3: Probably not. Two reasons:
 
 - As long as Intel still reuses SGX to assist the remote attestation of TDX [3].
-- SGX is useful for micro-services such as key management services (KMS) with small TCB.
+- SGX is useful for micro-services such as key management services (KMS) with super small TCB.
 
 [1] https://cdrdv2.intel.com/v1/dl/getContent/634648
 
@@ -40,3 +40,5 @@ A3: Probably not. Two reasons:
 [5] https://github.com/gramineproject/gramine
 
 [6] https://github.com/occlum/occlum
+
+I would like to thank Mona Vij for the discussion on this page.
