@@ -49,6 +49,9 @@ Inclavare: a confidential container for cloud-native confidential computing and 
 Enarx: Confidential Computing with WebAssembly:
 [https://github.com/enarx/enarx](https://github.com/enarx/enarx)
 
+Conclave SDK is an open source platform that makes working with SGX enclaves easy:
+[https://github.com/R3Conclave/conclave-core-sdk](https://github.com/R3Conclave/conclave-core-sdk)
+
 KubeTEE TFF:
 [https://github.com/SOFAEnclave/trusted-function-framework](https://github.com/SOFAEnclave/trusted-function-framework)
 
