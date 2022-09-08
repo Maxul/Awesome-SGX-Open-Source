@@ -52,6 +52,9 @@ Enarx: Confidential Computing with WebAssembly:
 Conclave SDK is an open source platform that makes working with SGX enclaves easy:
 [https://github.com/R3Conclave/conclave-core-sdk](https://github.com/R3Conclave/conclave-core-sdk)
 
+Confidential Containers: Process-based Confidential Container Runtime:
+[https://github.com/confidential-containers/enclave-cc](https://github.com/confidential-containers/enclave-cc)
+
 KubeTEE TFF:
 [https://github.com/SOFAEnclave/trusted-function-framework](https://github.com/SOFAEnclave/trusted-function-framework)
 
@@ -359,6 +362,9 @@ SGX-Darknet: SGX compatible ML library:
 
 ## Common Libraries
 
+DarkProto Threshold Cryptosystem:
+[https://github.com/andrcmdr/darkproto-proposal](https://github.com/andrcmdr/darkproto-proposal)
+
 Enclave Memory Manager:
 [https://github.com/intel/sgx-emm](https://github.com/intel/sgx-emm)
 
@@ -385,8 +391,14 @@ GNU Multiple Precision Arithmetic Trusted Library for Intel SGX:
 
 ## Applications
 
+180Protocol: Confidential compute for sensitive data sharing and commercial collaboration:
+[https://github.com/180Protocol/180protocol](https://github.com/180Protocol/180protocol)
+
 Secure and Lightweight Deduplicated Storage via Shielded Deduplication-Before-Encryption (ATC 2022):
 [https://github.com/yzr95924/DEBE](https://github.com/yzr95924/DEBE)
+
+Intel SGX Module for the passpharse key derivation module of GenesisDrive:
+[https://github.com/VRTeamgenesis/GenesisDrive-SGX](https://github.com/VRTeamgenesis/GenesisDrive-SGX)
 
 Verifiable Election:
 [https://github.com/davidgmorais/verifiable-election](https://github.com/davidgmorais/verifiable-election)
@@ -540,6 +552,9 @@ BISEN: Boolean Isolated Searchable Encryption:
 
 ## Key and Password Management
 
+FeIDo: Recoverable FIDO2 Tokens Using Electronic IDs (CCS 2022)
+[https://github.com/feido-token](https://github.com/feido-token)
+
 Let's eSign Enclave:
 [https://github.com/letsesign/letsesign-enclave](https://github.com/letsesign/letsesign-enclave)
 
@@ -683,6 +698,9 @@ vSGX: Virtualizing SGX Enclaves on AMD SEV (Oakland 2022):
 [https://github.com/OSUSecLab/vSGX](https://github.com/OSUSecLab/vSGX)
 
 ## Defenses
+
+SgxMonitor (ACSAC 2022):
+[https://github.com/tregua87/sgxmonitor-artifact](https://github.com/tregua87/sgxmonitor-artifact)
 
 PRIDWEN: Universally Hardening SGX Programs via Load-Time Synthesis (ATC 2022):
 [https://github.com/sslab-gatech/Pridwen](https://github.com/sslab-gatech/Pridwen)
