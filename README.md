@@ -552,6 +552,9 @@ BISEN: Boolean Isolated Searchable Encryption:
 
 ## Key and Password Management
 
+Safeheron’s TEE Based RSA Key Sharding Service:
+[https://github.com/Safeheron/sgx-arweave-cpp](https://github.com/Safeheron/sgx-arweave-cpp)
+
 FeIDo: Recoverable FIDO2 Tokens Using Electronic IDs (CCS 2022)
 [https://github.com/feido-token](https://github.com/feido-token)
 
@@ -698,6 +701,9 @@ vSGX: Virtualizing SGX Enclaves on AMD SEV (Oakland 2022):
 [https://github.com/OSUSecLab/vSGX](https://github.com/OSUSecLab/vSGX)
 
 ## Defenses
+
+Enclyzer: Automated Analysis of Transient Data Leaks for Intel SGX:
+[https://github.com/bloaryth/enclyzer](https://github.com/bloaryth/enclyzer)
 
 SgxMonitor (ACSAC 2022):
 [https://github.com/tregua87/sgxmonitor-artifact](https://github.com/tregua87/sgxmonitor-artifact)
