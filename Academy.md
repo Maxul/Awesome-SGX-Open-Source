@@ -24,6 +24,10 @@
 
 ## Session 0: Heterogeneous Trusted Execution
 
+- StrongBox: A GPU TEE on Arm Endpoints, CCS 2022
+
+- Confidential Machine Learning within Graphcore IPUs, arXiv 2022
+
 - TNPU: Supporting Trusted Execution with Tree-less Integrity Protection for Neural Processing Unit, HPCA 2022
 
 - SecNDP: Secure Near-Data Processing with Untrusted Memory, HPCA 2022
@@ -43,6 +47,8 @@
 
 
 ## Session 1: Towards a Better Enclave Architecture
+
+- Cerberus: A Formal Approach to Secure and Efficient Enclave Memory Sharing, CCS 2022
 
 - ShEF: Shielded Enclaves for Cloud FPGAs, ASPLOS 2022
 
@@ -105,6 +111,8 @@
 
 
 ## Session 4: Blockchain and Online Payment System
+
+- ENGRAFT: Enclave-guarded Raft on Byzantine Faulty Nodes, CCS 2022
 
 - Twilight: A Differentially Private Payment Channel Network, USENIX Security 2022
 
@@ -346,6 +354,8 @@
 
 
 ### Enclave Malware
+
+- SoK: How Not to Architect Your Next-Generation TEE Malware, HASP@MICRO 2022
 
 - Practical Enclave Malware with Intel SGX, DIMVA 2019
 

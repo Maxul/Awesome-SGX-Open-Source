@@ -694,6 +694,9 @@ SGXTuner: a distributed tuning system for enclaves:
 
 ## Compatibility
 
+Remote SGX enclave for embedded devices (SysTex 2022)
+[https://github.com/Zildj1an/PopSGX](https://github.com/Zildj1an/PopSGX)
+
 HyperEnclave: An Open and Cross-platform Trusted Execution Environment (ATC 2022):
 [https://github.com/HyperEnclave](https://github.com/HyperEnclave)
 
