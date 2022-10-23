@@ -90,7 +90,7 @@ Porpoise: A tool to port commodity application to Intel SGX:
 Mystikos: Tools and runtime for launching unmodified container images in Trusted Execution Environments:
 [https://github.com/deislabs/mystikos](https://github.com/deislabs/mystikos)
 
-GX-LKL: Library OS for running Linux applications inside SGX enclaves:
+SGX-LKL: Library OS for running Linux applications inside SGX enclaves:
 [https://github.com/lsds/sgx-lkl](https://github.com/lsds/sgx-lkl)
 
 Ratel: Dynamic Binary Translation with SGX Enclaves:
