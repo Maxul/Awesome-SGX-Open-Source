@@ -599,6 +599,9 @@ EdgelessDB: a MySQL-compatible database running entirely inside SGX enclaves:
 Avocado: a secure distributed in-memory key-value store (USENIX ATC 2021):
 [https://github.com/mbailleu/avocado](https://github.com/mbailleu/avocado)
 
+SPEICHER: Securing LSM-based Key-Value Stores using Shielded Execution (FAST 2019)
+[https://github.com/mbailleu/SpeicherDPDK](https://github.com/mbailleu/SpeicherDPDK)
+
 StealthDB: an encrypted database from intel sgx with small trusted computing base (PETS 2019):
 [https://github.com/cryptograph/stealthdb](https://github.com/cryptograph/stealthdb)
 
