@@ -150,6 +150,9 @@ Enclave Mutual Attestation Library:
 
 ## Crypto
 
+SGX-supported version of safeheron-crypto-suites-cpp library:
+[https://github.com/Safeheron/safeheron-crypto-suites-cpp-sgx](https://github.com/Safeheron/safeheron-crypto-suites-cpp-sgx)
+
 Enclavised OpenSSL (Intel Official):
 [https://github.com/intel/intel-sgx-ssl](https://github.com/intel/intel-sgx-ssl)
 
@@ -453,6 +456,9 @@ Securing Storage Encryption:
 
 ## Network
 
+TrustedGateway: TEE-Assisted Routing and Firewall Enforcement Using ARM TrustZone (RAID 2022):
+[https://github.com/trugw](https://github.com/trugw)
+
 OpenRelay: Community-built, Privacy-first VPN (WIP):
 [https://github.com/triumphantomato/openrelay](https://github.com/triumphantomato/openrelay)
 
@@ -708,6 +714,9 @@ vSGX: Virtualizing SGX Enclaves on AMD SEV (Oakland 2022):
 
 ## Defenses
 
+Hacking Valgrind to use it on Rust SGX enclave:
+[https://github.com/mithril-security/valgrind](https://github.com/mithril-security/valgrind)
+
 Enclyzer: Automated Analysis of Transient Data Leaks for Intel SGX:
 [https://github.com/bloaryth/enclyzer](https://github.com/bloaryth/enclyzer)
 
@@ -904,6 +913,12 @@ Key Broker Server for SEV(-ES):
 
 A dynamic library providing Virtualization-based process isolation capabilities, also capable of creating TEEs using AMD SEV(-ES):
 [https://github.com/containers/libkrun](https://github.com/containers/libkrun)
+
+Smart Object Oriented: Mobile Entities Migration Between Smart Objects For Fully Decentralized and Autonomous Embedded Systems:
+[https://github.com/smartobjectoriented/soo](https://github.com/smartobjectoriented/soo)
+
+mTower: designed for MicroController Units (MCUs) that support ARM TrustZone:
+[https://github.com/Samsung/mTower](https://github.com/Samsung/mTower)
 
 ## Other TEEs
 
