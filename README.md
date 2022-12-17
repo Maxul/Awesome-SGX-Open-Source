@@ -456,6 +456,9 @@ Securing Storage Encryption:
 
 ## Network
 
+Towards A TEE-based V2V Protocol For Connected And Autonomous Vehicles:
+[https://github.com/OSUSecLab/v2v-sgx-prelim](https://github.com/OSUSecLab/v2v-sgx-prelim)
+
 TrustedGateway: TEE-Assisted Routing and Firewall Enforcement Using ARM TrustZone (RAID 2022):
 [https://github.com/trugw](https://github.com/trugw)
 
@@ -892,6 +895,9 @@ SGX-Timing: Cache Attacks on Intel SGX (EuroSec 2017)
 [https://github.com/m1ghtym0/sgx-timing](https://github.com/m1ghtym0/sgx-timing)
 
 ## Beyond SGX Enclave Projects
+
+Elasticlave: An Efficient Memory Model for Enclaves (USENIX Security 2022):
+[https://github.com/jasonyu1996/elasticlave](https://github.com/jasonyu1996/elasticlave)
 
 TwinVisor: Hardware-isolated Confidential Virtual Machines for ARM (SOSP 2021):
 [https://github.com/TwinVisor](https://github.com/TwinVisor)
