@@ -172,6 +172,8 @@ SGX-OpenSSL (SGX-Tor Project):
 
 Rust:
 
+- EigenCC: Confidential Computation: [https://github.com/0xEigenLabs/eigencc](https://github.com/0xEigenLabs/eigencc)
+
 - [https://github.com/baidu/rust-sgx-sdk](https://github.com/baidu/rust-sgx-sdk)
 
 - [https://github.com/fortanix/rust-sgx](https://github.com/fortanix/rust-sgx)
@@ -628,6 +630,9 @@ Protect Audit-Log via Sqlite (EuroSys 2018):
 
 ## Distributed Systems
 
+Confidential Containers Operator: deploying and managing Confidential Containers Runtime on Kubernetes clusters:
+[https://github.com/confidential-containers/operator](https://github.com/confidential-containers/operator)
+
 Oak: Meaningful Control of Data in Distributed Systems:
 [https://github.com/project-oak/oak](https://github.com/project-oak/oak)
 
@@ -927,6 +932,9 @@ mTower: designed for MicroController Units (MCUs) that support ARM TrustZone:
 [https://github.com/Samsung/mTower](https://github.com/Samsung/mTower)
 
 ## Other TEEs
+
+Linux Security Hardening for Confidential Compute:
+[https://github.com/intel/ccc-linux-guest-hardening](https://github.com/intel/ccc-linux-guest-hardening)
 
 ARMv9 CCA + Samsung ISLET: enable on-device confidential computing for end users on ARM devices:
 [https://github.com/Samsung/islet](https://github.com/Samsung/islet)
