@@ -901,6 +901,9 @@ SGX-Timing: Cache Attacks on Intel SGX (EuroSec 2017)
 
 ## Beyond SGX Enclave Projects
 
+Cerberus: A Formal Approach to Secure and Efficient Enclave Memory Sharing (CCS 2022):
+[https://github.com/cerberus-ccs22/TAPC](https://github.com/cerberus-ccs22/TAPC)
+
 Elasticlave: An Efficient Memory Model for Enclaves (USENIX Security 2022):
 [https://github.com/jasonyu1996/elasticlave](https://github.com/jasonyu1996/elasticlave)
 
