@@ -396,6 +396,9 @@ GNU Multiple Precision Arithmetic Trusted Library for Intel SGX:
 
 ## Applications
 
+BastionLab: a simple framework for privacy-friendly data science collaboration:
+[https://github.com/mithril-security/bastionlab](https://github.com/mithril-security/bastionlab)
+
 180Protocol: Confidential compute for sensitive data sharing and commercial collaboration:
 [https://github.com/180Protocol/180protocol](https://github.com/180Protocol/180protocol)
 
