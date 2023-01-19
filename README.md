@@ -396,6 +396,9 @@ GNU Multiple Precision Arithmetic Trusted Library for Intel SGX:
 
 ## Applications
 
+CACIC: Providing Secure and Customizable IoT Data Access Policies with SGX:
+[https://github.com/GTA-UFRJ/CACIC-Use-Case](https://github.com/GTA-UFRJ/CACIC-Use-Case)
+
 BastionLab: a simple framework for privacy-friendly data science collaboration:
 [https://github.com/mithril-security/bastionlab](https://github.com/mithril-security/bastionlab)
 
@@ -460,6 +463,9 @@ Securing Storage Encryption:
 [https://github.com/ayeks/TresorSGX](https://github.com/ayeks/TresorSGX)
 
 ## Network
+
+Setheum - Powering Scalable Web3 Solutions:
+[https://github.com/Setheum-Labs/Setheum](https://github.com/Setheum-Labs/Setheum)
 
 Towards A TEE-based V2V Protocol For Connected And Autonomous Vehicles:
 [https://github.com/OSUSecLab/v2v-sgx-prelim](https://github.com/OSUSecLab/v2v-sgx-prelim)
