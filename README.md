@@ -639,6 +639,9 @@ Protect Audit-Log via Sqlite (EuroSys 2018):
 
 ## Distributed Systems
 
+uBFT: Microsecond-scale BFT using Disaggregated Memory (ASPLOS 2023):
+[https://github.com/LPD-EPFL/ubft](https://github.com/LPD-EPFL/ubft)
+
 Confidential Containers Operator: deploying and managing Confidential Containers Runtime on Kubernetes clusters:
 [https://github.com/confidential-containers/operator](https://github.com/confidential-containers/operator)
 
@@ -823,6 +826,10 @@ Building Distributed Enclave Applications with Sancus and SGX:
 [https://github.com/sancus-pma/tutorial-dsn18](https://github.com/sancus-pma/tutorial-dsn18)
 
 ## Attacks
+
+PMFault: Faulting and Bricking Server CPUs through Management Interfaces (CHES 2023), CVE-2022-43309
+
+[https://github.com/zt-chen/PMFault](https://github.com/zt-chen/PMFault)
 
 Rapid Prototyping for Microarchitectural Attacks (USENIX Security 2022)
 
