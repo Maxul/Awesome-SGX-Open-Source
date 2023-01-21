@@ -952,11 +952,17 @@ mTower: designed for MicroController Units (MCUs) that support ARM TrustZone:
 
 ## Other TEEs
 
-Linux Security Hardening for Confidential Compute:
-[https://github.com/intel/ccc-linux-guest-hardening](https://github.com/intel/ccc-linux-guest-hardening)
+Reference implementation of Arm-CCA RMM specification:
+[https://github.com/TF-RMM/tf-rmm](https://github.com/TF-RMM/tf-rmm)
+
+ARM CCA feature emulation on QEMU:
+[https://github.com/Huawei/Huawei_CCA_QEMU](https://github.com/Huawei/Huawei_CCA_QEMU)
 
 ARMv9 CCA + Samsung ISLET: enable on-device confidential computing for end users on ARM devices:
 [https://github.com/Samsung/islet](https://github.com/Samsung/islet)
+
+Linux Security Hardening for Confidential Compute:
+[https://github.com/intel/ccc-linux-guest-hardening](https://github.com/intel/ccc-linux-guest-hardening)
 
 AMD SEV-SNP:
 [https://github.com/AMDESE/sev-guest](https://github.com/AMDESE/sev-guest)
