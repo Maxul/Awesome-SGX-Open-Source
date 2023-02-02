@@ -49,6 +49,9 @@ Inclavare: a confidential container for cloud-native confidential computing and 
 Enarx: Confidential Computing with WebAssembly:
 [https://github.com/enarx/enarx](https://github.com/enarx/enarx)
 
+enclaive.io: Building confidential containers for the cloud:
+[https://github.com/enclaive](https://github.com/enclaive)
+
 Conclave SDK is an open source platform that makes working with SGX enclaves easy:
 [https://github.com/R3Conclave/conclave-core-sdk](https://github.com/R3Conclave/conclave-core-sdk)
 
@@ -100,6 +103,9 @@ Panoply: Low-TCB Linux Applications with SGX Enclaves:
 [https://github.com/shwetasshinde24/Panoply](https://github.com/shwetasshinde24/Panoply)
 
 ## Remote Attestation (RA) and Secure Channels
+
+Veraison: Project Veraison creates software components that can be used to build an Attestation Verification Service:
+[https://github.com/veraison](https://github.com/veraison)
 
 OpenEmbedded layer for the use cases on secure boot, integrity and encryption:
 [https://github.com/jiazhang0/meta-secure-core](https://github.com/jiazhang0/meta-secure-core)
@@ -230,6 +236,9 @@ PSec: Programming Language for Creating Secure Distributed Systems leveraging In
 [https://github.com/ShivKushwah/PSec](https://github.com/ShivKushwah/PSec)
 
 ## Blockchains
+
+A Ledger-backed Secure Key-Value store (LSKV), built on the Confidential Consortium Framework (CCF):
+[https://github.com/microsoft/LSKV](https://github.com/microsoft/LSKV)
 
 Twilight: A Differentially Private Payment Channel Network (USENIX Security 2022):
 [https://github.com/saart/Twilight](https://github.com/saart/Twilight)
@@ -916,6 +925,9 @@ SGX-Timing: Cache Attacks on Intel SGX (EuroSec 2017)
 [https://github.com/m1ghtym0/sgx-timing](https://github.com/m1ghtym0/sgx-timing)
 
 ## Beyond SGX Enclave Projects
+
+salus: RISC-V micro-hypervisor for TEE development:
+[https://github.com/rivosinc/salus/](https://github.com/rivosinc/salus/)
 
 Cerberus: A Formal Approach to Secure and Efficient Enclave Memory Sharing (CCS 2022):
 [https://github.com/cerberus-ccs22/TAPC](https://github.com/cerberus-ccs22/TAPC)
