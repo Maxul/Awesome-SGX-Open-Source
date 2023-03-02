@@ -102,6 +102,13 @@ Ratel: Dynamic Binary Translation with SGX Enclaves:
 Panoply: Low-TCB Linux Applications with SGX Enclaves:
 [https://github.com/shwetasshinde24/Panoply](https://github.com/shwetasshinde24/Panoply)
 
+Teaclave: it's an Apache incubator project, which provides a Java SGX SDK, a Rust SGX SDK and a Rust TrustZone SDK:
+[https://teaclave.apache.org/](https://teaclave.apache.org/)
+[https://github.com/apache/incubator-teaclave-java-tee-sdk](https://github.com/apache/incubator-teaclave-java-tee-sdk)
+[https://github.com/apache/incubator-teaclave-sgx-sdk](https://github.com/apache/incubator-teaclave-sgx-sdk)
+[https://github.com/apache/incubator-teaclave-trustzone-sdk](https://github.com/apache/incubator-teaclave-trustzone-sdk)
+
+
 ## Remote Attestation (RA) and Secure Channels
 
 Veraison: Project Veraison creates software components that can be used to build an Attestation Verification Service:
