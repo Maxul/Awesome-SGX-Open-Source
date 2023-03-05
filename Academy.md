@@ -367,3 +367,4 @@
 
 * [A collection of SGX academic researches categorized by Intel](https://software.intel.com/en-us/sgx/documentation/academic-research)
 * [A collection of SGX papers from Valerio Schiavoni](https://github.com/vschiavoni/sgx-papers)
+* [Enclave Research](https://richardhabeeb.github.io/EnclaveResearch/)
