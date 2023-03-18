@@ -48,8 +48,7 @@
 
 ## Session 1: Towards a Better Enclave Architecture
 
-- Lejacon: A Lightweight and Efficient Approach to Java
-  Confidential Computing on SGX, ICSE 2023, ACM SIGSOFT Distinguished Paper Award
+- Lejacon: A Lightweight and Efficient Approach to Java Confidential Computing on SGX, ICSE 2023
 
 - Cerberus: A Formal Approach to Secure and Efficient Enclave Memory Sharing, CCS 2022
 

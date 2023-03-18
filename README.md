@@ -60,13 +60,6 @@ A curated list of academic work from top conferences: [link](https://github.com/
 - **Ratel: Dynamic Binary Translation with SGX Enclaves** [https://github.com/ratel-enclave/ratel](https://github.com/ratel-enclave/ratel)
 - **Panoply: Low-TCB Linux Applications with SGX Enclaves** [https://github.com/shwetasshinde24/Panoply](https://github.com/shwetasshinde24/Panoply)
 
-Teaclave: it's an Apache incubator project, which provides a Java SGX SDK, a Rust SGX SDK and a Rust TrustZone SDK:
-[https://teaclave.apache.org/](https://teaclave.apache.org/)
-[https://github.com/apache/incubator-teaclave-java-tee-sdk](https://github.com/apache/incubator-teaclave-java-tee-sdk)
-[https://github.com/apache/incubator-teaclave-sgx-sdk](https://github.com/apache/incubator-teaclave-sgx-sdk)
-[https://github.com/apache/incubator-teaclave-trustzone-sdk](https://github.com/apache/incubator-teaclave-trustzone-sdk)
-
-
 ## Remote Attestation (RA) and Secure Channels
 
 - **Veraison: Project Veraison creates software components that can be used to build an Attestation Verification Service** [https://github.com/veraison](https://github.com/veraison)
@@ -101,7 +94,9 @@ Teaclave: it's an Apache incubator project, which provides a Java SGX SDK, a Rus
 
 ## Language Frameworks
 
+- **Java** [https://github.com/apache/incubator-teaclave-java-tee-sdk](https://github.com/apache/incubator-teaclave-java-tee-sdk)
 - **Rust**
+  - **RusTEE: Developing Memory-Safe ARM TrustZone Applications (ACSAC 2020)** [https://github.com/apache/incubator-teaclave-trustzone-sdk](https://github.com/apache/incubator-teaclave-trustzone-sdk)
   - **EigenCC: Confidential Computation** [https://github.com/0xEigenLabs/eigencc](https://github.com/0xEigenLabs/eigencc)
   - [https://github.com/baidu/rust-sgx-sdk](https://github.com/baidu/rust-sgx-sdk)
   - [https://github.com/fortanix/rust-sgx](https://github.com/fortanix/rust-sgx)
