@@ -280,7 +280,9 @@ A curated list of academic work from top conferences: [link](https://github.com/
 
 ## Distributed Systems
 
+- **Dissecting BFT Consensus: In Trusted Components we Trust (EuroSys 2023)** [https://github.com/msadoghi/resdb-sgx-eurosys](https://github.com/msadoghi/resdb-sgx-eurosys)
 - **uBFT: Microsecond-scale BFT using Disaggregated Memory (ASPLOS 2023)** [https://github.com/LPD-EPFL/ubft](https://github.com/LPD-EPFL/ubft)
+- **Byzantine-fault tolerant pessimistic lock manager with Intel SGX** [https://github.com/shangsuru/verifiable-lockmanager](https://github.com/shangsuru/verifiable-lockmanager)
 - **Confidential Containers Operator: deploying and managing Confidential Containers Runtime on Kubernetes clusters** [https://github.com/confidential-containers/operator](https://github.com/confidential-containers/operator)
 - **Oak: Meaningful Control of Data in Distributed Systems** [https://github.com/project-oak/oak](https://github.com/project-oak/oak)
 - **Kubernetes Device Plugin for Intel SGX** [https://github.com/AliyunContainerService/sgx-device-plugin](https://github.com/AliyunContainerService/sgx-device-plugin)
