@@ -388,6 +388,7 @@ A curated list of academic work from top conferences: [link](https://github.com/
 
 ## Beyond SGX Enclave Projects
 
+- **MIG Partition Editor for NVIDIA GPUs** [https://github.com/NVIDIA/mig-parted](https://github.com/NVIDIA/mig-parted)
 - **Linux SVSM (Secure VM Service Module) for AMD SEV-SNP in Rust** [https://github.com/AMDESE/linux-svsm](https://github.com/AMDESE/linux-svsm)
 - **salus: RISC-V micro-hypervisor for TEE development** [https://github.com/rivosinc/salus/](https://github.com/rivosinc/salus/)
 - **Cerberus: A Formal Approach to Secure and Efficient Enclave Memory Sharing (CCS 2022)** [https://github.com/cerberus-ccs22/TAPC](https://github.com/cerberus-ccs22/TAPC)

@@ -48,8 +48,6 @@
 
 ## Session 1: Towards a Better Enclave Architecture
 
-- Lejacon: A Lightweight and Efficient Approach to Java Confidential Computing on SGX, ICSE 2023
-
 - Cerberus: A Formal Approach to Secure and Efficient Enclave Memory Sharing, CCS 2022
 
 - ShEF: Shielded Enclaves for Cloud FPGAs, ASPLOS 2022
@@ -77,6 +75,8 @@
 
 
 ## Session 2: Automation Toolchain and Language Runtime
+
+- Lejacon: A Lightweight and Efficient Approach to Java Confidential Computing on SGX, ICSE 2023
 
 - Towards Formal Verification of State Continuity for Enclave Programs, USENIX Security 2021
 
