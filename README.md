@@ -121,6 +121,7 @@ A curated list of academic work from top conferences: [link](https://github.com/
 
 ## Blockchains
 
+- **Secret.NET is a .NET Client to interact with the Secret Network blockchain** [https://github.com/0xxCodemonkey/SecretNET](https://github.com/0xxCodemonkey/SecretNET)
 - **A Ledger-backed Secure Key-Value store (LSKV), built on the Confidential Consortium Framework (CCF)** [https://github.com/microsoft/LSKV](https://github.com/microsoft/LSKV)
 - **Twilight: A Differentially Private Payment Channel Network (USENIX Security 2022)** [https://github.com/saart/Twilight](https://github.com/saart/Twilight)
 - **Ethernity Cloud Node** [https://github.com/ethernity-cloud/mvp-pox-node](https://github.com/ethernity-cloud/mvp-pox-node)
@@ -148,6 +149,7 @@ A curated list of academic work from top conferences: [link](https://github.com/
 
 ## Machine Learning
 
+- **Machine learning inference in trusted execution environment build from SGX** [https://github.com/Luke20000429/Trusted-ML-SGX](https://github.com/Luke20000429/Trusted-ML-SGX)
 - **Azure Bicep/ARM template to quickly deploy standalone secure research environments** [https://github.com/microsoft/Azure-Secure-Enclave-for-Research](https://github.com/microsoft/Azure-Secure-Enclave-for-Research)
 - **SOTER: Guarding Black-box Inference for General Neural Networks at the Edge (ATC 2022)** [https://github.com/hku-systems/SOTER](https://github.com/hku-systems/SOTER)
 - **TF-Encrypted: A Framework for Encrypted Machine Learning in TensorFlow** [https://github.com/tf-encrypted/tf-encrypted](https://github.com/tf-encrypted/tf-encrypted)
@@ -174,6 +176,7 @@ A curated list of academic work from top conferences: [link](https://github.com/
 
 ## Common Libraries
 
+- **A library to orchestrate interoperable Data Cleaning Services using Intel SGX based Containers** [https://github.com/qascade/dcr](https://github.com/qascade/dcr)
 - **DarkProto Threshold Cryptosystem** [https://github.com/andrcmdr/darkproto-proposal](https://github.com/andrcmdr/darkproto-proposal)
 - **Enclave Memory Manager** [https://github.com/intel/sgx-emm](https://github.com/intel/sgx-emm)
 - **VRF-enhanced random number source running inside enclaves** [https://github.com/smartbch/enclave-vrf](https://github.com/smartbch/enclave-vrf)
@@ -310,6 +313,7 @@ A curated list of academic work from top conferences: [link](https://github.com/
 
 ## Performance
 
+- **SGX Switchless Calls Made Configless (DSN 2023)**[https://gitlab.com/Yuhala/zc-switchless](https://gitlab.com/Yuhala/zc-switchless)
 - **rkt-io: Library OS for running Linux applications inside of Intel SGX enclaves (EuroSys 2021)** [https://github.com/Mic92/rkt-io](https://github.com/Mic92/rkt-io)
 - **Flume: a blazingly fast multi-producer, multi-consumer channel** [https://github.com/occlum/flume](https://github.com/occlum/flume)
 - **Actor model for better Enclave IPC (Middleware 2018)** [https://github.com/ibr-ds/EActors](https://github.com/ibr-ds/EActors)
