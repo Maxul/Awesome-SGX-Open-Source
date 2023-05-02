@@ -285,6 +285,7 @@ A curated list of academic work from top conferences: [link](https://github.com/
 
 ## Distributed Systems
 
+- **Intel Technology Enabling for OpenShift** [https://github.com/intel/intel-technology-enabling-for-openshift](https://github.com/intel/intel-technology-enabling-for-openshift)
 - **Dissecting BFT Consensus: In Trusted Components we Trust (EuroSys 2023)** [https://github.com/msadoghi/resdb-sgx-eurosys](https://github.com/msadoghi/resdb-sgx-eurosys)
 - **uBFT: Microsecond-scale BFT using Disaggregated Memory (ASPLOS 2023)** [https://github.com/LPD-EPFL/ubft](https://github.com/LPD-EPFL/ubft)
 - **Byzantine-fault tolerant pessimistic lock manager with Intel SGX** [https://github.com/shangsuru/verifiable-lockmanager](https://github.com/shangsuru/verifiable-lockmanager)
