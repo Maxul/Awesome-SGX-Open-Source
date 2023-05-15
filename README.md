@@ -214,6 +214,7 @@ A curated list of academic work from top conferences: [link](https://github.com/
 
 ## Network
 
+- **Priority load balancer with retries, and SGX RA-TLS support** [https://github.com/flashbots/prio-load-balancer](https://github.com/flashbots/prio-load-balancer)
 - **Setheum - Powering Scalable Web3 Solutions** [https://github.com/Setheum-Labs/Setheum](https://github.com/Setheum-Labs/Setheum)
 - **Towards A TEE-based V2V Protocol For Connected And Autonomous Vehicles** [https://github.com/OSUSecLab/v2v-sgx-prelim](https://github.com/OSUSecLab/v2v-sgx-prelim)
 - **TrustedGateway: TEE-Assisted Routing and Firewall Enforcement Using ARM TrustZone (RAID 2022)** [https://github.com/trugw](https://github.com/trugw)
