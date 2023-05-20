@@ -121,6 +121,7 @@ A curated list of academic work from top conferences: [link](https://github.com/
 
 ## Blockchains
 
+- **SDK for [Switchboard](https://docs.switchboard.xyz/)'s secure enclave computing** [https://github.com/switchboard-xyz/sgx-sdk](https://github.com/switchboard-xyz/sgx-sdk)
 - **Secret.NET is a .NET Client to interact with the Secret Network blockchain** [https://github.com/0xxCodemonkey/SecretNET](https://github.com/0xxCodemonkey/SecretNET)
 - **A Ledger-backed Secure Key-Value store (LSKV), built on the Confidential Consortium Framework (CCF)** [https://github.com/microsoft/LSKV](https://github.com/microsoft/LSKV)
 - **Twilight: A Differentially Private Payment Channel Network (USENIX Security 2022)** [https://github.com/saart/Twilight](https://github.com/saart/Twilight)
@@ -189,6 +190,7 @@ A curated list of academic work from top conferences: [link](https://github.com/
 
 ## Applications
 
+- **Data Clean Room (GSSoC 2023)** [https://github.com/qascade/dcr](https://github.com/qascade/dcr)
 - **CACIC: Providing Secure and Customizable IoT Data Access Policies with SGX** [https://github.com/GTA-UFRJ/CACIC-Use-Case](https://github.com/GTA-UFRJ/CACIC-Use-Case)
 - **BastionLab: a simple framework for privacy-friendly data science collaboration** [https://github.com/mithril-security/bastionlab](https://github.com/mithril-security/bastionlab)
 - **180Protocol: Confidential compute for sensitive data sharing and commercial collaboration** [https://github.com/180Protocol/180protocol](https://github.com/180Protocol/180protocol)
@@ -204,7 +206,7 @@ A curated list of academic work from top conferences: [link](https://github.com/
 - **SMac: Secure Genotype Imputation in Intel SGX** [https://github.com/ndokmai/sgx-genotype-imputation](https://github.com/ndokmai/sgx-genotype-imputation)
 - **SGXKaller: Private Contact Discovery Service** [https://github.com/Arslan8/SGXKaller](https://github.com/Arslan8/SGXKaller)
 - **Achieving Reconciliation between Privacy Preservation and Auditability For File Hosting (Intel SGX + IPFS + Hyperledger Fabric)** [https://github.com/wuliangshun/SGX-base-File-Hosting](https://github.com/wuliangshun/SGX-base-File-Hosting)
-- **bwa-sgx-scone: a parallel privacy preserved** [BWA](https://github.com/lh3/bwa)(DNA sequence alignment) solution using Intel SGX and SCONE** [https://github.com/dsc-sgx/bwa-sgx-scone](https://github.com/dsc-sgx/bwa-sgx-scone)
+- **bwa-sgx-scone: a parallel privacy preserved [BWA](https://github.com/lh3/bwa)(DNA sequence alignment) solution using Intel SGX and SCONE** [https://github.com/dsc-sgx/bwa-sgx-scone](https://github.com/dsc-sgx/bwa-sgx-scone)
 - **Bioinformatic Interpreter with Intel SGX** [https://github.com/hello31337/BI-SGX](https://github.com/hello31337/BI-SGX)
 - **C3PO: providing security functions for Open Mobile Evolved Core (OMEC)** [https://github.com/omec-project/c3po](https://github.com/omec-project/c3po)
 - **SafeTrace: Privacy Preserving Voluntary COVID-19 Self-Reporting Platform for Contact Tracing** [https://github.com/enigmampc/SafeTrace](https://github.com/enigmampc/SafeTrace)
