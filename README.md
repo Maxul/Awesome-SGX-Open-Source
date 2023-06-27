@@ -121,6 +121,7 @@ A curated list of academic work from top conferences: [link](https://github.com/
 
 ## Blockchains
 
+- **Fidelius: YeeZ Privacy Protection for Data Collaboration** [https://github.com/YeeZTech/YeeZ-Privacy-Computing](https://github.com/YeeZTech/YeeZ-Privacy-Computing)
 - **SDK for [Switchboard](https://docs.switchboard.xyz/)'s secure enclave computing** [https://github.com/switchboard-xyz/sgx-sdk](https://github.com/switchboard-xyz/sgx-sdk)
 - **Secret.NET is a .NET Client to interact with the Secret Network blockchain** [https://github.com/0xxCodemonkey/SecretNET](https://github.com/0xxCodemonkey/SecretNET)
 - **A Ledger-backed Secure Key-Value store (LSKV), built on the Confidential Consortium Framework (CCF)** [https://github.com/microsoft/LSKV](https://github.com/microsoft/LSKV)
