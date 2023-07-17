@@ -1,32 +1,37 @@
 # Academy Zoo (High Ranking Conferences)
 
-- [Session 0: Heterogeneous Trusted Execution](#session-0-heterogeneous-trusted-execution)
-- [Session 1: Towards a Better Enclave Architecture](#session-1-towards-a-better-enclave-architecture)
-- [Session 2: Automation Toolchain and Language Runtime](#session-2-automation-toolchain-and-language-runtime)
-- [Session 3: Enclave-based Secure (Lib)OS](#session-3-enclave-based-secure-libos)
-- [Session 4: Blockchain and Online Payment System](#session-4-blockchain-and-online-payment-system)
-- [Session 5: Privacy-Preserving Database and Analysis](#session-5-privacy-preserving-database-and-analysis)
-- [Session 6: Secure Network Functions](#session-6-secure-network-functions)
-- [Session 7: Storage, File System and Key-Value Store](#session-7-storage-file-system-and-key-value-store)
-- [Session 8: ML Training and Inference](#session-8-ml-training-and-inference)
-- [Session 9: Performance Still Matters](#session-9-performance-still-matters)
-- [Session 10: Enclave Vulnerabilities and Side Channels](#session-10-enclave-vulnerabilities-and-side-channels)
-- [Session 11: Enclave Protection and Attack Mitigations](#session-11-enclave-protection-and-attack-mitigations)
-- [Session 12: Miscellaneous](#session-12-miscellaneous)
-  - [Enclave Attestation](#enclave-attestation)
-  - [Heterogeneous Computing](#heterogeneous-computing)
-  - [Search Privacy](#search-privacy)
-  - [Trusted User I/O Path](#trusted-user-io-path)
-  - [Cloud Integrity](#cloud-integrity)
-  - [Enclave Malware](#enclave-malware)
-- [Other Online Resources](#other-online-resources)
+- [Academy Zoo (High Ranking Conferences)](#academy-zoo-high-ranking-conferences)
+  - [Session 0: Heterogeneous Trusted Execution](#session-0-heterogeneous-trusted-execution)
+  - [Session 1: Towards a Better Enclave Architecture](#session-1-towards-a-better-enclave-architecture)
+  - [Session 2: Automation Toolchain and Language Runtime](#session-2-automation-toolchain-and-language-runtime)
+  - [Session 3: Enclave-based Secure (Lib)OS](#session-3-enclave-based-secure-libos)
+  - [Session 4: BFT, Blockchain and Online Payment System](#session-4-bft-blockchain-and-online-payment-system)
+  - [Session 5: Privacy-Preserving Database and Analysis](#session-5-privacy-preserving-database-and-analysis)
+  - [Session 6: Secure Network Functions](#session-6-secure-network-functions)
+  - [Session 7: Storage, File System and Key-Value Store](#session-7-storage-file-system-and-key-value-store)
+  - [Session 8: ML Training and Inference](#session-8-ml-training-and-inference)
+  - [Session 9: Performance Still Matters](#session-9-performance-still-matters)
+  - [Session 10: Enclave Vulnerabilities and Side Channels](#session-10-enclave-vulnerabilities-and-side-channels)
+  - [Session 11: Enclave Protection and Attack Mitigations](#session-11-enclave-protection-and-attack-mitigations)
+  - [Session 12: Miscellaneous](#session-12-miscellaneous)
+    - [Enclave Attestation](#enclave-attestation)
+    - [Cross-platform Compatibility](#cross-platform-compatibility)
+    - [Search Privacy](#search-privacy)
+    - [Trusted User I/O Path](#trusted-user-io-path)
+    - [Cloud Integrity](#cloud-integrity)
+    - [Enclave Malware](#enclave-malware)
+  - [Other Online Resources](#other-online-resources)
 
 
 ## Session 0: Heterogeneous Trusted Execution
 
-- StrongBox: A GPU TEE on Arm Endpoints, CCS 2022
+- Honeycomb: Secure and Efficient GPU Executions via Static Validation, OSDI 2023
 
-- Confidential Machine Learning within Graphcore IPUs, arXiv 2022
+- Confidential Computing within an AI Accelerator, ATC 2023
+
+- SAGE: Software-based Attestation for GPU Execution, ATC 2023
+
+- StrongBox: A GPU TEE on Arm Endpoints, CCS 2022
 
 - TNPU: Supporting Trusted Execution with Tree-less Integrity Protection for Neural Processing Unit, HPCA 2022
 
@@ -112,7 +117,9 @@
 
 
 
-## Session 4: Blockchain and Online Payment System
+## Session 4: BFT, Blockchain and Online Payment System
+
+- Dissecting BFT Consensus: In Trusted Components we Trust!, EuroSys 2023
 
 - ENGRAFT: Enclave-guarded Raft on Byzantine Faulty Nodes, CCS 2022
 
@@ -135,6 +142,12 @@
 
 
 ## Session 5: Privacy-Preserving Database and Analysis
+
+- Encrypted Databases Made Secure Yet Maintainable, OSDI 2023
+
+- Operon: An Encrypted Database for Ownership-Preserving Data Management, VLDB 2022
+
+- Full encryption: an end to end encryption mechanism in GaussDB, VLDB 2021
 
 - EncDBDB: Searchable Encrypted, Fast, Compressed, In-Memory Database Using Enclaves, DSN 2021
 
@@ -177,6 +190,8 @@
 
 
 ## Session 7: Storage, File System and Key-Value Store
+
+- Secure and Lightweight Deduplicated Storage via Shielded Deduplication-Before-Encryption, ATC 2022
 
 - Snoopy: Surpassing the Scalability Bottleneck of Oblivious Storage, SOSP 2021
 
@@ -272,7 +287,13 @@
 
 ## Session 11: Enclave Protection and Attack Mitigations
 
+- AEX-Notify: Thwarting Precise Single-Stepping Attacks through Interrupt Awareness for Intel SGX Enclaves, USENIX Security 2023
+
+- EnigMap: External-Memory Oblivious Map for Secure Enclaves, USENIX Security 2023
+
 - PRIDWEN: Universally Hardening SGX Programs via Load-Time Synthesis, ATC 2022
+
+- SGXFuzz: Efficiently Synthesizing Nested Structures for SGX Enclave Fuzzing, USENIX Security 2022
 
 - Repurposing Segmentation as a Practical LVI-NULL Mitigation in SGX, USENIX Security 2022
 
