@@ -277,6 +277,7 @@ A curated list of academic work from top conferences: [link](https://github.com/
 
 ## Encrypted Databases and Key-value Stores
 
+- **HEDB: Towards A Secure Yet Maintainable Encrypted Database (OSDI 2023)** [https://github.com/SJTU-IPADS/HEDB](https://github.com/SJTU-IPADS/HEDB)
 - **memcached-sgx** [https://github.com/Yuhala/memcached-sgx](https://github.com/Yuhala/memcached-sgx)
 - **EdgelessDB: a MySQL-compatible database running entirely inside SGX enclaves** [https://github.com/edgelesssys/edgelessdb](https://github.com/edgelesssys/edgelessdb)
 - **Avocado: a secure distributed in-memory key-value store (USENIX ATC 2021)** [https://github.com/mbailleu/avocado](https://github.com/mbailleu/avocado)
