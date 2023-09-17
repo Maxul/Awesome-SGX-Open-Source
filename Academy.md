@@ -53,6 +53,8 @@
 
 ## Session 1: Towards a Better Enclave Architecture
 
+- Reusable Enclaves for Confidential Serverless Computing, USENIX Security 2023
+
 - Cerberus: A Formal Approach to Secure and Efficient Enclave Memory Sharing, CCS 2022
 
 - ShEF: Shielded Enclaves for Cloud FPGAs, ASPLOS 2022
@@ -242,6 +244,8 @@
 
 
 ## Session 10: Enclave Vulnerabilities and Side Channels
+
+- Controlled Data Races in Enclaves: Attacks and Detection, USENIX Security 2023
 
 - SmashEx: Smashing SGX Enclaves Using Exceptions, CCS 2021
 
