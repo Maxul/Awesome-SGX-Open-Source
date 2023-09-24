@@ -291,6 +291,8 @@
 
 ## Session 11: Enclave Protection and Attack Mitigations
 
+- TEESec: Pre-Silicon Vulnerability Discovery for Trusted Execution Environments, ISCA 2023
+
 - AEX-Notify: Thwarting Precise Single-Stepping Attacks through Interrupt Awareness for Intel SGX Enclaves, USENIX Security 2023
 
 - EnigMap: External-Memory Oblivious Map for Secure Enclaves, USENIX Security 2023
