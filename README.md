@@ -161,6 +161,7 @@ A curated list of academic work from top conferences: [link](https://github.com/
 - **Machine learning inference in trusted execution environment build from SGX** [https://github.com/Luke20000429/Trusted-ML-SGX](https://github.com/Luke20000429/Trusted-ML-SGX)
 - **Azure Bicep/ARM template to quickly deploy standalone secure research environments** [https://github.com/microsoft/Azure-Secure-Enclave-for-Research](https://github.com/microsoft/Azure-Secure-Enclave-for-Research)
 - **SOTER: Guarding Black-box Inference for General Neural Networks at the Edge (ATC 2022)** [https://github.com/hku-systems/SOTER](https://github.com/hku-systems/SOTER)
+- **FedServing: A Federated Prediction Serving Framework Based on Incentive Mechanism (INFOCOM 2021)** [https://github.com/H-W-Huang/FedServing](https://github.com/H-W-Huang/FedServing)
 - **Privacy-preserving Federated Learning with Trusted Execution Environments (MobiSys 2021)** [https://github.com/mofanv/PPFL](https://github.com/mofanv/PPFL)
 - **TF-Encrypted: A Framework for Encrypted Machine Learning in TensorFlow** [https://github.com/tf-encrypted/tf-encrypted](https://github.com/tf-encrypted/tf-encrypted)
 - **BigDL Privacy Preserving Machine Learning** [https://github.com/intel-analytics/BigDL](https://github.com/intel-analytics/BigDL)
