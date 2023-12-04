@@ -201,6 +201,7 @@ A curated list of academic work from top conferences: [link](https://github.com/
 
 ## Applications
 
+- **Secure Silo Database System with Intel SGX** [https://github.com/Noxy3301/CASSA](https://github.com/Noxy3301/CASSA)
 - **Data Clean Room (GSSoC 2023)** [https://github.com/qascade/dcr](https://github.com/qascade/dcr)
 - **CACIC: Providing Secure and Customizable IoT Data Access Policies with SGX** [https://github.com/GTA-UFRJ/CACIC-Use-Case](https://github.com/GTA-UFRJ/CACIC-Use-Case)
 - **BastionLab: a simple framework for privacy-friendly data science collaboration** [https://github.com/mithril-security/bastionlab](https://github.com/mithril-security/bastionlab)
