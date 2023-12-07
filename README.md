@@ -207,6 +207,7 @@ A curated list of academic work from top conferences: [link](https://github.com/
 - **BastionLab: a simple framework for privacy-friendly data science collaboration** [https://github.com/mithril-security/bastionlab](https://github.com/mithril-security/bastionlab)
 - **180Protocol: Confidential compute for sensitive data sharing and commercial collaboration** [https://github.com/180Protocol/180protocol](https://github.com/180Protocol/180protocol)
 - **Secure and Lightweight Deduplicated Storage via Shielded Deduplication-Before-Encryption (ATC 2022)** [https://github.com/yzr95924/DEBE](https://github.com/yzr95924/DEBE)
+- **TEEKAP: Self-Expiring Data Capsule using Trusted Execution Environment (ACSAC 2021)** [https://github.com/MingyuanGao/TEEKAP](https://github.com/MingyuanGao/TEEKAP)
 - **Intel SGX Module for the passpharse key derivation module of GenesisDrive** [https://github.com/VRTeamgenesis/GenesisDrive-SGX](https://github.com/VRTeamgenesis/GenesisDrive-SGX)
 - **Verifiable Election** [https://github.com/davidgmorais/verifiable-election](https://github.com/davidgmorais/verifiable-election)
 - **Rex: SGX decentralized recommender (IEEE IPDPS 2022)** [https://github.com/rafaelppires/rex](https://github.com/rafaelppires/rex)
