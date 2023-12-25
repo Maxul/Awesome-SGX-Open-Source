@@ -348,6 +348,7 @@ A curated list of academic work from top conferences: [link](https://github.com/
 
 ## Defenses
 
+- **Oblivious sorting in SGX** [https://github.com/oblsort/oblsort](https://github.com/oblsort/oblsort)
 - **TEESec: Pre-Silicon Vulnerability Discovery for Trusted Execution Environments (ISCA 2023)** [https://github.com/MoeinGhaniyoun/TEESec](https://github.com/MoeinGhaniyoun/TEESec)
 - **Linux Security Hardening for Confidential Compute** [https://github.com/intel/ccc-linux-guest-hardening#requirements](https://github.com/intel/ccc-linux-guest-hardening)
 - **Hacking Valgrind to use it on Rust SGX enclave** [https://github.com/mithril-security/valgrind](https://github.com/mithril-security/valgrind)
