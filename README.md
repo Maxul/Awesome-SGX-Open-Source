@@ -158,6 +158,7 @@ A curated list of academic work from top conferences: [link](https://github.com/
 
 ## Machine Learning
 
+- **Secure MLaaS with Temper: Trusted and Efficient Model Partitioning and Enclave Reuse (ACSAC 2023)** [https://github.com/tsinghua-ideal/TEMPER-Secure-MLaaS](https://github.com/tsinghua-ideal/TEMPER-Secure-MLaaS)
 - **Machine learning inference in trusted execution environment build from SGX** [https://github.com/Luke20000429/Trusted-ML-SGX](https://github.com/Luke20000429/Trusted-ML-SGX)
 - **Azure Bicep/ARM template to quickly deploy standalone secure research environments** [https://github.com/microsoft/Azure-Secure-Enclave-for-Research](https://github.com/microsoft/Azure-Secure-Enclave-for-Research)
 - **SOTER: Guarding Black-box Inference for General Neural Networks at the Edge (ATC 2022)** [https://github.com/hku-systems/SOTER](https://github.com/hku-systems/SOTER)
@@ -303,6 +304,7 @@ A curated list of academic work from top conferences: [link](https://github.com/
 
 ## Distributed Systems
 
+- **Reusable Enclaves for Confidential Serverless Computing (USENIX Security 2023)** [https://github.com/OSUSecLab/Reusable-Enclaves](https://github.com/OSUSecLab/Reusable-Enclaves)
 - **Intel Technology Enabling for OpenShift** [https://github.com/intel/intel-technology-enabling-for-openshift](https://github.com/intel/intel-technology-enabling-for-openshift)
 - **Dissecting BFT Consensus: In Trusted Components we Trust (EuroSys 2023)** [https://github.com/msadoghi/resdb-sgx-eurosys](https://github.com/msadoghi/resdb-sgx-eurosys)
 - **uBFT: Microsecond-scale BFT using Disaggregated Memory (ASPLOS 2023)** [https://github.com/LPD-EPFL/ubft](https://github.com/LPD-EPFL/ubft)
@@ -348,6 +350,10 @@ A curated list of academic work from top conferences: [link](https://github.com/
 
 ## Defenses
 
+- **SGXRacer: Controlled Data Races in Enclaves: Attacks and Detection (USENIX Security 2023)** [https://github.com/OSUSecLab/SGXRacer](https://github.com/OSUSecLab/SGXRacer)
+- **PoCF: A Verified Confidential Computing as a Service Framework for Privacy Preservation (USENIX Security 2023)** [https://github.com/ya0guang/PoBF](https://github.com/ya0guang/PoBF)
+- **SymGX: Detecting Cross-boundary Pointer Vulnerabilities of SGX Applications via Static Symbolic Execution (CCS 2023)** [https://github.com/PKU-ASAL/WASEM](https://github.com/PKU-ASAL/WASEM)
+- **No Forking Way: Detecting Cloning Attacks on Intel SGX Applications (ACSAC 2023)** [https://github.com/nec-research/CloneBuster](https://github.com/nec-research/CloneBuster)
 - **Oblivious sorting in SGX** [https://github.com/oblsort/oblsort](https://github.com/oblsort/oblsort)
 - **TEESec: Pre-Silicon Vulnerability Discovery for Trusted Execution Environments (ISCA 2023)** [https://github.com/MoeinGhaniyoun/TEESec](https://github.com/MoeinGhaniyoun/TEESec)
 - **Linux Security Hardening for Confidential Compute** [https://github.com/intel/ccc-linux-guest-hardening#requirements](https://github.com/intel/ccc-linux-guest-hardening)
@@ -376,6 +382,7 @@ A curated list of academic work from top conferences: [link](https://github.com/
 
 ### Memory Protection
 
+- **EnigMap: External-Memory Oblivious Map for Secure Enclaves (USENIX Security 2023)** [https://github.com/odslib/odsl](https://github.com/odslib/odsl)
 - **Address space layout randomization (NDSS 2017)** [https://github.com/jaebaek/SGX-Shield](https://github.com/jaebaek/SGX-Shield)
 - **Hardware transactional memory (NDSS 2017)** [https://github.com/sslab-gatech/t-sgx](https://github.com/sslab-gatech/t-sgx)
 - **Compiler-based boundscheck (EuroSys 2017)** [https://github.com/tudinfse/sgxbounds](https://github.com/tudinfse/sgxbounds)
@@ -434,6 +441,7 @@ A curated list of academic work from top conferences: [link](https://github.com/
 
 ## Other TEEs
 
+- **MyTEE: Owning the Trusted Execution Environment (NDSS 2023)** [https://github.com/sssecret2019/mytee](https://github.com/sssecret2019/mytee)
 - **PenglaiZone** [https://github.com/Penglai-Enclave/PenglaiZone](https://github.com/Penglai-Enclave/PenglaiZone)
 - **nvTrust: NVIDIA Confidential Computing Ancillary Software** [https://github.com/NVIDIA/nvtrust](https://github.com/NVIDIA/nvtrust)
 - **Reference implementation of Arm-CCA RMM specification** [https://github.com/TF-RMM/tf-rmm](https://github.com/TF-RMM/tf-rmm)
