@@ -2,7 +2,7 @@
 
 *Hope that you'd be glad to add a star if you think this list is helpful!*
 
-A curated list of academic work from top conferences: [link](https://github.com/Maxul/Awesome-SGX-Open-Source/blob/master/Academy.md)
+For researchers, a curated list of academic work from computer conferences is here: [link](https://github.com/Maxul/Awesome-SGX-Open-Source/blob/master/Academy.md)
 
 - [Runtime Framework](#runtime-framework)
   - [Industrial Leading Projects](#industrial-leading-projects)
@@ -158,6 +158,8 @@ A curated list of academic work from top conferences: [link](https://github.com/
 
 ## Machine Learning
 
+- **CAGE: Complementing Arm CCA with GPU Extensions** [https://github.com/Compass-All/NDSS24-CAGE](https://github.com/Compass-All/NDSS24-CAGE)
+- **No Privacy Left Outside: On the (In-)Security of TEE-Shielded DNN Partition for On-Device ML (IEEE S&P 2024)** [https://github.com/ziqi-zhang/TEESlice-artifact](https://github.com/ziqi-zhang/TEESlice-artifact)
 - **Secure MLaaS with Temper: Trusted and Efficient Model Partitioning and Enclave Reuse (ACSAC 2023)** [https://github.com/tsinghua-ideal/TEMPER-Secure-MLaaS](https://github.com/tsinghua-ideal/TEMPER-Secure-MLaaS)
 - **Machine learning inference in trusted execution environment build from SGX** [https://github.com/Luke20000429/Trusted-ML-SGX](https://github.com/Luke20000429/Trusted-ML-SGX)
 - **Azure Bicep/ARM template to quickly deploy standalone secure research environments** [https://github.com/microsoft/Azure-Secure-Enclave-for-Research](https://github.com/microsoft/Azure-Secure-Enclave-for-Research)
@@ -350,6 +352,9 @@ A curated list of academic work from top conferences: [link](https://github.com/
 
 ## Defenses
 
+- **EnclaveFuzz: Finding Vulnerabilities in SGX Applications (NDSS 2024)** [https://github.com/LeoneChen/EnclaveFuzz](https://github.com/LeoneChen/EnclaveFuzz)
+- **SENSE: Enhancing Microarchitectural Awareness for TEEs via Subscription-Based Notification (NDSS 2024)** [https://github.com/sslab-gatech/Sense](https://github.com/sslab-gatech/Sense)
+- **Fuzzing SGX Enclaves via Host Program Mutations (EuroS&P 2023)** [https://github.com/purseclab/FuzzSGX](https://github.com/purseclab/FuzzSGX)
 - **SGXRacer: Controlled Data Races in Enclaves: Attacks and Detection (USENIX Security 2023)** [https://github.com/OSUSecLab/SGXRacer](https://github.com/OSUSecLab/SGXRacer)
 - **PoCF: A Verified Confidential Computing as a Service Framework for Privacy Preservation (USENIX Security 2023)** [https://github.com/ya0guang/PoBF](https://github.com/ya0guang/PoBF)
 - **SymGX: Detecting Cross-boundary Pointer Vulnerabilities of SGX Applications via Static Symbolic Execution (CCS 2023)** [https://github.com/PKU-ASAL/WASEM](https://github.com/PKU-ASAL/WASEM)
@@ -441,6 +446,7 @@ A curated list of academic work from top conferences: [link](https://github.com/
 
 ## Other TEEs
 
+- **LDR: Secure and Efficient Linux Driver Runtime for Embedded TEE Systems (NDSS 2024)** [https://github.com/SparkYHY/Linux-Driver-Runtime](https://github.com/SparkYHY/Linux-Driver-Runtime)
 - **MyTEE: Owning the Trusted Execution Environment (NDSS 2023)** [https://github.com/sssecret2019/mytee](https://github.com/sssecret2019/mytee)
 - **PenglaiZone** [https://github.com/Penglai-Enclave/PenglaiZone](https://github.com/Penglai-Enclave/PenglaiZone)
 - **nvTrust: NVIDIA Confidential Computing Ancillary Software** [https://github.com/NVIDIA/nvtrust](https://github.com/NVIDIA/nvtrust)

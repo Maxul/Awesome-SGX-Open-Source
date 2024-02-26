@@ -31,6 +31,8 @@
 
 - SAGE: Software-based Attestation for GPU Execution, ATC 2023
 
+- Root Crash Consistency of SGX-style Integrity Trees in Secure Non-Volatile Memory Systems, HPCA 2023
+
 - StrongBox: A GPU TEE on Arm Endpoints, CCS 2022
 
 - TNPU: Supporting Trusted Execution with Tree-less Integrity Protection for Neural Processing Unit, HPCA 2022
@@ -52,6 +54,12 @@
 
 
 ## Session 1: Towards a Better Enclave Architecture
+
+- A Quantum Computer Trusted Execution Environment, HPCA 2024
+
+- Data Enclave: A Data-Centric Trusted Execution Environment, HPCA 2024
+
+- TEE-SHirT: Scalable Leakage-Free Cache Hierarchies for TEEs, NDSS 2024
 
 - Reusable Enclaves for Confidential Serverless Computing, USENIX Security 2023
 
@@ -84,6 +92,8 @@
 ## Session 2: Automation Toolchain and Language Runtime
 
 - Lejacon: A Lightweight and Efficient Approach to Java Confidential Computing on SGX, ICSE 2023
+
+- SGX Switchless Calls Made Configless, DSN 2023
 
 - Towards Formal Verification of State Continuity for Enclave Programs, USENIX Security 2021
 
@@ -215,6 +225,8 @@
 
 ## Session 8: ML Training and Inference
 
+- CAGE: Complementing Arm CCA with GPU Extensions, NDSS 2024
+
 - SOTER: Guarding Black-box Inference for General Neural Networks at the Edge, ATC 2022
 
 - DarKnight: An Accelerated Framework for Privacy and Integrity Preserving Deep Learning Using Trusted Hardware, MICRO 2021
@@ -291,11 +303,25 @@
 
 ## Session 11: Enclave Protection and Attack Mitigations
 
+- EnclaveFuzz: Finding Vulnerabilities in SGX Applications, NDSS 2024
+
+- SENSE: Enhancing Microarchitectural Awareness for TEEs via Subscription-Based Notification, NDSS 2024
+
+- No Forking Way: Detecting Cloning Attacks on Intel SGX Applications, ACSAC 2023
+
+- SEnFuzzer: Detecting SGX Memory Corruption via Information Feedback and Tailored Interface Analysis, RAID 2023
+
+- Fuzzing SGX Enclaves via Host Program Mutations, EuroS&P 2023
+
 - TEESec: Pre-Silicon Vulnerability Discovery for Trusted Execution Environments, ISCA 2023
+
+- SymGX: Detecting Cross-boundary Pointer Vulnerabilities of SGX Applications via Static Symbolic Execution, CCS 2023
 
 - AEX-Notify: Thwarting Precise Single-Stepping Attacks through Interrupt Awareness for Intel SGX Enclaves, USENIX Security 2023
 
 - EnigMap: External-Memory Oblivious Map for Secure Enclaves, USENIX Security 2023
+
+- MoLE: Mitigation of Side-channel Attacks against SGX via Dynamic Data Location Escape, ACSAC 2022
 
 - PRIDWEN: Universally Hardening SGX Programs via Load-Time Synthesis, ATC 2022
 
