@@ -446,6 +446,7 @@ For researchers, a curated list of academic work from computer conferences is he
 
 ## Other TEEs
 
+- **ACAI: Protecting Accelerator Execution with Arm Confidential Computing Architecture (USENIX Security 2024)** [https://sectrs-acai.github.io/acai/](https://sectrs-acai.github.io/acai/)
 - **LDR: Secure and Efficient Linux Driver Runtime for Embedded TEE Systems (NDSS 2024)** [https://github.com/SparkYHY/Linux-Driver-Runtime](https://github.com/SparkYHY/Linux-Driver-Runtime)
 - **MyTEE: Owning the Trusted Execution Environment (NDSS 2023)** [https://github.com/sssecret2019/mytee](https://github.com/sssecret2019/mytee)
 - **PenglaiZone** [https://github.com/Penglai-Enclave/PenglaiZone](https://github.com/Penglai-Enclave/PenglaiZone)
