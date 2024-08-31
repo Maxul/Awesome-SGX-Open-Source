@@ -204,6 +204,7 @@ For researchers, a curated list of academic work from computer conferences is he
 
 ## Applications
 
+- **Intel SGX based password manager application in Rust** [https://github.com/AbhijeetSonar21/SafePass](https://github.com/AbhijeetSonar21/SafePass)
 - **TPDV: Intel SGX Enclaves Temper-Proof Digital Vault** [https://github.com/diogoftm/TPDV](https://github.com/diogoftm/TPDV)
 - **Secure Silo Database System with Intel SGX** [https://github.com/Noxy3301/CASSA](https://github.com/Noxy3301/CASSA)
 - **Data Clean Room (GSSoC 2023)** [https://github.com/qascade/dcr](https://github.com/qascade/dcr)
