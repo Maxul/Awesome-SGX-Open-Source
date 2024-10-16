@@ -252,7 +252,6 @@ For researchers, a curated list of academic work from computer conferences is he
 - **SGX + Snort Intrusion Detection System** [https://github.com/cloud-security-research/sgx-ids](https://github.com/cloud-security-research/sgx-ids)
 - **SafeBricks: Shielding Network Functions in the Cloud (NSDI 2018)** [https://github.com/YangZhou1997/SafeBricks](https://github.com/YangZhou1997/SafeBricks)
 - **SGX + Tor (NSDI 2017)** [https://github.com/kaist-ina/SGX-Tor](https://github.com/kaist-ina/SGX-Tor)
-- **SGX + Web Crawler** [https://github.com/ShengHow95/simple-selenium-sgx-crawler](https://github.com/ShengHow95/simple-selenium-sgx-crawler)
 
 ## Data Analytics
 
