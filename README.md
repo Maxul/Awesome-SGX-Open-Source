@@ -204,6 +204,7 @@ For researchers, a curated list of academic work from computer conferences is he
 
 ## Applications
 
+- **Trustworthy and GDPR-compliant Nostr relay powered by the Intel SGX trusted execution environment**[https://github.com/karipov/nostrust](https://github.com/karipov/nostrust)
 - **Intel SGX based password manager application in Rust** [https://github.com/AbhijeetSonar21/SafePass](https://github.com/AbhijeetSonar21/SafePass)
 - **TPDV: Intel SGX Enclaves Temper-Proof Digital Vault** [https://github.com/diogoftm/TPDV](https://github.com/diogoftm/TPDV)
 - **Secure Silo Database System with Intel SGX** [https://github.com/Noxy3301/CASSA](https://github.com/Noxy3301/CASSA)
@@ -327,6 +328,8 @@ For researchers, a curated list of academic work from computer conferences is he
 
 ## Profiling
 
+- **SGX page fault measurement tool. Used for Secret benchmarks. Based on sgx-perf**[https://github.com/kent-3/secret-spf](https://github.com/kent-3/secret-spf)
+- **Application using Gramine LibOS for attestation and tracing on SGX-capable host machines. Parent enclave monitoring applications in children enclaves**[https://github.com/privateer-project/uProbe](https://github.com/privateer-project/uProbe)
 - **TEEMon: A continuous performance monitoring framework for TEEs (Middleware 2020)** [https://github.com/rcrane/TEEMon](https://github.com/rcrane/TEEMon)
 - **sgxtop and sgxstat utilities for monitoring SGX driver statistics** [https://github.com/fortanix/sgxtop](https://github.com/fortanix/sgxtop)
 - **Report statistics of E/Ocalls, EPC Paging** [https://github.com/ibr-ds/sgx-perf](https://github.com/ibr-ds/sgx-perf)
@@ -403,6 +406,7 @@ For researchers, a curated list of academic work from computer conferences is he
 
 ## Attacks
 
+- **A migration for the page table entry based side-channel attack agains SGX enclaves**[https://github.com/itewqq/SGX-PTE-SPY](https://github.com/itewqq/SGX-PTE-SPY)
 - **PMFault: Faulting and Bricking Server CPUs through Management Interfaces (CHES 2023), CVE-2022-43309** [https://github.com/zt-chen/PMFault](https://github.com/zt-chen/PMFault)
 - **Rapid Prototyping for Microarchitectural Attacks (USENIX Security 2022)** [https://github.com/libtea/frameworks](https://github.com/libtea/frameworks)
 - **SmashEx: Smashing SGX Enclaves Using Exceptions (CCS 2021)** [https://github.com/cimcs/poc-exploits-of-smashex](https://github.com/cimcs/poc-exploits-of-smashex)
