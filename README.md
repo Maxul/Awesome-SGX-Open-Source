@@ -126,6 +126,7 @@ For researchers, a curated list of academic work from computer conferences is he
 - **Erlang** [https://github.com/Erlang-Enclave-Thesis/sgx-erlang-extension](https://github.com/Erlang-Enclave-Thesis/sgx-erlang-extension)
 - **C/C++ (Intel Official)** [https://github.com/intel/linux-sgx](https://github.com/intel/linux-sgx)
 - **PSec: Programming Language for Creating Secure Distributed Systems leveraging Intel SGX** [https://github.com/ShivKushwah/PSec](https://github.com/ShivKushwah/PSec)
+- **Haskell** [https://github.com/Abhiroop/HasTEE](https://github.com/Abhiroop/HasTEE)
 
 ## Blockchains
 
