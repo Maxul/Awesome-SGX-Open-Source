@@ -11,7 +11,7 @@ For researchers, a curated list of academic work from computer conferences is he
 - [Crypto](#crypto)
 - [Language Frameworks](#language-frameworks)
 - [Blockchains](#blockchains)
-- [Machine Learning](#machine-learning)
+- [Artificial Intelligence and Machine Learning](#artificial-intelligence-and-machine-learning)
 - [Common Libraries](#common-libraries)
 - [Applications](#applications)
 - [Network](#network)
@@ -91,6 +91,7 @@ For researchers, a curated list of academic work from computer conferences is he
 
 ## Crypto
 
+- **Quartz: a flexible framework for privacy-preserving computation via Trusted Execution Environments (TEEs) organized and secured by smart contracts** [https://github.com/informalsystems/quartz](https://github.com/informalsystems/quartz)
 - **SGX-supported version of safeheron-crypto-suites-cpp library** [https://github.com/Safeheron/safeheron-crypto-suites-cpp-sgx](https://github.com/Safeheron/safeheron-crypto-suites-cpp-sgx)
 - **Enclavised OpenSSL (Intel Official)** [https://github.com/intel/intel-sgx-ssl](https://github.com/intel/intel-sgx-ssl)
 - **Enclavised LibreSSL** [https://github.com/lsds/TaLoS](https://github.com/lsds/TaLoS)
@@ -158,8 +159,9 @@ For researchers, a curated list of academic work from computer conferences is he
 - **Town Crier: An Authenticated Data Feed For Smart Contracts** [https://github.com/bl4ck5un/Town-Crier](https://github.com/bl4ck5un/Town-Crier)
 - **Ledger BOLOS Enclave** [https://github.com/LedgerHQ/bolos-enclave](https://github.com/LedgerHQ/bolos-enclave)
 
-## Machine Learning
+## Artificial Intelligence and Machine Learning
 
+- **A production-ready, secure AI inference platform that provides encrypted inference using Trusted Execution Environments (TEEs) including AWS Nitro Enclaves, Intel SGX, and AMD SEV** [https://github.com/jitenkr2030/Zero-Knowledge-Private-AI-SaaS-Platform](https://github.com/jitenkr2030/Zero-Knowledge-Private-AI-SaaS-Platform)
 - **CAGE: Complementing Arm CCA with GPU Extensions** [https://github.com/Compass-All/NDSS24-CAGE](https://github.com/Compass-All/NDSS24-CAGE)
 - **No Privacy Left Outside: On the (In-)Security of TEE-Shielded DNN Partition for On-Device ML (IEEE S&P 2024)** [https://github.com/ziqi-zhang/TEESlice-artifact](https://github.com/ziqi-zhang/TEESlice-artifact)
 - **Secure MLaaS with Temper: Trusted and Efficient Model Partitioning and Enclave Reuse (ACSAC 2023)** [https://github.com/tsinghua-ideal/TEMPER-Secure-MLaaS](https://github.com/tsinghua-ideal/TEMPER-Secure-MLaaS)
@@ -207,6 +209,7 @@ For researchers, a curated list of academic work from computer conferences is he
 
 ## Applications
 
+- **Secure Data Lake for medical records utilizing Intel SGX for trusted execution, remote attestation, and privacy-preserving analytics**[https://github.com/antoniopedropi/Secure-Data-Lakes-Medical-Data](https://github.com/antoniopedropi/Secure-Data-Lakes-Medical-Data)
 - **Trustworthy and GDPR-compliant Nostr relay powered by the Intel SGX trusted execution environment**[https://github.com/karipov/nostrust](https://github.com/karipov/nostrust)
 - **Intel SGX based password manager application in Rust** [https://github.com/AbhijeetSonar21/SafePass](https://github.com/AbhijeetSonar21/SafePass)
 - **TPDV: Intel SGX Enclaves Temper-Proof Digital Vault** [https://github.com/diogoftm/TPDV](https://github.com/diogoftm/TPDV)
