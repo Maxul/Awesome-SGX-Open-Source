@@ -219,10 +219,8 @@ EnclaveML: a framework for tokenized federated learning:
 [https://github.com/jamslevy/enclaveML](https://github.com/jamslevy/enclaveML)
 
 Plinius: Secure ML model training with Intel SGX and PM for fault tolerance:
-[https://github.com/anonymous-xh/plinius](https://github.com/anonymous-xh/plinius)
+[https://github.com/Yuhala/plinius](https://github.com/Yuhala/plinius)
 
-SGX-Darknet: SGX compatible ML library:
-[https://github.com/anonymous-xh/sgx-dnet](https://github.com/anonymous-xh/sgx-dnet)
 
 ## Common Libraries
 
