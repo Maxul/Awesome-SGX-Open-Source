@@ -198,8 +198,7 @@ For researchers, a curated list of academic work from computer conferences is he
 - **Open Deep Learning Compiler Stack** [TVM in Intel SGX Example](https://github.com/dmlc/tvm/tree/master/apps/sgx)
 - **Slalom: Fast, Verifiable and Private Execution of Neural Networks in Trusted Hardware (ICLR 2019)** [https://github.com/ftramer/slalom](https://github.com/ftramer/slalom)
 - **EnclaveML: a framework for tokenized federated learning** [https://github.com/jamslevy/enclaveML](https://github.com/jamslevy/enclaveML)
-- **Plinius: Secure ML model training with Intel SGX and PM for fault tolerance** [https://github.com/anonymous-xh/plinius](https://github.com/anonymous-xh/plinius)
-- **SGX-Darknet: SGX compatible ML library** [https://github.com/anonymous-xh/sgx-dnet](https://github.com/anonymous-xh/sgx-dnet)
+- **Plinius: Secure and Persistent Machine Learning Model Training (DSN 2021)** [https://github.com/Yuhala/plinius](https://github.com/Yuhala/plinius)
 
 ## Common Libraries
 
