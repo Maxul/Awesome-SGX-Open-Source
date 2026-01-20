@@ -53,6 +53,8 @@ For researchers, a curated list of academic work from computer conferences is he
 
 ### Library OSes and SDKs
 
+- **Intel SGX Enclave Memory Manager is a module designed to manage dynamic memory within an SGX runtime** [https://github.com/intel/confidential-computing.sgx.emm](https://github.com/intel/confidential-computing.sgx.emm)
+- **Coral: Middleware used to talk between Enclave and Puffer smart contracts** [https://github.com/PufferFinance/coral](https://github.com/PufferFinance/coral)
 - **Gramine Library OS with Intel SGX Support (formerly Graphene)** [https://github.com/gramineproject/gramine](https://github.com/gramineproject/gramine)
 - **Edgeless RT: SDK for TEEs/SGX based on Open Enclave with Go support** [https://github.com/edgelesssys/edgelessrt](https://github.com/edgelesssys/edgelessrt)
 - **Porpoise: A tool to port commodity application to Intel SGX** [https://github.com/iisc-cssl/porpoise](https://github.com/iisc-cssl/porpoise)
@@ -63,6 +65,7 @@ For researchers, a curated list of academic work from computer conferences is he
 
 ## Remote Attestation (RA) and Secure Channels
 
+- **Universal Remote Attestation for Cloud and Edge Platforms (ARES 2023)** [https://github.com/Fraunhofer-AISEC/cmc](https://github.com/Fraunhofer-AISEC/cmc)
 - **Formal specification of attestation mechanisms in Confidential Computing** [https://github.com/CCC-Attestation/formal-spec-TEE](https://github.com/CCC-Attestation/formal-spec-TEE)
 - **Certifier Framework for Confidential Computing** [https://github.com/vmware-research/certifier-framework-for-confidential-computing](https://github.com/vmware-research/certifier-framework-for-confidential-computing)
 - **Confidential VM Platform Guest attestation** [https://github.com/Azure/confidential-computing-cvm-guest-attestation](https://github.com/Azure/confidential-computing-cvm-guest-attestation)
@@ -86,7 +89,7 @@ For researchers, a curated list of academic work from computer conferences is he
 - **Data Center Attestation Primitives (DCAP)** [https://github.com/intel/SGXDataCenterAttestationPrimitives](https://github.com/intel/SGXDataCenterAttestationPrimitives)
 - **RA-based TLS** [https://github.com/cloud-security-research/sgx-ra-tls](https://github.com/cloud-security-research/sgx-ra-tls)
 - **IBM simplified RA without accessing IAS too frequently** [https://github.com/IBM/sgx-trust-management](https://github.com/IBM/sgx-trust-management)
-- **Azure Attestation SGX Certification Cache** [https://github.com/Microsoft/Azure-DCAP-Client](https://github.com/Microsoft/Azure-DCAP-Client)
+- **Azure Data Center Attestation Primitives (DCAP) Client** [https://github.com/Microsoft/Azure-DCAP-Client](https://github.com/Microsoft/Azure-DCAP-Client)
 - **Enclave Mutual Attestation Library** [https://github.com/AntonioDan/SGX_Enclave_Mutual_Attestation_Library](https://github.com/AntonioDan/SGX_Enclave_Mutual_Attestation_Library)
 
 ## Crypto
@@ -101,7 +104,10 @@ For researchers, a curated list of academic work from computer conferences is he
 
 ## Language Frameworks
 
-- **Java** [https://github.com/apache/incubator-teaclave-java-tee-sdk](https://github.com/apache/incubator-teaclave-java-tee-sdk)
+- **SecV: Secure Code Partitioning via Multi-Language Secure Values (Middleware 2023)**[https://github.com/Yuhala/secv](https://github.com/Yuhala/secv)
+- **Java**
+  - **Montsalvat: Intel SGX shielding for GraalVM native images (Middleware 2021)**[https://github.com/Yuhala/montsalvat](https://github.com/Yuhala/montsalvat)
+  - **Lejacon: A Lightweight and Efficient Approach to Java Confidential Computing on SGX (ICSE 2023)**[https://github.com/apache/teaclave-java-tee-sdk](https://github.com/apache/teaclave-java-tee-sdk)
 - **Rust**
   - **RusTEE: Developing Memory-Safe ARM TrustZone Applications (ACSAC 2020)** [https://github.com/apache/incubator-teaclave-trustzone-sdk](https://github.com/apache/incubator-teaclave-trustzone-sdk)
   - **EigenCC: Confidential Computation** [https://github.com/0xEigenLabs/eigencc](https://github.com/0xEigenLabs/eigencc)
@@ -131,6 +137,8 @@ For researchers, a curated list of academic work from computer conferences is he
 
 ## Blockchains
 
+- **Trustworthy Data Equity: A Retrospective Risk-Hedging Protocol for High-Entropy IoT Data Assets** [https://github.com/yujidong/Risk-HedgingProtocol](https://github.com/yujidong/Risk-HedgingProtocol)
+- **Xyber platform backend responsible for executing financial tasks, utilizing Intel SGX TEE** (https://github.com/Xyber-Labs/financial-agent-backend)[https://github.com/Xyber-Labs/financial-agent-backend]
 - **Fidelius: YeeZ Privacy Protection for Data Collaboration** [https://github.com/YeeZTech/YeeZ-Privacy-Computing](https://github.com/YeeZTech/YeeZ-Privacy-Computing)
 - **SDK for [Switchboard](https://docs.switchboard.xyz/)'s secure enclave computing** [https://github.com/switchboard-xyz/sgx-sdk](https://github.com/switchboard-xyz/sgx-sdk)
 - **Secret.NET is a .NET Client to interact with the Secret Network blockchain** [https://github.com/0xxCodemonkey/SecretNET](https://github.com/0xxCodemonkey/SecretNET)
@@ -209,6 +217,7 @@ For researchers, a curated list of academic work from computer conferences is he
 
 ## Applications
 
+- **VP.NET SGX Backend System**[https://github.com/vpdotnet/vpnetd-sgx](https://github.com/vpdotnet/vpnetd-sgx)
 - **Secure Data Lake for medical records utilizing Intel SGX for trusted execution, remote attestation, and privacy-preserving analytics**[https://github.com/antoniopedropi/Secure-Data-Lakes-Medical-Data](https://github.com/antoniopedropi/Secure-Data-Lakes-Medical-Data)
 - **Trustworthy and GDPR-compliant Nostr relay powered by the Intel SGX trusted execution environment**[https://github.com/karipov/nostrust](https://github.com/karipov/nostrust)
 - **Intel SGX based password manager application in Rust** [https://github.com/AbhijeetSonar21/SafePass](https://github.com/AbhijeetSonar21/SafePass)
