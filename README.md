@@ -36,7 +36,6 @@ For researchers, a curated list of academic work from computer conferences is he
 
 - **Microsoft Confidential Consortium Framework** [https://github.com/microsoft/CCF](https://github.com/microsoft/CCF)
 - **Ant Financial Occlum** [https://github.com/occlum/occlum](https://github.com/occlum/occlum)
-- **Next-Generation Occlum, optimized for Intel SGX 2.0** [https://github.com/occlum/ngo](https://github.com/occlum/ngo)
 - **Inclavare: a confidential container for cloud-native confidential computing and enclave runtime ecosystem** [https://github.com/inclavare-containers/inclavare-containers](https://github.com/inclavare-containers/inclavare-containers)
 - **Enarx: Confidential Computing with WebAssembly** [https://github.com/enarx/enarx](https://github.com/enarx/enarx)
 - **enclaive.io: Building confidential containers for the cloud** [https://github.com/enclaive](https://github.com/enclaive)
@@ -94,7 +93,6 @@ For researchers, a curated list of academic work from computer conferences is he
 
 ## Crypto
 
-- **Quartz: a flexible framework for privacy-preserving computation via Trusted Execution Environments (TEEs) organized and secured by smart contracts** [https://github.com/informalsystems/quartz](https://github.com/informalsystems/quartz)
 - **SGX-supported version of safeheron-crypto-suites-cpp library** [https://github.com/Safeheron/safeheron-crypto-suites-cpp-sgx](https://github.com/Safeheron/safeheron-crypto-suites-cpp-sgx)
 - **Enclavised OpenSSL (Intel Official)** [https://github.com/intel/intel-sgx-ssl](https://github.com/intel/intel-sgx-ssl)
 - **Enclavised LibreSSL** [https://github.com/lsds/TaLoS](https://github.com/lsds/TaLoS)
@@ -104,10 +102,10 @@ For researchers, a curated list of academic work from computer conferences is he
 
 ## Language Frameworks
 
-- **SecV: Secure Code Partitioning via Multi-Language Secure Values (Middleware 2023)**[https://github.com/Yuhala/secv](https://github.com/Yuhala/secv)
 - **Java**
-  - **Montsalvat: Intel SGX shielding for GraalVM native images (Middleware 2021)**[https://github.com/Yuhala/montsalvat](https://github.com/Yuhala/montsalvat)
   - **Lejacon: A Lightweight and Efficient Approach to Java Confidential Computing on SGX (ICSE 2023)**[https://github.com/apache/teaclave-java-tee-sdk](https://github.com/apache/teaclave-java-tee-sdk)
+  - **SecV: Secure Code Partitioning via Multi-Language Secure Values (Middleware 2023)**[https://github.com/Yuhala/secv](https://github.com/Yuhala/secv)
+  - **Montsalvat: Intel SGX shielding for GraalVM native images (Middleware 2021)**[https://github.com/Yuhala/montsalvat](https://github.com/Yuhala/montsalvat)
 - **Rust**
   - **RusTEE: Developing Memory-Safe ARM TrustZone Applications (ACSAC 2020)** [https://github.com/apache/incubator-teaclave-trustzone-sdk](https://github.com/apache/incubator-teaclave-trustzone-sdk)
   - **EigenCC: Confidential Computation** [https://github.com/0xEigenLabs/eigencc](https://github.com/0xEigenLabs/eigencc)
@@ -137,6 +135,7 @@ For researchers, a curated list of academic work from computer conferences is he
 
 ## Blockchains
 
+- **Quartz: a flexible framework for privacy-preserving computation via Trusted Execution Environments (TEEs) organized and secured by smart contracts** [https://github.com/informalsystems/quartz](https://github.com/informalsystems/quartz)
 - **Trustworthy Data Equity: A Retrospective Risk-Hedging Protocol for High-Entropy IoT Data Assets** [https://github.com/yujidong/Risk-HedgingProtocol](https://github.com/yujidong/Risk-HedgingProtocol)
 - **Xyber platform backend responsible for executing financial tasks, utilizing Intel SGX TEE** (https://github.com/Xyber-Labs/financial-agent-backend)[https://github.com/Xyber-Labs/financial-agent-backend]
 - **Fidelius: YeeZ Privacy Protection for Data Collaboration** [https://github.com/YeeZTech/YeeZ-Privacy-Computing](https://github.com/YeeZTech/YeeZ-Privacy-Computing)
@@ -219,7 +218,6 @@ For researchers, a curated list of academic work from computer conferences is he
 - **VP.NET SGX Backend System**[https://github.com/vpdotnet/vpnetd-sgx](https://github.com/vpdotnet/vpnetd-sgx)
 - **Secure Data Lake for medical records utilizing Intel SGX for trusted execution, remote attestation, and privacy-preserving analytics**[https://github.com/antoniopedropi/Secure-Data-Lakes-Medical-Data](https://github.com/antoniopedropi/Secure-Data-Lakes-Medical-Data)
 - **Trustworthy and GDPR-compliant Nostr relay powered by the Intel SGX trusted execution environment**[https://github.com/karipov/nostrust](https://github.com/karipov/nostrust)
-- **Intel SGX based password manager application in Rust** [https://github.com/AbhijeetSonar21/SafePass](https://github.com/AbhijeetSonar21/SafePass)
 - **TPDV: Intel SGX Enclaves Temper-Proof Digital Vault** [https://github.com/diogoftm/TPDV](https://github.com/diogoftm/TPDV)
 - **Secure Silo Database System with Intel SGX** [https://github.com/Noxy3301/CASSA](https://github.com/Noxy3301/CASSA)
 - **Data Clean Room (GSSoC 2023)** [https://github.com/qascade/dcr](https://github.com/qascade/dcr)
@@ -295,6 +293,7 @@ For researchers, a curated list of academic work from computer conferences is he
 
 ## Key and Password Management
 
+- **Intel SGX based password manager application in Rust** [https://github.com/AbhijeetSonar21/SafePass](https://github.com/AbhijeetSonar21/SafePass)
 - **Safeheron’s TEE Based RSA Key Sharding Service** [https://github.com/Safeheron/sgx-arweave-cpp](https://github.com/Safeheron/sgx-arweave-cpp)
 - **FeIDo: Recoverable FIDO2 Tokens Using Electronic IDs (CCS 2022)** [https://github.com/feido-token](https://github.com/feido-token)
 - **Let's eSign Enclave** [https://github.com/letsesign/letsesign-enclave](https://github.com/letsesign/letsesign-enclave)
