@@ -249,6 +249,7 @@ For researchers, a curated list of academic work from computer conferences is he
 
 ## Network
 
+- **RAKIS: Secure Fast I/O Primitives Across Trust Boundaries on Intel SGX (EuroSys 2025)** [https://github.com/sslab-gatech/RAKIS](https://github.com/sslab-gatech/RAKIS)
 - **Priority load balancer with retries, and SGX RA-TLS support** [https://github.com/flashbots/prio-load-balancer](https://github.com/flashbots/prio-load-balancer)
 - **Setheum - Powering Scalable Web3 Solutions** [https://github.com/Setheum-Labs/Setheum](https://github.com/Setheum-Labs/Setheum)
 - **Towards A TEE-based V2V Protocol For Connected And Autonomous Vehicles** [https://github.com/OSUSecLab/v2v-sgx-prelim](https://github.com/OSUSecLab/v2v-sgx-prelim)
@@ -270,6 +271,7 @@ For researchers, a curated list of academic work from computer conferences is he
 
 ## Data Analytics
 
+- **Soteria: Preserving Privacy in Distributed Machine Learning (SAC 2023)** [https://github.com/claudiavmbrito/soteria](https://github.com/claudiavmbrito/soteria)
 - **Constructing Trusted Execution Environment (TEE) with GCP Confidential Space** [https://github.com/salrashid123/confidential_space](https://github.com/salrashid123/confidential_space)
 - **SecretFlow: A unified framework for privacy-preserving data analysis and machine learning** [https://github.com/secretflow/secretflow](https://github.com/secretflow/secretflow)
 - **MC2: A Platform for Secure Analytics and Machine Learning** [https://github.com/mc2-project/mc2](https://github.com/mc2-project/mc2)
@@ -277,6 +279,7 @@ For researchers, a curated list of academic work from computer conferences is he
 - **Ryoan: A distributed sandbox for untrusted computation on secret data (OSDI 2016)** [https://github.com/ut-osa/ryoan](https://github.com/ut-osa/ryoan)
 - **Confidential Analytics on Azure SGX VM's with Apache Spark and SCONE** [https://github.com/mdrakiburrahman/sgx-pyspark-sql-demo](https://github.com/mdrakiburrahman/sgx-pyspark-sql-demo)
 - **BiORAM-SGX: A Practical Privacy-Preserving Data Analysis for Personal Genome by Intel SGX** [https://github.com/cBioLab/BiORAM-SGX](https://github.com/cBioLab/BiORAM-SGX)
+- **Sgx-Spark** [https://github.com/lsds/sgx-spark](https://github.com/lsds/sgx-spark)
 
 ## Private Search
 
@@ -355,6 +358,7 @@ For researchers, a curated list of academic work from computer conferences is he
 
 ## Performance
 
+- **On Real-Time Guarantees in Intel SGX and TDX (ECRTS 2025)**[https://github.com/Yuhala/intel-sgx-real-time-ecrts](https://github.com/Yuhala/intel-sgx-real-time-ecrts)
 - **SGX Switchless Calls Made Configless (DSN 2023)**[https://gitlab.com/Yuhala/zc-switchless](https://gitlab.com/Yuhala/zc-switchless)
 - **rkt-io: Library OS for running Linux applications inside of Intel SGX enclaves (EuroSys 2021)** [https://github.com/Mic92/rkt-io](https://github.com/Mic92/rkt-io)
 - **Flume: a blazingly fast multi-producer, multi-consumer channel** [https://github.com/occlum/flume](https://github.com/occlum/flume)
