@@ -467,6 +467,7 @@ For researchers, a curated list of academic work from computer conferences is he
 - **A dynamic library providing Virtualization-based process isolation capabilities, also capable of creating TEEs using AMD SEV(-ES)** [https://github.com/containers/libkrun](https://github.com/containers/libkrun)
 - **Smart Object Oriented: Mobile Entities Migration Between Smart Objects For Fully Decentralized and Autonomous Embedded Systems** [https://github.com/smartobjectoriented/soo](https://github.com/smartobjectoriented/soo)
 - **mTower: designed for MicroController Units (MCUs) that support ARM TrustZone** [https://github.com/Samsung/mTower](https://github.com/Samsung/mTower)
+- **Confidential Router: OpenAI-compatible LLM router where every model runs in a TEE and publishes attestation evidence, verified client-side by a Gatekeeper proxy** [https://github.com/Super-Protocol/confidential-router](https://github.com/Super-Protocol/confidential-router)
 
 ## Other TEEs
 
